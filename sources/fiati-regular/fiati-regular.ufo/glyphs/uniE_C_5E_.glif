@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEC5E" format="1">
+  <unicode hex="EC5E"/>
+  <advance width="833"/>
+  <outline>
+    <contour>
+      <point x="178" y="326" type="line"/>
+      <point x="178" y="300"/>
+      <point x="157" y="279"/>
+      <point x="131" y="279" type="curve"/>
+      <point x="131" y="372" type="line"/>
+      <point x="157" y="372"/>
+      <point x="178" y="352"/>
+      <point x="178" y="326" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringFluteRH2ndFingerHalfClosedRight</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniECE3" format="1">
+  <unicode hex="ECE3"/>
+  <outline>
+    <contour>
+      <point x="132" y="880" type="line"/>
+      <point x="132" y="859"/>
+      <point x="115" y="841"/>
+      <point x="93" y="841" type="curve" smooth="yes"/>
+      <point x="72" y="841"/>
+      <point x="54" y="859"/>
+      <point x="54" y="880" type="curve" smooth="yes"/>
+      <point x="54" y="902"/>
+      <point x="72" y="920"/>
+      <point x="93" y="920" type="curve" smooth="yes"/>
+      <point x="115" y="920"/>
+      <point x="132" y="902"/>
+      <point x="132" y="880" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="110" y="823" type="line"/>
+      <point x="110" y="814"/>
+      <point x="102" y="806"/>
+      <point x="93" y="806" type="curve" smooth="yes"/>
+      <point x="83" y="806"/>
+      <point x="76" y="814"/>
+      <point x="76" y="823" type="curve" smooth="yes"/>
+      <point x="76" y="832"/>
+      <point x="83" y="840"/>
+      <point x="93" y="840" type="curve" smooth="yes"/>
+      <point x="102" y="840"/>
+      <point x="110" y="832"/>
+      <point x="110" y="823" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringOboeLH1stFingerClosed</string>
+  </dict>
+  </lib>
+</glyph>

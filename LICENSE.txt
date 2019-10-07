@@ -1,4 +1,5 @@
-Copyright (c) 2019 Eduardo de Moura Rodrigues (tecnyzer@gmail.com)
+Copyright (c) 2014, Steinberg Media Technologies GmbH (http://www.steinberg.net/) 
+Copyright (c) 2019, Eduardo de Moura Rodrigues (tecnyzer@gmail.com).
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:

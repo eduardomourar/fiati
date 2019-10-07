@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEDDC" format="1">
+  <unicode hex="EDDC"/>
+  <outline>
+    <contour>
+      <point x="35" y="985" type="line"/>
+      <point x="16" y="974"/>
+      <point x="4" y="955"/>
+      <point x="4" y="932" type="curve" smooth="yes"/>
+      <point x="4" y="909"/>
+      <point x="16" y="889"/>
+      <point x="35" y="878" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringRecLHThumbQuarterClosedLeft</string>
+  </dict>
+  </lib>
+</glyph>

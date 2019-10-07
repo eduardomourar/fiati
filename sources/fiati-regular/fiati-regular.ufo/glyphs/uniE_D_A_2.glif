@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEDA2" format="1">
+  <unicode hex="EDA2"/>
+  <outline>
+    <contour>
+      <point x="84" y="773" type="line"/>
+      <point x="80" y="773" type="line"/>
+      <point x="80" y="833" type="line"/>
+      <point x="84" y="833" type="line"/>
+    </contour>
+    <contour>
+      <point x="99" y="766" type="line"/>
+      <point x="95" y="766" type="line"/>
+      <point x="95" y="840" type="line"/>
+      <point x="99" y="840" type="line"/>
+    </contour>
+    <contour>
+      <point x="114" y="767" type="line"/>
+      <point x="110" y="767" type="line"/>
+      <point x="110" y="840" type="line"/>
+      <point x="114" y="840" type="line"/>
+    </contour>
+    <contour>
+      <point x="129" y="774" type="line"/>
+      <point x="125" y="774" type="line"/>
+      <point x="125" y="833" type="line"/>
+      <point x="129" y="833" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringSaxLH1stFingerTrill</string>
+  </dict>
+  </lib>
+</glyph>

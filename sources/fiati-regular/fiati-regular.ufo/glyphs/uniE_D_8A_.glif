@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniED8A" format="1">
+  <unicode hex="ED8A"/>
+  <outline>
+    <contour>
+      <point x="175" y="848" type="line"/>
+      <point x="175" y="841"/>
+      <point x="170" y="836"/>
+      <point x="163" y="836" type="curve"/>
+      <point x="157" y="836"/>
+      <point x="152" y="841"/>
+      <point x="152" y="848" type="curve"/>
+      <point x="152" y="873" type="line"/>
+      <point x="152" y="879"/>
+      <point x="157" y="884"/>
+      <point x="163" y="884" type="curve"/>
+      <point x="170" y="884"/>
+      <point x="175" y="879"/>
+      <point x="175" y="873" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringSaxLHFPalmClosed</string>
+  </dict>
+  </lib>
+</glyph>

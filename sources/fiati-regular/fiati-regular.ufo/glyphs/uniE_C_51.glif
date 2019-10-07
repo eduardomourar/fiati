@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEC51" format="1">
+  <unicode hex="EC51"/>
+  <outline>
+    <contour>
+      <point x="129" y="54" type="line"/>
+      <point x="129" y="49"/>
+      <point x="125" y="45"/>
+      <point x="120" y="45" type="curve"/>
+      <point x="113" y="45"/>
+      <point x="109" y="49"/>
+      <point x="109" y="54" type="curve"/>
+      <point x="109" y="81" type="line"/>
+      <point x="109" y="86"/>
+      <point x="113" y="90"/>
+      <point x="118" y="90" type="curve"/>
+      <point x="125" y="90"/>
+      <point x="129" y="86"/>
+      <point x="129" y="81" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringFluteRHLowCClosed</string>
+  </dict>
+  </lib>
+</glyph>

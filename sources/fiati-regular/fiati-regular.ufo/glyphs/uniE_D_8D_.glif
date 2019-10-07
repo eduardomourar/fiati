@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniED8D" format="1">
+  <unicode hex="ED8D"/>
+  <outline>
+    <contour>
+      <point x="148" y="419" type="line"/>
+      <point x="123" y="419" type="line"/>
+      <point x="123" y="455" type="line"/>
+      <point x="148" y="455" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringSaxLHLowBClosed</string>
+  </dict>
+  </lib>
+</glyph>

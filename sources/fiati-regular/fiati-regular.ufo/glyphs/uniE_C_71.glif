@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEC71" format="1">
+  <unicode hex="EC71"/>
+  <outline>
+    <contour>
+      <point x="162" y="616" type="line"/>
+      <point x="161" y="616"/>
+      <point x="160" y="616"/>
+      <point x="160" y="617" type="curve" smooth="yes"/>
+      <point x="159" y="618"/>
+      <point x="159" y="620"/>
+      <point x="160" y="621" type="curve"/>
+      <point x="243" y="704" type="line"/>
+      <point x="245" y="706"/>
+      <point x="247" y="706"/>
+      <point x="248" y="704" type="curve" smooth="yes"/>
+      <point x="249" y="703"/>
+      <point x="249" y="701"/>
+      <point x="248" y="700" type="curve"/>
+      <point x="164" y="617" type="line"/>
+      <point x="163" y="616"/>
+      <point x="163" y="616"/>
+      <point x="162" y="616" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fluteFingeringLHGSharpTrill</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniECFB" format="1">
+  <unicode hex="ECFB"/>
+  <outline>
+    <contour>
+      <point x="93" y="764" type="line"/>
+      <point x="108" y="764"/>
+      <point x="120" y="752"/>
+      <point x="120" y="737" type="curve"/>
+      <point x="120" y="722"/>
+      <point x="108" y="710"/>
+      <point x="93" y="710" type="curve"/>
+      <point x="78" y="710"/>
+      <point x="66" y="722"/>
+      <point x="66" y="737" type="curve"/>
+      <point x="66" y="752"/>
+      <point x="78" y="764"/>
+      <point x="93" y="764" type="curve"/>
+    </contour>
+    <contour>
+      <point x="93" y="776" type="line"/>
+      <point x="72" y="776"/>
+      <point x="54" y="759"/>
+      <point x="54" y="737" type="curve"/>
+      <point x="54" y="716"/>
+      <point x="72" y="698"/>
+      <point x="93" y="698" type="curve"/>
+      <point x="115" y="698"/>
+      <point x="132" y="716"/>
+      <point x="132" y="737" type="curve"/>
+      <point x="132" y="759"/>
+      <point x="115" y="776"/>
+      <point x="93" y="776" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringOboeLH2ndFingerRingOnly</string>
+  </dict>
+  </lib>
+</glyph>

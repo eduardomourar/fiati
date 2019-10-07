@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEC8F" format="1">
+  <unicode hex="EC8F"/>
+  <outline>
+    <contour>
+      <point x="41" y="404" type="line"/>
+      <point x="41" y="400"/>
+      <point x="38" y="396"/>
+      <point x="34" y="396" type="curve"/>
+      <point x="26" y="396" type="line"/>
+      <point x="22" y="396"/>
+      <point x="19" y="400"/>
+      <point x="19" y="404" type="curve"/>
+      <point x="19" y="408"/>
+      <point x="22" y="411"/>
+      <point x="26" y="411" type="curve"/>
+      <point x="34" y="411" type="line"/>
+      <point x="38" y="411"/>
+      <point x="41" y="408"/>
+      <point x="41" y="404" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringClarRH2ndSideClosed</string>
+  </dict>
+  </lib>
+</glyph>

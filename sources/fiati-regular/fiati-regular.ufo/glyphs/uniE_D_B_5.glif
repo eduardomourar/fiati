@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEDB5" format="1">
+  <unicode hex="EDB5"/>
+  <outline>
+    <contour>
+      <point x="43" y="37" type="line"/>
+      <point x="39" y="37" type="line"/>
+      <point x="39" y="61" type="line"/>
+      <point x="43" y="61" type="line"/>
+    </contour>
+    <contour>
+      <point x="58" y="24" type="line"/>
+      <point x="54" y="24" type="line"/>
+      <point x="54" y="61" type="line"/>
+      <point x="58" y="61" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringSaxRHLowEFlatTrill</string>
+  </dict>
+  </lib>
+</glyph>

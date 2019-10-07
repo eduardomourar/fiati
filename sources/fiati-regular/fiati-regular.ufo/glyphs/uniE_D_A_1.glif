@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEDA1" format="1">
+  <unicode hex="EDA1"/>
+  <outline>
+    <contour>
+      <point x="93" y="875" type="line"/>
+      <point x="89" y="875" type="line"/>
+      <point x="89" y="916" type="line"/>
+      <point x="93" y="916" type="line"/>
+    </contour>
+    <contour>
+      <point x="108" y="870" type="line"/>
+      <point x="104" y="870" type="line"/>
+      <point x="104" y="919" type="line"/>
+      <point x="108" y="919" type="line"/>
+    </contour>
+    <contour>
+      <point x="122" y="874" type="line"/>
+      <point x="118" y="874" type="line"/>
+      <point x="118" y="914" type="line"/>
+      <point x="122" y="914" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringSaxLHFrontFTrill</string>
+  </dict>
+  </lib>
+</glyph>

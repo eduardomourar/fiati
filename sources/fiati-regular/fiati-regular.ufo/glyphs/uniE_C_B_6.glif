@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniECB6" format="1">
+  <unicode hex="ECB6"/>
+  <outline>
+    <contour>
+      <point x="103" y="361" type="line"/>
+      <point x="112" y="356"/>
+      <point x="119" y="345"/>
+      <point x="119" y="333" type="curve" smooth="yes"/>
+      <point x="119" y="321"/>
+      <point x="112" y="311"/>
+      <point x="103" y="305" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringClarRH1stFingerQuarterClosedRight</string>
+  </dict>
+  </lib>
+</glyph>

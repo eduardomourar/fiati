@@ -1,0 +1,15 @@
+---
+unified font repository version: '0.3'
+unified font repository url: https://github.com/unified-font-repository/Unified-Font-Repository/
+typeface family:
+  name: Fiati
+  tags:
+  - music-notation
+  repository url: https://github.com/eduardomourar/fiati
+  tools:
+  - Inkscape
+  - Fontforge
+  similar fonts:
+  - Bravura
+  sample text:
+  - en_us: '\uEC40\uEC41\uEC42\uEC46\uEC48\uEC49\uEC4D\uEC4F\uEC51'

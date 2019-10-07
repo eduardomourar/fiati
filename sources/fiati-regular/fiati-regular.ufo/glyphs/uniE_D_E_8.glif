@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEDE8" format="1">
+  <unicode hex="EDE8"/>
+  <outline>
+    <contour>
+      <point x="281" y="633" type="line"/>
+      <point x="299" y="622"/>
+      <point x="311" y="603"/>
+      <point x="311" y="580" type="curve" smooth="yes"/>
+      <point x="311" y="557"/>
+      <point x="299" y="537"/>
+      <point x="281" y="526" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringRecLH3rdFingerQuarterClosedRight</string>
+  </dict>
+  </lib>
+</glyph>

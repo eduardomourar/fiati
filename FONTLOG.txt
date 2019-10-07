@@ -1,0 +1,29 @@
+FONTLOG for the Fiati font
+============================
+
+This file provides detailed information on the Fiati Font Software. This information should be distributed along with the Fiati fonts and any derivative works.
+
+
+Basic font information
+----------------------
+Fiati is a Unicode typeface where the main glyphs were originally designed by Steinberg within Bravura font for its in-development music notation and scoring application. Now it is a separate font project only containing the fingering diagram/chart section from Bravura.
+
+During its design, the Standard Music Font Layout (SMuFL) was kept in mind, a community-driven standard for how music symbols should be laid out in the Unicode Private Use Area (PUA) in the Basic Multilingual Plane (BMP) for compatibility between different scoring applications. Even though it is NOT complaint with SMuFL, it does follow the guidelines regarding: organization, glyphs/ranges metadata.
+
+The latest version of the SMuFL specification can be found at:
+
+https://w3c.github.io/smufl/gitbook/
+
+
+Note for developers
+-------------------
+If you are intending to use Fiati as part of your own software application, please refer to the SMuFL specification for useful information how glyphs are registered:
+
+https://w3c.github.io/smufl/gitbook/specification/smufl-metadata.html
+
+
+Changelog
+---------
+
+2 Oct 2019 (Eduardo Rodrigues) Fiati version 0.1
+- Initial pre-release using fingering glyphs (flute, clarinet, oboe, basson, saxophone, recorder) from Bravura font project (U+EC40–U+EDF6)

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniED06" format="1">
+  <unicode hex="ED06"/>
+  <outline>
+    <contour>
+      <point x="132" y="737" type="line"/>
+      <point x="132" y="716"/>
+      <point x="115" y="698"/>
+      <point x="93" y="698" type="curve"/>
+      <point x="93" y="776" type="line"/>
+      <point x="115" y="776"/>
+      <point x="132" y="759"/>
+      <point x="132" y="737" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringOboeLH2ndFingerHalfClosedRight</string>
+  </dict>
+  </lib>
+</glyph>

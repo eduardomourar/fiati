@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniED5D" format="1">
+  <unicode hex="ED5D"/>
+  <outline>
+    <contour>
+      <point x="553" y="421" type="line"/>
+      <point x="556" y="425"/>
+      <point x="557" y="430"/>
+      <point x="557" y="435" type="curve" smooth="yes"/>
+      <point x="557" y="451"/>
+      <point x="544" y="463"/>
+      <point x="529" y="463" type="curve" smooth="yes"/>
+      <point x="513" y="463"/>
+      <point x="500" y="451"/>
+      <point x="500" y="435" type="curve" smooth="yes"/>
+      <point x="500" y="430"/>
+      <point x="502" y="425"/>
+      <point x="504" y="421" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringBsnRH1stFingerThreeQuartersClosed</string>
+  </dict>
+  </lib>
+</glyph>

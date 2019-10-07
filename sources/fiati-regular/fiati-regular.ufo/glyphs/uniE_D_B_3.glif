@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEDB3" format="1">
+  <unicode hex="EDB3"/>
+  <outline>
+    <contour>
+      <point x="55" y="115" type="line"/>
+      <point x="51" y="115" type="line"/>
+      <point x="51" y="157" type="line"/>
+      <point x="55" y="157" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringSaxRHFSharpAlternateTrill</string>
+  </dict>
+  </lib>
+</glyph>

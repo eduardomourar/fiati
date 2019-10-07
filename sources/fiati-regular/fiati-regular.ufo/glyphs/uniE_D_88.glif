@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniED88" format="1">
+  <unicode hex="ED88"/>
+  <outline>
+    <contour>
+      <point x="187" y="931" type="line"/>
+      <point x="187" y="924"/>
+      <point x="182" y="919"/>
+      <point x="176" y="919" type="curve"/>
+      <point x="169" y="919"/>
+      <point x="164" y="924"/>
+      <point x="164" y="931" type="curve"/>
+      <point x="164" y="956" type="line"/>
+      <point x="164" y="962"/>
+      <point x="169" y="967"/>
+      <point x="176" y="967" type="curve"/>
+      <point x="182" y="967"/>
+      <point x="187" y="962"/>
+      <point x="187" y="956" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringSaxLHEFlatPalmClosed</string>
+  </dict>
+  </lib>
+</glyph>

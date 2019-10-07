@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEDB1" format="1">
+  <unicode hex="EDB1"/>
+  <outline>
+    <contour>
+      <point x="84" y="260" type="line"/>
+      <point x="80" y="260" type="line"/>
+      <point x="80" y="319" type="line"/>
+      <point x="84" y="319" type="line"/>
+    </contour>
+    <contour>
+      <point x="99" y="253" type="line"/>
+      <point x="95" y="253" type="line"/>
+      <point x="95" y="326" type="line"/>
+      <point x="99" y="326" type="line"/>
+    </contour>
+    <contour>
+      <point x="114" y="254" type="line"/>
+      <point x="110" y="254" type="line"/>
+      <point x="110" y="326" type="line"/>
+      <point x="114" y="326" type="line"/>
+    </contour>
+    <contour>
+      <point x="129" y="261" type="line"/>
+      <point x="125" y="261" type="line"/>
+      <point x="125" y="319" type="line"/>
+      <point x="129" y="319" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringSaxRH1stFingerTrill</string>
+  </dict>
+  </lib>
+</glyph>

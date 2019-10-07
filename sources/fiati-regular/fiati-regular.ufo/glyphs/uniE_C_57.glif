@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEC57" format="1">
+  <unicode hex="EC57"/>
+  <outline>
+    <contour>
+      <point x="131" y="401" type="line"/>
+      <point x="105" y="401"/>
+      <point x="84" y="422"/>
+      <point x="84" y="447" type="curve" smooth="yes"/>
+      <point x="84" y="473"/>
+      <point x="105" y="494"/>
+      <point x="131" y="494" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringFluteRH1stFingerHalfClosedLeft</string>
+  </dict>
+  </lib>
+</glyph>

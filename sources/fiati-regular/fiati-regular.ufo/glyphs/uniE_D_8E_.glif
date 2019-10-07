@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniED8E" format="1">
+  <unicode hex="ED8E"/>
+  <outline>
+    <contour>
+      <point x="123" y="407" type="line"/>
+      <point x="184" y="407" type="line"/>
+      <point x="184" y="391"/>
+      <point x="170" y="377"/>
+      <point x="154" y="377" type="curve" smooth="yes"/>
+      <point x="137" y="377"/>
+      <point x="123" y="391"/>
+      <point x="123" y="407" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+    <key>note</key>
+    <string>fingeringSaxLHLowBFlatClosed</string>
+  </dict>
+  </lib>
+</glyph>
