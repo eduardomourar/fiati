@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1570469144
-ModificationTime: 1570578609
+ModificationTime: 1570584728
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -69,7 +69,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 400 8 2
+WinInfo: 333 9 4
 BeginPrivate: 7
 BlueFuzz 1 1
 BlueScale 8 0.039625
@@ -88,6 +88,7 @@ BeginChars: 442 441
 
 StartChar: .notdef
 Encoding: 0 -1 0
+GlifName: _notdef
 Width: 297
 VWidth: 0
 Flags: W
@@ -98,6 +99,7 @@ EndChar
 
 StartChar: CR
 Encoding: 1 13 1
+GlifName: uni000D_
 Width: 297
 VWidth: 0
 Flags: W
@@ -108,6 +110,7 @@ EndChar
 
 StartChar: space
 Encoding: 3 32 2
+GlifName: space
 Width: 297
 VWidth: 0
 Flags: W
@@ -118,6 +121,7 @@ EndChar
 
 StartChar: uniE000
 Encoding: 4 57344 3
+GlifName: uniE_000
 Width: 350
 VWidth: 0
 Flags: HW
@@ -249,27 +253,27 @@ SplineSet
  247 658 l 258
  238 649 229 641 195 641 c 257
  195 633 l 257
-157 513 m 257
- 131 513 120 537 120 546 c 256
- 120 553 121 591 121 593 c 256
- 121 595 123 596 124 596 c 257
- 135 595 l 257
- 136 595 138 594 138 592 c 256
- 138 569 143 564 150 557 c 257
- 152 557 161 550 163 549 c 257
- 171 549 181 538 181 531 c 256
- 181 526 180 522 178 520 c 256
- 174 515 167 513 157 513 c 257
- 157 513 l 257
-127 590 m 257
- 127 580 126 552 126 546 c 256
- 126 541 134 519 157 519 c 256
- 165 519 170 521 173 524 c 256
- 175 526 175 528 175 529 c 256
- 175 538 165 542 160 544 c 256
- 156 546 151 548 148 551 c 256
- 136 563 132 573 132 589 c 257
- 127 590 l 257
+117 483 m 257
+ 91 483 80 507 80 516 c 256
+ 80 523 81 561 81 563 c 256
+ 81 565 83 566 84 566 c 257
+ 95 565 l 257
+ 96 565 98 564 98 562 c 256
+ 98 539 103 534 110 527 c 257
+ 112 527 121 520 123 519 c 257
+ 131 519 141 508 141 501 c 256
+ 141 496 140 492 138 490 c 256
+ 134 485 127 483 117 483 c 257
+ 117 483 l 257
+87 560 m 257
+ 87 550 86 522 86 516 c 256
+ 86 511 94 489 117 489 c 256
+ 125 489 130 491 133 494 c 256
+ 135 496 135 498 135 499 c 256
+ 135 508 125 512 120 514 c 256
+ 116 516 111 518 108 521 c 256
+ 96 533 92 543 92 559 c 257
+ 87 560 l 257
 79 740 m 257
  74 741 69 745 65 747 c 256
  64 748 63 749 63 750 c 257
@@ -348,6 +352,7 @@ EndChar
 
 StartChar: uniE001
 Encoding: 5 57345 4
+GlifName: uniE_001
 Width: 0
 VWidth: 0
 Flags: H
@@ -413,11 +418,13 @@ SplineSet
  212 21 204 28 198 28 c 257
  198 28 l 257
 EndSplineSet
+Validated: 5
 Comment: "fluteCFoot"
 EndChar
 
 StartChar: uniE002
 Encoding: 6 57346 5
+GlifName: uniE_002
 Width: 0
 VWidth: 0
 Flags: H
@@ -441,11 +448,13 @@ SplineSet
  219 84 216 87 211 87 c 257
  211 87 l 257
 EndSplineSet
+Validated: 5
 Comment: "fluteBFoot"
 EndChar
 
 StartChar: uniE006
 Encoding: 7 57350 6
+GlifName: uniE_006
 Width: 0
 VWidth: 0
 Flags: H
@@ -464,11 +473,13 @@ SplineSet
  114 750 l 257
  127 743 l 257
 EndSplineSet
+Validated: 9
 Comment: "fluteLHThumbBFlatClosed"
 EndChar
 
 StartChar: uniE007
 Encoding: 8 57351 7
+GlifName: uniE_007
 Width: 0
 VWidth: 0
 Flags: H
@@ -485,11 +496,13 @@ SplineSet
  99 828 99 758 99 758 c 257
  99 758 l 257
 EndSplineSet
+Validated: 5
 Comment: "fluteLHThumbBClosed"
 EndChar
 
 StartChar: uniE008
 Encoding: 9 57352 8
+GlifName: uniE_008
 Width: 0
 VWidth: 0
 Flags: H
@@ -503,11 +516,13 @@ SplineSet
  217 993 238 973 238 947 c 261
  238 947 l 261
 EndSplineSet
+Validated: 5
 Comment: "fluteLH1stFingerClosed"
 EndChar
 
 StartChar: uniE009
 Encoding: 10 57353 9
+GlifName: uniE_009
 Width: 0
 VWidth: 0
 Flags: H
@@ -521,29 +536,33 @@ SplineSet
  217 873 238 853 238 827 c 257
  238 827 l 257
 EndSplineSet
+Validated: 5
 Comment: "fluteLH2ndFingerClosed"
 EndChar
 
 StartChar: uniE00A
 Encoding: 11 57354 10
+GlifName: uniE_00A_
 Width: 0
 VWidth: 0
 Flags: H
 LayerCount: 2
 Fore
 SplineSet
-238 704 m 257
- 238 678 217 657 191 657 c 256
- 165 657 144 678 144 704 c 256
- 144 730 165 750 191 750 c 256
- 217 750 238 730 238 704 c 257
- 238 704 l 257
+238 704 m 261
+ 238 678 217 657 191 657 c 260
+ 165 657 144 678 144 704 c 260
+ 144 730 165 750 191 750 c 260
+ 217 750 238 730 238 704 c 261
+ 238 704 l 261
 EndSplineSet
+Validated: 5
 Comment: "fluteLH3rdFingerClosed"
 EndChar
 
 StartChar: uniE00B
 Encoding: 12 57355 11
+GlifName: uniE_00B_
 Width: 0
 VWidth: 0
 Flags: H
@@ -559,31 +578,34 @@ SplineSet
  235 651 228 644 192 644 c 257
  192 630 l 257
 EndSplineSet
+Validated: 9
 Comment: "fluteLHGSharpClosed"
 EndChar
 
 StartChar: uniE00D
 Encoding: 13 57357 12
+GlifName: uniE_00D_
 Width: 0
 VWidth: 0
 Flags: H
 LayerCount: 2
 Fore
 SplineSet
-124 593 m 257
- 124 593 123 553 123 546 c 256
- 123 539 132 516 157 516 c 256
- 176 516 178 525 178 529 c 256
- 178 545 158 546 150 553 c 257
- 148 555 147 556 147 556 c 258
- 140 563 135 568 135 592 c 257
- 124 593 l 257
+84 563 m 261
+ 84 563 83 523 83 516 c 260
+ 83 509 92 486 117 486 c 260
+ 136 486 138 495 138 499 c 260
+ 138 515 118 516 110 523 c 261
+ 108 525 107 526 107 526 c 262
+ 100 533 95 538 95 562 c 261
+ 84 563 l 261
 EndSplineSet
 Comment: "fluteRHBFlatTrillClosed"
 EndChar
 
 StartChar: uniE00E
 Encoding: 14 57358 13
+GlifName: uniE_00E_
 Width: 0
 VWidth: 0
 Flags: H
@@ -597,11 +619,13 @@ SplineSet
  217 494 238 473 238 447 c 257
  238 447 l 257
 EndSplineSet
+Validated: 5
 Comment: "fluteRH1stFingerClosed"
 EndChar
 
 StartChar: uniE00F
 Encoding: 15 57359 14
+GlifName: uniE_00F_
 Width: 0
 VWidth: 0
 Flags: H
@@ -615,11 +639,13 @@ SplineSet
  155 384 137 373 122 373 c 257
  122 373 l 257
 EndSplineSet
+Validated: 5
 Comment: "fluteRHDTrillClosed"
 EndChar
 
 StartChar: uniE010
 Encoding: 16 57360 15
+GlifName: uniE_010
 Width: 0
 VWidth: 0
 Flags: H
@@ -633,11 +659,13 @@ SplineSet
  217 372 238 352 238 326 c 257
  238 326 l 257
 EndSplineSet
+Validated: 5
 Comment: "fluteRH2ndFingerClosed"
 EndChar
 
 StartChar: uniE011
 Encoding: 17 57361 16
+GlifName: uniE_011
 Width: 0
 VWidth: 0
 Flags: H
@@ -651,11 +679,13 @@ SplineSet
  155 261 137 251 122 251 c 257
  122 251 l 257
 EndSplineSet
+Validated: 5
 Comment: "fluteRHDSharpTrillClosed"
 EndChar
 
 StartChar: uniE012
 Encoding: 18 57362 17
+GlifName: uniE_012
 Width: 0
 VWidth: 0
 Flags: H
@@ -669,11 +699,13 @@ SplineSet
  217 251 238 230 238 204 c 257
  238 204 l 257
 EndSplineSet
+Validated: 5
 Comment: "fluteRH3rdFingerClosed"
 EndChar
 
 StartChar: uniE013
 Encoding: 19 57363 18
+GlifName: uniE_013
 Width: 0
 VWidth: 0
 Flags: H
@@ -692,11 +724,13 @@ SplineSet
  194 120 222 120 222 120 c 257
  222 106 l 257
 EndSplineSet
+Validated: 1
 Comment: "fluteRHEFlatPaddleClosed"
 EndChar
 
 StartChar: uniE014
 Encoding: 20 57364 19
+GlifName: uniE_014
 Width: 0
 VWidth: 0
 Flags: H
@@ -712,11 +746,13 @@ SplineSet
  133 26 156 16 156 16 c 257
  155 72 l 257
 EndSplineSet
+Validated: 9
 Comment: "fluteRHLowCSharpClosed"
 EndChar
 
 StartChar: uniE015
 Encoding: 21 57365 20
+GlifName: uniE_015
 Width: 0
 VWidth: 0
 Flags: H
@@ -731,11 +767,13 @@ SplineSet
  185 90 189 86 189 81 c 257
  189 54 l 257
 EndSplineSet
+Validated: 1
 Comment: "fluteRHLowCClosed"
 EndChar
 
 StartChar: uniE016
 Encoding: 22 57366 21
+GlifName: uniE_016
 Width: 0
 VWidth: 0
 Flags: H
@@ -750,11 +788,13 @@ SplineSet
  218 90 222 86 222 81 c 257
  222 54 l 257
 EndSplineSet
+Validated: 1
 Comment: "fluteRHLowBClosed"
 EndChar
 
 StartChar: uniE017
 Encoding: 23 57367 22
+GlifName: uniE_017
 Width: 0
 VWidth: 0
 Flags: H
@@ -771,20 +811,23 @@ SplineSet
  222 15 l 257
  222 3 l 257
 EndSplineSet
+Validated: 1
 Comment: "fluteRHGizmoClosed"
 EndChar
 
 StartChar: uniE024
 Encoding: 24 57380 23
+GlifName: uniE_024
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-131 900 m 257
- 105 900 84 921 84 947 c 256
- 84 973 105 993 131 993 c 257
- 131 900 l 257
+191 900 m 257
+ 165 900 144 921 144 947 c 256
+ 144 973 165 993 191 993 c 257
+ 191 900 l 257
 EndSplineSet
 Validated: 1
 Comment: "fluteLH1stFingerHalfClosedLeft"
@@ -792,15 +835,17 @@ EndChar
 
 StartChar: uniE025
 Encoding: 25 57381 24
+GlifName: uniE_025
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-131 780 m 257
- 105 780 84 801 84 827 c 256
- 84 853 105 873 131 873 c 257
- 131 780 l 257
+191 780 m 257
+ 165 780 144 801 144 827 c 256
+ 144 853 165 873 191 873 c 257
+ 191 780 l 257
 EndSplineSet
 Validated: 1
 Comment: "fluteLH2ndFingerHalfClosedLeft"
@@ -808,15 +853,17 @@ EndChar
 
 StartChar: uniE026
 Encoding: 26 57382 25
+GlifName: uniE_026
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-131 657 m 257
- 105 657 84 678 84 704 c 256
- 84 730 105 750 131 750 c 257
- 131 657 l 257
+191 657 m 257
+ 165 657 144 678 144 704 c 256
+ 144 730 165 750 191 750 c 257
+ 191 657 l 257
 EndSplineSet
 Validated: 1
 Comment: "fluteLH3rdFingerHalfClosedLeft"
@@ -824,15 +871,17 @@ EndChar
 
 StartChar: uniE027
 Encoding: 27 57383 26
+GlifName: uniE_027
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-131 401 m 257
- 105 401 84 422 84 447 c 256
- 84 473 105 494 131 494 c 257
- 131 401 l 257
+191 401 m 257
+ 165 401 144 422 144 447 c 256
+ 144 473 165 494 191 494 c 257
+ 191 401 l 257
 EndSplineSet
 Validated: 1
 Comment: "fluteRH1stFingerHalfClosedLeft"
@@ -840,15 +889,17 @@ EndChar
 
 StartChar: uniE028
 Encoding: 28 57384 27
+GlifName: uniE_028
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-131 279 m 257
- 105 279 84 300 84 326 c 256
- 84 352 105 372 131 372 c 257
- 131 279 l 257
+191 279 m 257
+ 165 279 144 300 144 326 c 256
+ 144 352 165 372 191 372 c 257
+ 191 279 l 257
 EndSplineSet
 Validated: 1
 Comment: "fluteRH2ndFingerHalfClosedLeft"
@@ -856,15 +907,17 @@ EndChar
 
 StartChar: uniE029
 Encoding: 29 57385 28
+GlifName: uniE_029
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-131 158 m 257
- 105 158 84 179 84 204 c 256
- 84 230 105 251 131 251 c 257
- 131 158 l 257
+191 158 m 257
+ 165 158 144 179 144 204 c 256
+ 144 230 165 251 191 251 c 257
+ 191 158 l 257
 EndSplineSet
 Validated: 1
 Comment: "fluteRH3rdFingerHalfClosedLeft"
@@ -872,16 +925,18 @@ EndChar
 
 StartChar: uniE02A
 Encoding: 30 57386 29
+GlifName: uniE_02A_
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-178 947 m 257
- 178 921 157 900 131 900 c 257
- 131 993 l 257
- 157 993 178 973 178 947 c 257
- 178 947 l 257
+238 947 m 257
+ 238 921 217 900 191 900 c 257
+ 191 993 l 257
+ 217 993 238 973 238 947 c 257
+ 238 947 l 257
 EndSplineSet
 Validated: 5
 Comment: "fluteLH1stFingerHalfClosedRight"
@@ -889,16 +944,18 @@ EndChar
 
 StartChar: uniE02B
 Encoding: 31 57387 30
+GlifName: uniE_02B_
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-178 827 m 257
- 178 801 157 780 131 780 c 257
- 131 873 l 257
- 157 873 178 853 178 827 c 257
- 178 827 l 257
+238 827 m 257
+ 238 801 217 780 191 780 c 257
+ 191 873 l 257
+ 217 873 238 853 238 827 c 257
+ 238 827 l 257
 EndSplineSet
 Validated: 5
 Comment: "fluteLH2ndFingerHalfClosedRight"
@@ -906,16 +963,18 @@ EndChar
 
 StartChar: uniE02C
 Encoding: 32 57388 31
+GlifName: uniE_02C_
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-178 704 m 257
- 178 678 157 657 131 657 c 257
- 131 750 l 257
- 157 750 178 730 178 704 c 257
- 178 704 l 257
+238 704 m 257
+ 238 678 217 657 191 657 c 257
+ 191 750 l 257
+ 217 750 238 730 238 704 c 257
+ 238 704 l 257
 EndSplineSet
 Validated: 5
 Comment: "fluteLH3rdFingerHalfClosedRight"
@@ -923,16 +982,18 @@ EndChar
 
 StartChar: uniE02D
 Encoding: 33 57389 32
+GlifName: uniE_02D_
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-178 447 m 257
- 178 422 157 401 131 401 c 257
- 131 494 l 257
- 157 494 178 473 178 447 c 257
- 178 447 l 257
+238 447 m 257
+ 238 422 217 401 191 401 c 257
+ 191 494 l 257
+ 217 494 238 473 238 447 c 257
+ 238 447 l 257
 EndSplineSet
 Validated: 5
 Comment: "fluteRH1stFingerHalfClosedRight"
@@ -940,17 +1001,18 @@ EndChar
 
 StartChar: uniE02E
 Encoding: 34 57390 33
+GlifName: uniE_02E_
 Width: 833
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-178 326 m 257
- 178 300 157 279 131 279 c 257
- 131 372 l 257
- 157 372 178 352 178 326 c 257
- 178 326 l 257
+238 326 m 257
+ 238 300 217 279 191 279 c 257
+ 191 372 l 257
+ 217 372 238 352 238 326 c 257
+ 238 326 l 257
 EndSplineSet
 Validated: 5
 Comment: "fluteRH2ndFingerHalfClosedRight"
@@ -958,16 +1020,18 @@ EndChar
 
 StartChar: uniE02F
 Encoding: 35 57391 34
+GlifName: uniE_02F_
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-178 204 m 257
- 178 179 157 158 131 158 c 257
- 131 251 l 257
- 157 251 178 230 178 204 c 257
- 178 204 l 257
+238 204 m 257
+ 238 179 217 158 191 158 c 257
+ 191 251 l 257
+ 217 251 238 230 238 204 c 257
+ 238 204 l 257
 EndSplineSet
 Validated: 5
 Comment: "fluteRH3rdFingerHalfClosedRight"
@@ -975,15 +1039,17 @@ EndChar
 
 StartChar: uniE030
 Encoding: 36 57392 35
+GlifName: uniE_030
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-108 987 m 257
- 94 979 84 964 84 947 c 256
- 84 930 94 915 108 906 c 257
- 108 987 l 257
+168 987 m 257
+ 154 979 144 964 144 947 c 256
+ 144 930 154 915 168 906 c 257
+ 168 987 l 257
 EndSplineSet
 Validated: 9
 Comment: "fluteLH1stFingerQuarterClosedLeft"
@@ -991,15 +1057,17 @@ EndChar
 
 StartChar: uniE031
 Encoding: 37 57393 36
+GlifName: uniE_031
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-108 867 m 257
- 94 859 84 844 84 827 c 256
- 84 810 94 795 108 786 c 257
- 108 867 l 257
+168 867 m 257
+ 154 859 144 844 144 827 c 256
+ 144 810 154 795 168 786 c 257
+ 168 867 l 257
 EndSplineSet
 Validated: 9
 Comment: "fluteLH2ndFingerQuarterClosedLeft"
@@ -1007,15 +1075,17 @@ EndChar
 
 StartChar: uniE032
 Encoding: 38 57394 37
+GlifName: uniE_032
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-108 744 m 257
- 94 736 84 721 84 703 c 256
- 84 686 94 671 108 663 c 257
- 108 744 l 257
+168 744 m 257
+ 154 736 144 721 144 703 c 256
+ 144 686 154 671 168 663 c 257
+ 168 744 l 257
 EndSplineSet
 Validated: 9
 Comment: "fluteLH3rdFingerQuarterClosedLeft"
@@ -1023,15 +1093,17 @@ EndChar
 
 StartChar: uniE033
 Encoding: 39 57395 38
+GlifName: uniE_033
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-108 487 m 257
- 94 479 84 464 84 447 c 256
- 84 430 94 415 108 406 c 257
- 108 487 l 257
+168 487 m 257
+ 154 479 144 464 144 447 c 256
+ 144 430 154 415 168 406 c 257
+ 168 487 l 257
 EndSplineSet
 Validated: 9
 Comment: "fluteRH1stFingerQuarterClosedLeft"
@@ -1039,15 +1111,17 @@ EndChar
 
 StartChar: uniE034
 Encoding: 40 57396 39
+GlifName: uniE_034
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-108 366 m 257
- 94 358 84 343 84 325 c 256
- 84 308 94 293 108 285 c 257
- 108 366 l 257
+168 366 m 257
+ 154 358 144 343 144 325 c 256
+ 144 308 154 293 168 285 c 257
+ 168 366 l 257
 EndSplineSet
 Validated: 9
 Comment: "fluteRH2ndFingerQuarterClosedLeft"
@@ -1055,15 +1129,17 @@ EndChar
 
 StartChar: uniE035
 Encoding: 41 57397 40
+GlifName: uniE_035
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-108 244 m 257
- 94 236 84 221 84 204 c 256
- 84 187 94 172 108 164 c 257
- 108 244 l 257
+168 244 m 257
+ 154 236 144 221 144 204 c 256
+ 144 187 154 172 168 164 c 257
+ 168 244 l 257
 EndSplineSet
 Validated: 9
 Comment: "fluteRH3rdFingerQuarterClosedLeft"
@@ -1071,15 +1147,17 @@ EndChar
 
 StartChar: uniE036
 Encoding: 42 57398 41
+GlifName: uniE_036
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-154 987 m 257
- 168 979 178 964 178 947 c 256
- 178 930 168 915 154 906 c 257
- 154 987 l 257
+214 987 m 257
+ 228 979 238 964 238 947 c 256
+ 238 930 228 915 214 906 c 257
+ 214 987 l 257
 EndSplineSet
 Validated: 1
 Comment: "fluteLH1stFingerQuarterClosedRight"
@@ -1087,15 +1165,17 @@ EndChar
 
 StartChar: uniE037
 Encoding: 43 57399 42
+GlifName: uniE_037
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-154 867 m 257
- 168 859 178 844 178 827 c 256
- 178 810 168 795 154 786 c 257
- 154 867 l 257
+214 867 m 257
+ 228 859 238 844 238 827 c 256
+ 238 810 228 795 214 786 c 257
+ 214 867 l 257
 EndSplineSet
 Validated: 1
 Comment: "fluteLH2ndFingerQuarterClosedRight"
@@ -1103,15 +1183,17 @@ EndChar
 
 StartChar: uniE038
 Encoding: 44 57400 43
+GlifName: uniE_038
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-154 743 m 257
- 168 735 178 720 178 703 c 256
- 178 686 168 671 154 662 c 257
- 154 743 l 257
+214 743 m 257
+ 228 735 238 720 238 703 c 256
+ 238 686 228 671 214 662 c 257
+ 214 743 l 257
 EndSplineSet
 Validated: 1
 Comment: "fluteLH3rdFingerQuarterClosedRight"
@@ -1119,15 +1201,17 @@ EndChar
 
 StartChar: uniE039
 Encoding: 45 57401 44
+GlifName: uniE_039
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-154 487 m 257
- 168 479 178 464 178 447 c 256
- 178 430 168 415 154 406 c 257
- 154 487 l 257
+214 487 m 257
+ 228 479 238 464 238 447 c 256
+ 238 430 228 415 214 406 c 257
+ 214 487 l 257
 EndSplineSet
 Validated: 1
 Comment: "fluteRH1stFingerQuarterClosedRight"
@@ -1135,15 +1219,17 @@ EndChar
 
 StartChar: uniE03A
 Encoding: 46 57402 45
+GlifName: uniE_03A_
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-154 366 m 257
- 168 358 178 343 178 326 c 256
- 178 309 168 294 154 285 c 257
- 154 366 l 257
+214 366 m 257
+ 228 358 238 343 238 326 c 256
+ 238 309 228 294 214 285 c 257
+ 214 366 l 257
 EndSplineSet
 Validated: 1
 Comment: "fluteRH2ndFingerQuarterClosedRight"
@@ -1151,15 +1237,17 @@ EndChar
 
 StartChar: uniE03B
 Encoding: 47 57403 46
+GlifName: uniE_03B_
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-154 244 m 257
- 168 236 178 221 178 204 c 256
- 178 187 168 172 154 164 c 257
- 154 244 l 257
+214 244 m 257
+ 228 236 238 221 238 204 c 256
+ 238 187 228 172 214 164 c 257
+ 214 244 l 257
 EndSplineSet
 Validated: 1
 Comment: "fluteRH3rdFingerQuarterClosedRight"
@@ -1167,18 +1255,20 @@ EndChar
 
 StartChar: uniE03C
 Encoding: 48 57404 47
+GlifName: uniE_03C_
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
--10 891 m 257
- -12 891 -13 893 -13 894 c 256
- -13 895 -12 896 75 984 c 257
- 76 984 77 985 78 985 c 256
- 79 985 80 983 80 981 c 256
- 80 980 80 980 -8 892 c 257
- -10 891 l 257
+50 891 m 257
+ 48 891 47 893 47 894 c 256
+ 47 895 48 896 135 984 c 257
+ 136 984 137 985 138 985 c 256
+ 139 985 140 983 140 981 c 256
+ 140 980 140 980 52 892 c 257
+ 50 891 l 257
 EndSplineSet
 Validated: 1
 Comment: "fluteLHThumbBFlatTrill"
@@ -1186,20 +1276,22 @@ EndChar
 
 StartChar: uniE03D
 Encoding: 49 57405 48
+GlifName: uniE_03D_
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
--5 789 m 257
- -5 789 -6 789 -7 790 c 256
- -8 791 -8 793 -7 794 c 257
- 43 844 l 257
- 45 846 47 846 48 844 c 256
- 49 843 49 841 48 840 c 257
- -3 790 l 257
- -3 789 -4 789 -5 789 c 257
- -5 789 l 257
+55 789 m 257
+ 55 789 54 789 53 790 c 256
+ 52 791 52 793 53 794 c 257
+ 103 844 l 257
+ 105 846 107 846 108 844 c 256
+ 109 843 109 841 108 840 c 257
+ 57 790 l 257
+ 57 789 56 789 55 789 c 257
+ 55 789 l 257
 EndSplineSet
 Validated: 5
 Comment: "fluteLHThumbBTrill"
@@ -1207,20 +1299,22 @@ EndChar
 
 StartChar: uniE03E
 Encoding: 50 57406 49
+GlifName: uniE_03E_
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-82 896 m 257
- 81 896 80 896 79 897 c 256
- 78 898 78 900 79 901 c 257
- 177 998 l 257
- 178 1000 180 1000 181 998 c 256
- 182 997 182 995 181 994 c 257
- 84 897 l 257
- 83 896 82 896 82 896 c 257
- 82 896 l 257
+142 896 m 257
+ 141 896 140 896 139 897 c 256
+ 138 898 138 900 139 901 c 257
+ 237 998 l 257
+ 238 1000 240 1000 241 998 c 256
+ 242 997 242 995 241 994 c 257
+ 144 897 l 257
+ 143 896 142 896 142 896 c 257
+ 142 896 l 257
 EndSplineSet
 Validated: 5
 Comment: "fluteLH1stFingerTrill"
@@ -1228,20 +1322,22 @@ EndChar
 
 StartChar: uniE03F
 Encoding: 51 57407 50
+GlifName: uniE_03F_
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-82 775 m 257
- 81 775 80 775 79 776 c 256
- 78 777 78 779 79 780 c 257
- 177 877 l 257
- 178 879 180 879 181 877 c 256
- 182 876 182 874 181 873 c 257
- 84 776 l 257
- 83 775 82 775 82 775 c 257
- 82 775 l 257
+142 775 m 257
+ 141 775 140 775 139 776 c 256
+ 138 777 138 779 139 780 c 257
+ 237 877 l 257
+ 238 879 240 879 241 877 c 256
+ 242 876 242 874 241 873 c 257
+ 144 776 l 257
+ 143 775 142 775 142 775 c 257
+ 142 775 l 257
 EndSplineSet
 Validated: 5
 Comment: "fluteLH2ndFingerTrill"
@@ -1249,20 +1345,22 @@ EndChar
 
 StartChar: uniE040
 Encoding: 52 57408 51
+GlifName: uniE_040
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-82 650 m 257
- 81 650 80 650 79 651 c 256
- 78 652 78 654 79 655 c 257
- 177 752 l 257
- 178 754 180 754 181 752 c 256
- 182 751 182 749 181 748 c 257
- 84 651 l 257
- 83 650 82 650 82 650 c 257
- 82 650 l 257
+142 650 m 257
+ 141 650 140 650 139 651 c 256
+ 138 652 138 654 139 655 c 257
+ 237 752 l 257
+ 238 754 240 754 241 752 c 256
+ 242 751 242 749 241 748 c 257
+ 144 651 l 257
+ 143 650 142 650 142 650 c 257
+ 142 650 l 257
 EndSplineSet
 Validated: 5
 Comment: "fluteLH3rdFingerTrill"
@@ -1270,20 +1368,22 @@ EndChar
 
 StartChar: uniE041
 Encoding: 53 57409 52
+GlifName: uniE_041
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-162 616 m 257
- 161 616 160 616 160 617 c 256
- 159 618 159 620 160 621 c 257
- 243 704 l 257
- 245 706 247 706 248 704 c 256
- 249 703 249 701 248 700 c 257
- 164 617 l 257
- 163 616 163 616 162 616 c 257
- 162 616 l 257
+222 616 m 257
+ 221 616 220 616 220 617 c 256
+ 219 618 219 620 220 621 c 257
+ 303 704 l 257
+ 305 706 307 706 308 704 c 256
+ 309 703 309 701 308 700 c 257
+ 224 617 l 257
+ 223 616 223 616 222 616 c 257
+ 222 616 l 257
 EndSplineSet
 Validated: 5
 Comment: "fluteLHGSharpTrill"
@@ -1291,41 +1391,44 @@ EndChar
 
 StartChar: uniE043
 Encoding: 54 57411 53
+GlifName: uniE_043
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-57 512 m 257
- 56 512 55 512 55 513 c 256
- 54 514 54 516 55 517 c 257
- 107 570 l 257
- 109 571 111 571 112 570 c 256
- 113 569 113 567 112 566 c 257
- 59 513 l 257
- 58 512 58 512 57 512 c 257
- 57 512 l 257
+77 482 m 261
+ 76 482 75 482 75 483 c 260
+ 74 484 74 486 75 487 c 261
+ 127 540 l 261
+ 129 541 131 541 132 540 c 260
+ 133 539 133 537 132 536 c 261
+ 79 483 l 261
+ 78 482 78 482 77 482 c 261
+ 77 482 l 261
 EndSplineSet
-Validated: 5
 Comment: "fluteRHBFlatTrillTrill"
 EndChar
 
 StartChar: uniE044
 Encoding: 55 57412 54
+GlifName: uniE_044
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-82 398 m 257
- 81 398 80 398 79 398 c 256
- 78 400 78 402 79 403 c 257
- 177 500 l 257
- 178 501 180 501 181 500 c 256
- 182 499 182 497 181 496 c 257
- 84 398 l 257
- 83 398 82 398 82 398 c 257
- 82 398 l 257
+142 398 m 257
+ 141 398 140 398 139 398 c 256
+ 138 400 138 402 139 403 c 257
+ 237 500 l 257
+ 238 501 240 501 241 500 c 256
+ 242 499 242 497 241 496 c 257
+ 144 398 l 257
+ 143 398 142 398 142 398 c 257
+ 142 398 l 257
 EndSplineSet
 Validated: 1
 Comment: "fluteRH1stFingerTrill"
@@ -1333,20 +1436,22 @@ EndChar
 
 StartChar: uniE045
 Encoding: 56 57413 55
+GlifName: uniE_045
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-89 365 m 257
- 88 365 87 365 86 366 c 257
- 43 409 l 257
- 42 410 42 412 43 413 c 256
- 44 414 46 414 47 413 c 257
- 91 370 l 257
- 92 369 92 367 91 366 c 256
- 90 365 89 365 89 365 c 257
- 89 365 l 257
+149 365 m 257
+ 148 365 147 365 146 366 c 257
+ 103 409 l 257
+ 102 410 102 412 103 413 c 256
+ 104 414 106 414 107 413 c 257
+ 151 370 l 257
+ 152 369 152 367 151 366 c 256
+ 150 365 149 365 149 365 c 257
+ 149 365 l 257
 EndSplineSet
 Validated: 5
 Comment: "fluteRHDTrillTrill"
@@ -1354,20 +1459,22 @@ EndChar
 
 StartChar: uniE046
 Encoding: 57 57414 56
+GlifName: uniE_046
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-82 272 m 257
- 81 272 80 272 79 272 c 256
- 78 274 78 276 79 277 c 257
- 177 374 l 257
- 178 375 180 375 181 374 c 256
- 182 373 182 371 181 370 c 257
- 84 272 l 257
- 83 272 82 272 82 272 c 257
- 82 272 l 257
+142 272 m 257
+ 141 272 140 272 139 272 c 256
+ 138 274 138 276 139 277 c 257
+ 237 374 l 257
+ 238 375 240 375 241 374 c 256
+ 242 373 242 371 241 370 c 257
+ 144 272 l 257
+ 143 272 142 272 142 272 c 257
+ 142 272 l 257
 EndSplineSet
 Validated: 1
 Comment: "fluteRH2ndFingerTrill"
@@ -1375,20 +1482,22 @@ EndChar
 
 StartChar: uniE047
 Encoding: 58 57415 57
+GlifName: uniE_047
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-89 243 m 257
- 88 243 87 243 86 244 c 257
- 43 287 l 257
- 42 288 42 290 43 291 c 256
- 44 292 46 292 47 291 c 257
- 91 248 l 257
- 92 247 92 245 91 244 c 256
- 90 243 89 243 89 243 c 257
- 89 243 l 257
+149 243 m 257
+ 148 243 147 243 146 244 c 257
+ 103 287 l 257
+ 102 288 102 290 103 291 c 256
+ 104 292 106 292 107 291 c 257
+ 151 248 l 257
+ 152 247 152 245 151 244 c 256
+ 150 243 149 243 149 243 c 257
+ 149 243 l 257
 EndSplineSet
 Validated: 5
 Comment: "fluteRHDSharpTrillTrill"
@@ -1396,20 +1505,22 @@ EndChar
 
 StartChar: uniE048
 Encoding: 59 57416 58
+GlifName: uniE_048
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-82 154 m 257
- 81 154 80 154 79 154 c 256
- 78 156 78 158 79 159 c 257
- 177 256 l 257
- 178 257 180 257 181 256 c 256
- 182 255 182 253 181 252 c 257
- 84 154 l 257
- 83 154 82 154 82 154 c 257
- 82 154 l 257
+142 154 m 257
+ 141 154 140 154 139 154 c 256
+ 138 156 138 158 139 159 c 257
+ 237 256 l 257
+ 238 257 240 257 241 256 c 256
+ 242 255 242 253 241 252 c 257
+ 144 154 l 257
+ 143 154 142 154 142 154 c 257
+ 142 154 l 257
 EndSplineSet
 Validated: 1
 Comment: "fluteRH3rdFingerTrill"
@@ -1417,20 +1528,22 @@ EndChar
 
 StartChar: uniE049
 Encoding: 60 57417 59
+GlifName: uniE_049
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-57 96 m 257
- 56 96 55 97 54 97 c 256
- 53 98 53 100 54 101 c 257
- 109 156 l 257
- 111 158 113 158 114 156 c 256
- 115 155 115 153 114 152 c 257
- 59 97 l 257
- 58 97 57 96 57 96 c 257
- 57 96 l 257
+117 96 m 257
+ 116 96 115 97 114 97 c 256
+ 113 98 113 100 114 101 c 257
+ 169 156 l 257
+ 171 158 173 158 174 156 c 256
+ 175 155 175 153 174 152 c 257
+ 119 97 l 257
+ 118 97 117 96 117 96 c 257
+ 117 96 l 257
 EndSplineSet
 Validated: 5
 Comment: "fluteRHEFlatPaddleTrill"
@@ -1438,20 +1551,22 @@ EndChar
 
 StartChar: uniE04A
 Encoding: 61 57418 60
+GlifName: uniE_04A_
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-43 29 m 257
- 42 29 41 29 40 30 c 256
- 39 31 39 33 40 34 c 257
- 98 92 l 257
- 99 93 101 93 102 92 c 256
- 104 91 104 89 102 88 c 257
- 45 30 l 257
- 44 29 43 29 43 29 c 257
- 43 29 l 257
+103 29 m 257
+ 102 29 101 29 100 30 c 256
+ 99 31 99 33 100 34 c 257
+ 158 92 l 257
+ 159 93 161 93 162 92 c 256
+ 164 91 164 89 162 88 c 257
+ 105 30 l 257
+ 104 29 103 29 103 29 c 257
+ 103 29 l 257
 EndSplineSet
 Validated: 5
 Comment: "fluteRHLowCSharpTrill"
@@ -1459,21 +1574,22 @@ EndChar
 
 StartChar: uniE04B
 Encoding: 62 57419 61
+GlifName: uniE_04B_
 Width: 833
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-104 52 m 257
- 103 52 102 52 102 53 c 256
- 101 54 101 56 102 57 c 257
- 130 85 l 257
- 131 87 133 87 134 85 c 256
- 136 84 136 82 134 81 c 257
- 106 53 l 257
- 105 52 105 52 104 52 c 257
- 104 52 l 257
+164 52 m 257
+ 163 52 162 52 162 53 c 256
+ 161 54 161 56 162 57 c 257
+ 190 85 l 257
+ 191 87 193 87 194 85 c 256
+ 196 84 196 82 194 81 c 257
+ 166 53 l 257
+ 165 52 165 52 164 52 c 257
+ 164 52 l 257
 EndSplineSet
 Validated: 5
 Comment: "fluteRHLowCTrill"
@@ -1481,21 +1597,22 @@ EndChar
 
 StartChar: uniE04C
 Encoding: 63 57420 62
+GlifName: uniE_04C_
 Width: 833
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-137 52 m 257
- 137 52 136 52 135 53 c 256
- 134 54 134 56 135 57 c 257
- 163 85 l 257
- 165 87 167 87 168 85 c 256
- 169 84 169 82 168 81 c 257
- 139 53 l 257
- 139 52 138 52 137 52 c 257
- 137 52 l 257
+197 52 m 257
+ 197 52 196 52 195 53 c 256
+ 194 54 194 56 195 57 c 257
+ 223 85 l 257
+ 225 87 227 87 228 85 c 256
+ 229 84 229 82 228 81 c 257
+ 199 53 l 257
+ 199 52 198 52 197 52 c 257
+ 197 52 l 257
 EndSplineSet
 Validated: 5
 Comment: "fluteRHLowBTrill"
@@ -1503,21 +1620,22 @@ EndChar
 
 StartChar: uniE04D
 Encoding: 64 57421 63
+GlifName: uniE_04D_
 Width: 833
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-122 -8 m 257
- 122 -8 121 -8 120 -7 c 256
- 119 -6 119 -4 120 -3 c 257
- 157 34 l 257
- 159 36 161 36 162 34 c 256
- 163 33 163 31 162 30 c 257
- 124 -7 l 257
- 124 -8 123 -8 122 -8 c 257
- 122 -8 l 257
+182 -8 m 257
+ 182 -8 181 -8 180 -7 c 256
+ 179 -6 179 -4 180 -3 c 257
+ 217 34 l 257
+ 219 36 221 36 222 34 c 256
+ 223 33 223 31 222 30 c 257
+ 184 -7 l 257
+ 184 -8 183 -8 182 -8 c 257
+ 182 -8 l 257
 EndSplineSet
 Validated: 5
 Comment: "fluteRHGizmoTrill"
@@ -1525,6 +1643,7 @@ EndChar
 
 StartChar: uniE0A0
 Encoding: 65 57504 64
+GlifName: uniE_0A_0
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -1920,6 +2039,7 @@ EndChar
 
 StartChar: uniE0A1
 Encoding: 66 57505 65
+GlifName: uniE_0A_1
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -1947,6 +2067,7 @@ EndChar
 
 StartChar: uniE0A2
 Encoding: 67 57506 66
+GlifName: uniE_0A_2
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -1967,6 +2088,7 @@ EndChar
 
 StartChar: uniE0A3
 Encoding: 68 57507 67
+GlifName: uniE_0A_3
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -1985,6 +2107,7 @@ EndChar
 
 StartChar: uniE0A4
 Encoding: 69 57508 68
+GlifName: uniE_0A_4
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2005,6 +2128,7 @@ EndChar
 
 StartChar: uniE0A5
 Encoding: 70 57509 69
+GlifName: uniE_0A_5
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2025,6 +2149,7 @@ EndChar
 
 StartChar: uniE0A6
 Encoding: 71 57510 70
+GlifName: uniE_0A_6
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2043,6 +2168,7 @@ EndChar
 
 StartChar: uniE0A7
 Encoding: 72 57511 71
+GlifName: uniE_0A_7
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2061,6 +2187,7 @@ EndChar
 
 StartChar: uniE0A8
 Encoding: 73 57512 72
+GlifName: uniE_0A_8
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2081,6 +2208,7 @@ EndChar
 
 StartChar: uniE0A9
 Encoding: 74 57513 73
+GlifName: uniE_0A_9
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2099,6 +2227,7 @@ EndChar
 
 StartChar: uniE0AA
 Encoding: 75 57514 74
+GlifName: uniE_0A_A_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2120,6 +2249,7 @@ EndChar
 
 StartChar: uniE0AB
 Encoding: 76 57515 75
+GlifName: uniE_0A_B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2139,6 +2269,7 @@ EndChar
 
 StartChar: uniE0AC
 Encoding: 77 57516 76
+GlifName: uniE_0A_C_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2157,6 +2288,7 @@ EndChar
 
 StartChar: uniE0AD
 Encoding: 78 57517 77
+GlifName: uniE_0A_D_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2177,6 +2309,7 @@ EndChar
 
 StartChar: uniE0AE
 Encoding: 79 57518 78
+GlifName: uniE_0A_E_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2197,6 +2330,7 @@ EndChar
 
 StartChar: uniE0AF
 Encoding: 80 57519 79
+GlifName: uniE_0A_F_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2217,6 +2351,7 @@ EndChar
 
 StartChar: uniE0B0
 Encoding: 81 57520 80
+GlifName: uniE_0B_0
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2237,6 +2372,7 @@ EndChar
 
 StartChar: uniE0B1
 Encoding: 82 57521 81
+GlifName: uniE_0B_1
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2257,6 +2393,7 @@ EndChar
 
 StartChar: uniE0B2
 Encoding: 83 57522 82
+GlifName: uniE_0B_2
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2275,6 +2412,7 @@ EndChar
 
 StartChar: uniE0B3
 Encoding: 84 57523 83
+GlifName: uniE_0B_3
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2293,6 +2431,7 @@ EndChar
 
 StartChar: uniE0B4
 Encoding: 85 57524 84
+GlifName: uniE_0B_4
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2313,6 +2452,7 @@ EndChar
 
 StartChar: uniE0B5
 Encoding: 86 57525 85
+GlifName: uniE_0B_5
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2331,6 +2471,7 @@ EndChar
 
 StartChar: uniE0B6
 Encoding: 87 57526 86
+GlifName: uniE_0B_6
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2351,6 +2492,7 @@ EndChar
 
 StartChar: uniE0B7
 Encoding: 88 57527 87
+GlifName: uniE_0B_7
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2371,6 +2513,7 @@ EndChar
 
 StartChar: uniE0B8
 Encoding: 89 57528 88
+GlifName: uniE_0B_8
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2391,6 +2534,7 @@ EndChar
 
 StartChar: uniE0B9
 Encoding: 90 57529 89
+GlifName: uniE_0B_9
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2411,6 +2555,7 @@ EndChar
 
 StartChar: uniE0BA
 Encoding: 91 57530 90
+GlifName: uniE_0B_A_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2431,6 +2576,7 @@ EndChar
 
 StartChar: uniE0BB
 Encoding: 92 57531 91
+GlifName: uniE_0B_B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2455,6 +2601,7 @@ EndChar
 
 StartChar: uniE0BC
 Encoding: 93 57532 92
+GlifName: uniE_0B_C_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2479,6 +2626,7 @@ EndChar
 
 StartChar: uniE0BD
 Encoding: 94 57533 93
+GlifName: uniE_0B_D_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2503,6 +2651,7 @@ EndChar
 
 StartChar: uniE0BE
 Encoding: 95 57534 94
+GlifName: uniE_0B_E_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2527,6 +2676,7 @@ EndChar
 
 StartChar: uniE0BF
 Encoding: 96 57535 95
+GlifName: uniE_0B_F_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2551,6 +2701,7 @@ EndChar
 
 StartChar: uniE0C0
 Encoding: 97 57536 96
+GlifName: uniE_0C_0
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2575,6 +2726,7 @@ EndChar
 
 StartChar: uniE0C1
 Encoding: 98 57537 97
+GlifName: uniE_0C_1
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2591,6 +2743,7 @@ EndChar
 
 StartChar: uniE0C2
 Encoding: 99 57538 98
+GlifName: uniE_0C_2
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2607,6 +2760,7 @@ EndChar
 
 StartChar: uniE0C3
 Encoding: 100 57539 99
+GlifName: uniE_0C_3
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2623,6 +2777,7 @@ EndChar
 
 StartChar: uniE0C4
 Encoding: 101 57540 100
+GlifName: uniE_0C_4
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2639,6 +2794,7 @@ EndChar
 
 StartChar: uniE0C5
 Encoding: 102 57541 101
+GlifName: uniE_0C_5
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2655,6 +2811,7 @@ EndChar
 
 StartChar: uniE0C6
 Encoding: 103 57542 102
+GlifName: uniE_0C_6
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2671,6 +2828,7 @@ EndChar
 
 StartChar: uniE0C7
 Encoding: 104 57543 103
+GlifName: uniE_0C_7
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2688,6 +2846,7 @@ EndChar
 
 StartChar: uniE0C8
 Encoding: 105 57544 104
+GlifName: uniE_0C_8
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2705,6 +2864,7 @@ EndChar
 
 StartChar: uniE0C9
 Encoding: 106 57545 105
+GlifName: uniE_0C_9
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2722,6 +2882,7 @@ EndChar
 
 StartChar: uniE0CA
 Encoding: 107 57546 106
+GlifName: uniE_0C_A_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2739,6 +2900,7 @@ EndChar
 
 StartChar: uniE0CB
 Encoding: 108 57547 107
+GlifName: uniE_0C_B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2756,6 +2918,7 @@ EndChar
 
 StartChar: uniE0CC
 Encoding: 109 57548 108
+GlifName: uniE_0C_C_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2773,6 +2936,7 @@ EndChar
 
 StartChar: uniE0CD
 Encoding: 110 57549 109
+GlifName: uniE_0C_D_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2789,6 +2953,7 @@ EndChar
 
 StartChar: uniE0CE
 Encoding: 111 57550 110
+GlifName: uniE_0C_E_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2805,6 +2970,7 @@ EndChar
 
 StartChar: uniE0CF
 Encoding: 112 57551 111
+GlifName: uniE_0C_F_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2821,6 +2987,7 @@ EndChar
 
 StartChar: uniE0D0
 Encoding: 113 57552 112
+GlifName: uniE_0D_0
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2837,6 +3004,7 @@ EndChar
 
 StartChar: uniE0D1
 Encoding: 114 57553 113
+GlifName: uniE_0D_1
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2853,6 +3021,7 @@ EndChar
 
 StartChar: uniE0D2
 Encoding: 115 57554 114
+GlifName: uniE_0D_2
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2869,6 +3038,7 @@ EndChar
 
 StartChar: uniE0D3
 Encoding: 116 57555 115
+GlifName: uniE_0D_3
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2885,6 +3055,7 @@ EndChar
 
 StartChar: uniE0D4
 Encoding: 117 57556 116
+GlifName: uniE_0D_4
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2901,6 +3072,7 @@ EndChar
 
 StartChar: uniE0D5
 Encoding: 118 57557 117
+GlifName: uniE_0D_5
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2917,6 +3089,7 @@ EndChar
 
 StartChar: uniE0D6
 Encoding: 119 57558 118
+GlifName: uniE_0D_6
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2933,6 +3106,7 @@ EndChar
 
 StartChar: uniE0D7
 Encoding: 120 57559 119
+GlifName: uniE_0D_7
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2949,6 +3123,7 @@ EndChar
 
 StartChar: uniE0D8
 Encoding: 121 57560 120
+GlifName: uniE_0D_8
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2965,6 +3140,7 @@ EndChar
 
 StartChar: uniE0D9
 Encoding: 122 57561 121
+GlifName: uniE_0D_9
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -2985,6 +3161,7 @@ EndChar
 
 StartChar: uniE0DA
 Encoding: 123 57562 122
+GlifName: uniE_0D_A_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3004,6 +3181,7 @@ EndChar
 
 StartChar: uniE0DB
 Encoding: 124 57563 123
+GlifName: uniE_0D_B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3023,6 +3201,7 @@ EndChar
 
 StartChar: uniE0DC
 Encoding: 125 57564 124
+GlifName: uniE_0D_C_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3042,6 +3221,7 @@ EndChar
 
 StartChar: uniE0DD
 Encoding: 126 57565 125
+GlifName: uniE_0D_D_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3063,6 +3243,7 @@ EndChar
 
 StartChar: uniE0DE
 Encoding: 127 57566 126
+GlifName: uniE_0D_E_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3084,6 +3265,7 @@ EndChar
 
 StartChar: uniE0DF
 Encoding: 128 57567 127
+GlifName: uniE_0D_F_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3105,6 +3287,7 @@ EndChar
 
 StartChar: uniE0E0
 Encoding: 129 57568 128
+GlifName: uniE_0E_0
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3126,6 +3309,7 @@ EndChar
 
 StartChar: uniE0E1
 Encoding: 130 57569 129
+GlifName: uniE_0E_1
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3147,6 +3331,7 @@ EndChar
 
 StartChar: uniE0E2
 Encoding: 131 57570 130
+GlifName: uniE_0E_2
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3168,6 +3353,7 @@ EndChar
 
 StartChar: uniE0E3
 Encoding: 132 57571 131
+GlifName: uniE_0E_3
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3189,6 +3375,7 @@ EndChar
 
 StartChar: uniE0E4
 Encoding: 133 57572 132
+GlifName: uniE_0E_4
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3210,6 +3397,7 @@ EndChar
 
 StartChar: uniE0E5
 Encoding: 134 57573 133
+GlifName: uniE_0E_5
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3231,6 +3419,7 @@ EndChar
 
 StartChar: uniE0E6
 Encoding: 135 57574 134
+GlifName: uniE_0E_6
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3252,6 +3441,7 @@ EndChar
 
 StartChar: uniE0E7
 Encoding: 136 57575 135
+GlifName: uniE_0E_7
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3273,6 +3463,7 @@ EndChar
 
 StartChar: uniE0E8
 Encoding: 137 57576 136
+GlifName: uniE_0E_8
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3294,6 +3485,7 @@ EndChar
 
 StartChar: uniE0E9
 Encoding: 138 57577 137
+GlifName: uniE_0E_9
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3315,6 +3507,7 @@ EndChar
 
 StartChar: uniE0EA
 Encoding: 139 57578 138
+GlifName: uniE_0E_A_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3336,6 +3529,7 @@ EndChar
 
 StartChar: uniE0EB
 Encoding: 140 57579 139
+GlifName: uniE_0E_B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3357,6 +3551,7 @@ EndChar
 
 StartChar: uniE0EC
 Encoding: 141 57580 140
+GlifName: uniE_0E_C_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3378,6 +3573,7 @@ EndChar
 
 StartChar: uniE0ED
 Encoding: 142 57581 141
+GlifName: uniE_0E_D_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3399,6 +3595,7 @@ EndChar
 
 StartChar: uniE0EE
 Encoding: 143 57582 142
+GlifName: uniE_0E_E_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3420,6 +3617,7 @@ EndChar
 
 StartChar: uniE0EF
 Encoding: 144 57583 143
+GlifName: uniE_0E_F_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3441,6 +3639,7 @@ EndChar
 
 StartChar: uniE0F0
 Encoding: 145 57584 144
+GlifName: uniE_0F_0
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3462,6 +3661,7 @@ EndChar
 
 StartChar: uniE0F1
 Encoding: 146 57585 145
+GlifName: uniE_0F_1
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3485,6 +3685,7 @@ EndChar
 
 StartChar: uniE140
 Encoding: 147 57664 146
+GlifName: uniE_140
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3934,6 +4135,7 @@ EndChar
 
 StartChar: uniE141
 Encoding: 148 57665 147
+GlifName: uniE_141
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3954,6 +4156,7 @@ EndChar
 
 StartChar: uniE142
 Encoding: 149 57666 148
+GlifName: uniE_142
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -3980,6 +4183,7 @@ EndChar
 
 StartChar: uniE143
 Encoding: 150 57667 149
+GlifName: uniE_143
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4004,6 +4208,7 @@ EndChar
 
 StartChar: uniE144
 Encoding: 151 57668 150
+GlifName: uniE_144
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4022,6 +4227,7 @@ EndChar
 
 StartChar: uniE145
 Encoding: 152 57669 151
+GlifName: uniE_145
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4043,6 +4249,7 @@ EndChar
 
 StartChar: uniE146
 Encoding: 153 57670 152
+GlifName: uniE_146
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4061,6 +4268,7 @@ EndChar
 
 StartChar: uniE147
 Encoding: 154 57671 153
+GlifName: uniE_147
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4079,6 +4287,7 @@ EndChar
 
 StartChar: uniE148
 Encoding: 155 57672 154
+GlifName: uniE_148
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4097,6 +4306,7 @@ EndChar
 
 StartChar: uniE149
 Encoding: 156 57673 155
+GlifName: uniE_149
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4115,6 +4325,7 @@ EndChar
 
 StartChar: uniE14A
 Encoding: 157 57674 156
+GlifName: uniE_14A_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4136,6 +4347,7 @@ EndChar
 
 StartChar: uniE14B
 Encoding: 158 57675 157
+GlifName: uniE_14B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4155,6 +4367,7 @@ EndChar
 
 StartChar: uniE14C
 Encoding: 159 57676 158
+GlifName: uniE_14C_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4175,6 +4388,7 @@ EndChar
 
 StartChar: uniE14D
 Encoding: 160 57677 159
+GlifName: uniE_14D_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4193,6 +4407,7 @@ EndChar
 
 StartChar: uniE14E
 Encoding: 161 57678 160
+GlifName: uniE_14E_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4211,6 +4426,7 @@ EndChar
 
 StartChar: uniE14F
 Encoding: 162 57679 161
+GlifName: uniE_14F_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4230,6 +4446,7 @@ EndChar
 
 StartChar: uniE150
 Encoding: 163 57680 162
+GlifName: uniE_150
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4250,6 +4467,7 @@ EndChar
 
 StartChar: uniE151
 Encoding: 164 57681 163
+GlifName: uniE_151
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4268,6 +4486,7 @@ EndChar
 
 StartChar: uniE152
 Encoding: 165 57682 164
+GlifName: uniE_152
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4286,6 +4505,7 @@ EndChar
 
 StartChar: uniE153
 Encoding: 166 57683 165
+GlifName: uniE_153
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4304,6 +4524,7 @@ EndChar
 
 StartChar: uniE154
 Encoding: 167 57684 166
+GlifName: uniE_154
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4325,6 +4546,7 @@ EndChar
 
 StartChar: uniE155
 Encoding: 168 57685 167
+GlifName: uniE_155
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4343,6 +4565,7 @@ EndChar
 
 StartChar: uniE156
 Encoding: 169 57686 168
+GlifName: uniE_156
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4362,6 +4585,7 @@ EndChar
 
 StartChar: uniE157
 Encoding: 170 57687 169
+GlifName: uniE_157
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4387,6 +4611,7 @@ EndChar
 
 StartChar: uniE158
 Encoding: 171 57688 170
+GlifName: uniE_158
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4407,6 +4632,7 @@ EndChar
 
 StartChar: uniE159
 Encoding: 172 57689 171
+GlifName: uniE_159
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4432,6 +4658,7 @@ EndChar
 
 StartChar: uniE15A
 Encoding: 173 57690 172
+GlifName: uniE_15A_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4456,6 +4683,7 @@ EndChar
 
 StartChar: uniE15B
 Encoding: 174 57691 173
+GlifName: uniE_15B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4480,6 +4708,7 @@ EndChar
 
 StartChar: uniE15C
 Encoding: 175 57692 174
+GlifName: uniE_15C_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4504,6 +4733,7 @@ EndChar
 
 StartChar: uniE15D
 Encoding: 176 57693 175
+GlifName: uniE_15D_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4528,6 +4758,7 @@ EndChar
 
 StartChar: uniE15E
 Encoding: 177 57694 176
+GlifName: uniE_15E_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4552,6 +4783,7 @@ EndChar
 
 StartChar: uniE15F
 Encoding: 178 57695 177
+GlifName: uniE_15F_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4576,6 +4808,7 @@ EndChar
 
 StartChar: uniE160
 Encoding: 179 57696 178
+GlifName: uniE_160
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4594,6 +4827,7 @@ EndChar
 
 StartChar: uniE161
 Encoding: 180 57697 179
+GlifName: uniE_161
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4610,6 +4844,7 @@ EndChar
 
 StartChar: uniE162
 Encoding: 181 57698 180
+GlifName: uniE_162
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4626,6 +4861,7 @@ EndChar
 
 StartChar: uniE163
 Encoding: 182 57699 181
+GlifName: uniE_163
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4642,6 +4878,7 @@ EndChar
 
 StartChar: uniE164
 Encoding: 183 57700 182
+GlifName: uniE_164
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4658,6 +4895,7 @@ EndChar
 
 StartChar: uniE165
 Encoding: 184 57701 183
+GlifName: uniE_165
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4674,6 +4912,7 @@ EndChar
 
 StartChar: uniE166
 Encoding: 185 57702 184
+GlifName: uniE_166
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4691,6 +4930,7 @@ EndChar
 
 StartChar: uniE167
 Encoding: 186 57703 185
+GlifName: uniE_167
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4708,6 +4948,7 @@ EndChar
 
 StartChar: uniE168
 Encoding: 187 57704 186
+GlifName: uniE_168
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4725,6 +4966,7 @@ EndChar
 
 StartChar: uniE169
 Encoding: 188 57705 187
+GlifName: uniE_169
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4742,6 +4984,7 @@ EndChar
 
 StartChar: uniE16A
 Encoding: 189 57706 188
+GlifName: uniE_16A_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4759,6 +5002,7 @@ EndChar
 
 StartChar: uniE16B
 Encoding: 190 57707 189
+GlifName: uniE_16B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4775,6 +5019,7 @@ EndChar
 
 StartChar: uniE16C
 Encoding: 191 57708 190
+GlifName: uniE_16C_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4791,6 +5036,7 @@ EndChar
 
 StartChar: uniE16D
 Encoding: 192 57709 191
+GlifName: uniE_16D_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4807,6 +5053,7 @@ EndChar
 
 StartChar: uniE16E
 Encoding: 193 57710 192
+GlifName: uniE_16E_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4823,6 +5070,7 @@ EndChar
 
 StartChar: uniE16F
 Encoding: 194 57711 193
+GlifName: uniE_16F_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4839,6 +5087,7 @@ EndChar
 
 StartChar: uniE170
 Encoding: 195 57712 194
+GlifName: uniE_170
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4855,6 +5104,7 @@ EndChar
 
 StartChar: uniE171
 Encoding: 196 57713 195
+GlifName: uniE_171
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4871,6 +5121,7 @@ EndChar
 
 StartChar: uniE172
 Encoding: 197 57714 196
+GlifName: uniE_172
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4887,6 +5138,7 @@ EndChar
 
 StartChar: uniE173
 Encoding: 198 57715 197
+GlifName: uniE_173
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4903,6 +5155,7 @@ EndChar
 
 StartChar: uniE174
 Encoding: 199 57716 198
+GlifName: uniE_174
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4919,6 +5172,7 @@ EndChar
 
 StartChar: uniE175
 Encoding: 200 57717 199
+GlifName: uniE_175
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4940,6 +5194,7 @@ EndChar
 
 StartChar: uniE176
 Encoding: 201 57718 200
+GlifName: uniE_176
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4961,6 +5216,7 @@ EndChar
 
 StartChar: uniE177
 Encoding: 202 57719 201
+GlifName: uniE_177
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -4991,6 +5247,7 @@ EndChar
 
 StartChar: uniE178
 Encoding: 203 57720 202
+GlifName: uniE_178
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5012,6 +5269,7 @@ EndChar
 
 StartChar: uniE179
 Encoding: 204 57721 203
+GlifName: uniE_179
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5033,6 +5291,7 @@ EndChar
 
 StartChar: uniE17A
 Encoding: 205 57722 204
+GlifName: uniE_17A_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5054,6 +5313,7 @@ EndChar
 
 StartChar: uniE17B
 Encoding: 206 57723 205
+GlifName: uniE_17B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5075,6 +5335,7 @@ EndChar
 
 StartChar: uniE17C
 Encoding: 207 57724 206
+GlifName: uniE_17C_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5096,6 +5357,7 @@ EndChar
 
 StartChar: uniE17D
 Encoding: 208 57725 207
+GlifName: uniE_17D_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5117,6 +5379,7 @@ EndChar
 
 StartChar: uniE17E
 Encoding: 209 57726 208
+GlifName: uniE_17E_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5138,6 +5401,7 @@ EndChar
 
 StartChar: uniE17F
 Encoding: 210 57727 209
+GlifName: uniE_17F_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5159,6 +5423,7 @@ EndChar
 
 StartChar: uniE180
 Encoding: 211 57728 210
+GlifName: uniE_180
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5180,6 +5445,7 @@ EndChar
 
 StartChar: uniE181
 Encoding: 212 57729 211
+GlifName: uniE_181
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5201,6 +5467,7 @@ EndChar
 
 StartChar: uniE182
 Encoding: 213 57730 212
+GlifName: uniE_182
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5222,6 +5489,7 @@ EndChar
 
 StartChar: uniE183
 Encoding: 214 57731 213
+GlifName: uniE_183
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5243,6 +5511,7 @@ EndChar
 
 StartChar: uniE184
 Encoding: 215 57732 214
+GlifName: uniE_184
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5264,6 +5533,7 @@ EndChar
 
 StartChar: uniE185
 Encoding: 216 57733 215
+GlifName: uniE_185
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5285,6 +5555,7 @@ EndChar
 
 StartChar: uniE186
 Encoding: 217 57734 216
+GlifName: uniE_186
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5306,6 +5577,7 @@ EndChar
 
 StartChar: uniE187
 Encoding: 218 57735 217
+GlifName: uniE_187
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5327,6 +5599,7 @@ EndChar
 
 StartChar: uniE188
 Encoding: 219 57736 218
+GlifName: uniE_188
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5348,6 +5621,7 @@ EndChar
 
 StartChar: uniE189
 Encoding: 220 57737 219
+GlifName: uniE_189
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5369,6 +5643,7 @@ EndChar
 
 StartChar: uniE18A
 Encoding: 221 57738 220
+GlifName: uniE_18A_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5390,6 +5665,7 @@ EndChar
 
 StartChar: uniE18B
 Encoding: 222 57739 221
+GlifName: uniE_18B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5411,6 +5687,7 @@ EndChar
 
 StartChar: uniE18C
 Encoding: 223 57740 222
+GlifName: uniE_18C_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5432,6 +5709,7 @@ EndChar
 
 StartChar: uniE18D
 Encoding: 224 57741 223
+GlifName: uniE_18D_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -5453,117 +5731,97 @@ EndChar
 
 StartChar: uniE1E0
 Encoding: 225 57824 224
+GlifName: uniE_1E_0
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-592 593 m 257
- 585 588 577 585 569 581 c 257
+567 600 m 256
+ 572.338232334 600 580.821584326 605 585 605 c 257
+ 592 593 l 257
+ 585 588 577 585 569 581 c 256
  568 581 566 580 565 580 c 256
- 553 574 540 569 527 566 c 256
- 524 565 522 565 519 565 c 256
- 513 565 508 566 503 569 c 256
- 496 573 494 583 493 592 c 257
- 492 593 492 594 492 596 c 257
+ 551.703265268 573.351632634 535.777539708 565 519 565 c 256
+ 500.726289721 565 492 578.277169542 492 596 c 257
  547 613 l 257
  552 602 562 600 567 600 c 256
- 569 600 572 601 574 602 c 256
- 579 603 582 605 585 605 c 257
- 592 593 l 257
-488 600 m 257
- 487 600 486 598 486 597 c 256
- 486 595 486 593 487 591 c 257
- 488 582 490 570 500 564 c 256
- 505 561 512 559 519 559 c 256
- 522 559 525 559 528 560 c 256
- 542 563 555 568 567 574 c 258
- 571 576 l 258
+486 597 m 256
+ 486 577.462604988 495.614933962 559 519 559 c 256
+ 538.938921853 559 556.440319697 568.720159849 571 576 c 256
  576 579 598 584 598 594 c 257
  595 600 586 612 585 612 c 258
  585 612 580 610 572 607 c 256
  570 607 569 606 567 606 c 256
- 563 606 555 608 551 618 c 257
- 551 619 549 620 548 620 c 257
- 488 600 l 257
-566 658 m 257
- 564 658 560 657 556 655 c 257
- 551 654 546 651 543 646 c 256
- 541 644 540 640 540 634 c 258
- 540 630 l 257
- 485 613 l 257
- 485 614 484 615 484 616 c 256
- 481 622 478 629 478 635 c 256
- 478 637 478 639 479 641 c 256
- 482 648 489 654 496 657 c 256
- 508 663 522 666 535 668 c 256
+ 563 606 555 608 551 618 c 256
+ 551 619 549 620 548 620 c 258
+ 488 600 l 258
+ 487 600 486 598 486 597 c 256
+478 635 m 256
+ 478 658.425275352 515.448687026 664.992105696 535 668 c 256
  537 668 538 669 540 669 c 256
  547 671 556 672 565 673 c 257
  566 658 l 257
-481 608 m 257
+ 564 658 560 657 556 655 c 257
+ 547.016880008 653.203376002 540 646.695817393 540 634 c 258
+ 540 630 l 257
+ 485 613 l 258
+ 485 614 484 615 484 616 c 256
+ 481 622 478 629 478 635 c 256
+472 635 m 256
+ 472 624.2658457 477.162370637 615.675258725 481 608 c 256
  481 607 482 606 484 606 c 258
- 544 625 l 257
+ 544 625 l 258
  545 626 546 627 546 629 c 258
  546 634 l 258
  546 640 548 647 557 650 c 256
- 565 652 570 653 570 653 c 257
- 572 654 573 655 573 656 c 257
- 571 676 l 257
+ 566.919506266 652.479876566 573 652.019388859 573 656 c 258
+ 571 676 l 258
  570 677 569 679 568 679 c 256
  558 679 548 677 539 675 c 256
  537 675 536 674 534 674 c 256
  533 674 531 673 530 673 c 256
- 518 670 506 668 494 663 c 256
- 485 659 477 652 473 644 c 256
- 472 641 472 638 472 635 c 256
- 472 627 475 620 478 614 c 258
- 481 608 l 257
-472 847 m 257
- 472 840 466 837 462 834 c 257
+ 507.581299621 667.395324905 472 663.176542597 472 635 c 256
+462 834 m 257
  457 832 452 831 446 831 c 256
  443 831 439 831 435 832 c 256
- 433 832 431 832 430 833 c 257
+ 433 832 431 832 430 833 c 256
  418 834 399 834 391 834 c 256
  389 834 388 836 388 837 c 256
  388 839 389 840 391 841 c 256
  416 847 457 857 461 857 c 256
- 466 857 472 849 472 847 c 257
- 472 847 l 257
-390 847 m 257
- 385 845 382 842 382 836 c 257
+ 466 857 472 849 472 847 c 256
+ 472 840 466 837 462 834 c 257
+382 836 m 257
  383 832 387 828 391 828 c 256
- 399 828 418 828 429 827 c 257
+ 399 828 418 828 429 827 c 256
  431 826 432 826 434 826 c 256
  438 825 442 825 446 825 c 256
- 453 825 459 826 465 829 c 256
- 473 834 478 841 478 850 c 257
+ 463.300723698 825 478 834.440976372 478 850 c 257
  477 858 470 863 461 863 c 256
  455 863 396 848 390 847 c 257
- 390 847 l 257
-458 782 m 257
- 458 768 447 757 433 757 c 256
+ 385 845 382 842 382 836 c 257
+433 757 m 256
  419 757 407 768 407 782 c 256
  407 796 419 808 433 808 c 256
- 447 808 458 796 458 782 c 257
- 458 782 l 257
-401 782 m 257
- 401 765 415 751 433 751 c 256
+ 447 808 458 796 458 782 c 256
+ 458 768 447 757 433 757 c 256
+433 751 m 256
  450 751 464 765 464 782 c 256
  464 800 450 814 433 814 c 256
- 415 814 401 800 401 782 c 257
- 401 782 l 257
-407 904 m 257
- 407 918 419 930 433 930 c 256
+ 415 814 401 800 401 782 c 256
+ 401 765 415 751 433 751 c 256
+433 930 m 256
  447 930 458 918 458 904 c 256
  458 890 447 879 433 879 c 256
- 419 879 407 890 407 904 c 257
- 407 904 l 257
-464 904 m 257
- 464 921 450 936 433 936 c 256
+ 419 879 407 890 407 904 c 256
+ 407 918 419 930 433 930 c 256
+433 936 m 256
  415 936 401 921 401 904 c 256
  401 887 415 873 433 873 c 256
- 450 873 464 887 464 904 c 257
- 464 904 l 257
+ 450 873 464 887 464 904 c 256
+ 464 921 450 936 433 936 c 256
 376 966 m 258
  369 966 366 971 366 975 c 256
  366 979 369 984 377 984 c 256
@@ -5573,31 +5831,27 @@ SplineSet
  428 954 421 958 414 961 c 256
  409 964 405 966 400 966 c 258
  376 966 l 258
-400 960 m 258
- 403 960 407 958 412 956 c 256
- 419 953 427 948 438 948 c 256
- 444 948 452 951 458 954 c 256
- 466 959 470 965 470 973 c 256
+438 948 m 256
+ 452.965599587 948 470 959.057260016 470 973 c 256
  470 984 464 987 453 990 c 257
  377 990 l 258
  366 990 360 982 360 975 c 256
  360 968 365 960 376 960 c 258
  400 960 l 258
-426 713 m 257
- 440 713 451 702 451 688 c 256
+ 412.501444342 960 422.10347328 948 438 948 c 256
+451 688 m 256
  451 674 440 663 426 663 c 256
  412 663 401 674 401 688 c 256
- 401 702 412 713 426 713 c 257
- 426 713 l 257
-426 657 m 257
- 443 657 457 671 457 688 c 256
+ 401 702 412 713 426 713 c 256
+ 440 713 451 702 451 688 c 256
+457 688 m 256
  457 705 443 719 426 719 c 256
  409 719 395 705 395 688 c 256
- 395 671 409 657 426 657 c 257
- 426 657 l 257
+ 395 671 409 657 426 657 c 256
+ 443 657 457 671 457 688 c 256
 348 701 m 257
- 385 701 l 257
- 386 701 388 701 388 703 c 257
+ 385 701 l 258
+ 386 701 388 701 388 703 c 256
  394 718 409 728 425 728 c 256
  447 728 465 710 465 688 c 256
  465 666 447 648 425 648 c 256
@@ -5611,207 +5865,172 @@ SplineSet
  471 714 451 734 425 734 c 256
  407 734 390 723 383 707 c 257
  345 707 l 258
- 343 707 342 705 342 704 c 257
+ 343 707 342 705 342 704 c 258
  342 676 l 258
  342 674 343 673 345 673 c 258
  382 673 l 257
-288 985 m 257
- 288 781 l 258
- 288 776 287 771 277 767 c 256
- 267 762 256 760 245 758 c 256
- 243 758 240 757 237 757 c 257
- 230 755 l 258
- 222 753 214 751 206 751 c 256
- 200 751 195 753 191 755 c 256
- 185 758 182 764 181 770 c 256
- 181 773 181 778 185 782 c 256
- 191 788 205 791 215 791 c 258
+181 770 m 256
+ 181 786.026109444 199.620877629 791 215 791 c 258
  232 791 l 258
  243 791 257 794 268 794 c 257
  272 796 275 799 275 809 c 256
  275 819 275 962 274 985 c 257
  288 985 l 257
-215 797 m 258
- 207 797 189 795 181 786 c 257
- 177 783 175 778 175 769 c 257
- 176 761 181 754 188 750 c 256
- 193 747 199 745 206 745 c 256
- 215 745 223 747 231 749 c 258
- 238 751 l 257
- 241 751 244 752 247 752 c 256
- 258 754 269 757 279 761 c 256
- 287 764 294 769 294 781 c 258
+ 288 781 l 258
+ 288 765.386193422 259.274164212 760.595302584 245 758 c 256
+ 243 758 240 757 237 757 c 256
+ 227.742308148 754.354945185 216.333099641 751 206 751 c 256
+ 192.185173143 751 182.849859398 758.900843609 181 770 c 256
+247 752 m 256
+ 264.905237885 755.255497797 294 758.963492973 294 781 c 258
  294 988 l 258
  294 990 293 991 291 991 c 258
- 271 991 l 257
+ 271 991 l 258
  270 991 268 989 268 988 c 256
  268 986 269 820 269 809 c 256
  269 805 268 800 263 798 c 256
  261 798 250 797 232 797 c 258
  215 797 l 258
-201 697 m 258
- 196 699 191 702 189 704 c 256
- 185 706 181 712 180 716 c 256
- 180 719 181 722 182 723 c 256
- 185 727 197 729 198 729 c 256
- 207 729 216 724 223 717 c 256
- 229 711 232 703 233 693 c 257
+ 207 797 189 795 181 786 c 256
+ 177 783 175 778 175 769 c 257
+ 176.718718307 755.250253541 189.882582563 745 206 745 c 256
+ 217.5996051 745 228.320565851 748.234447386 238 751 c 256
+ 241 751 244 752 247 752 c 256
+198 729 m 256
+ 216.733929779 729 231.088229064 712.117709361 233 693 c 257
  233 582 l 257
  219 582 l 257
  219 597 220 660 220 671 c 256
  220 684 217 688 213 691 c 258
  201 697 l 258
-236 576 m 257
- 237 576 239 577 239 579 c 258
- 239 693 l 258
- 239 702 235 713 227 721 c 256
- 220 729 209 735 197 735 c 256
- 191 735 183 733 178 727 c 256
- 175 724 174 720 174 716 c 256
- 175 709 180 702 185 699 c 256
- 188 697 193 694 199 692 c 256
- 202 690 209 686 210 686 c 257
+ 191.221024602 700.911590159 182.385336922 706.458652314 180 716 c 256
+ 180 725.908193795 192.881567565 729 198 729 c 256
+239 693 m 258
+ 239 713.731341626 219.341320095 735 197 735 c 256
+ 187.088784484 735 174 728.574639527 174 716 c 256
+ 175.925701242 702.520091305 186.611019987 696.129660004 199 692 c 256
+ 202 690 209 686 210 686 c 256
  211 684 214 682 214 671 c 256
  214 658 213 580 213 579 c 256
  213 578 214 576 216 576 c 258
- 236 576 l 257
-176 643 m 257
- 163 643 152 652 152 662 c 256
+ 236 576 l 258
+ 237 576 239 577 239 579 c 258
+ 239 693 l 258
+152 662 m 256
  152 673 163 682 176 682 c 256
  189 682 200 673 200 662 c 256
- 200 652 189 643 176 643 c 257
- 176 643 l 257
-176 688 m 257
- 160 688 146 676 146 662 c 256
+ 200 652 189 643 176 643 c 256
+ 163 643 152 652 152 662 c 256
+146 662 m 256
  146 649 160 637 176 637 c 256
  192 637 206 649 206 662 c 256
- 206 676 192 688 176 688 c 257
- 176 688 l 257
-222 851 m 258
+ 206 676 192 688 176 688 c 256
+ 160 688 146 676 146 662 c 256
+241 846 m 258
+ 241 829.79028582 222.297329575 812 206 812 c 256
+ 197.2828944 812 189 815.684683039 189 825 c 256
+ 191.58239493 835.329579721 199.917826503 839.967130601 210 844 c 257
+ 222 851 l 258
  225 853 228 857 228 870 c 258
  228 985 l 257
  241 985 l 257
  241 846 l 258
- 241 839 237 831 231 824 c 256
- 224 817 215 812 206 812 c 256
- 200 812 194 814 191 818 c 256
- 189 820 189 822 189 825 c 256
- 190 829 193 835 197 837 c 256
- 200 839 205 842 210 844 c 258
- 222 851 l 258
-247 988 m 258
+206 806 m 256
+ 227.873380647 806 247 825.47981414 247 849 c 258
+ 247 988 l 258
  247 990 246 991 244 991 c 258
- 225 991 l 257
+ 225 991 l 258
  224 991 222 990 222 988 c 258
  222 870 l 258
  222 865 218 856 218 855 c 257
- 217 855 211 852 207 850 c 256
- 202 847 197 844 194 843 c 256
+ 213.213745425 855 197.928668681 844.309556227 194 843 c 256
  188 839 184 832 183 823 c 256
- 183 819 184 816 186 814 c 256
- 191 808 200 806 206 806 c 256
- 217 806 228 811 236 820 c 256
- 243 828 247 837 247 849 c 258
- 247 988 l 258
-190 985 m 257
- 202 985 l 257
- 202 885 l 258
- 202 879 202 873 200 868 c 256
- 198 864 192 858 184 858 c 256
- 183 858 181 858 179 859 c 256
- 176 860 174 862 174 868 c 256
+ 183 810.472395298 197.041873342 806 206 806 c 256
+184 858 m 256
+ 178.102456878 858 174 860.157830674 174 868 c 256
  174 873 176 879 179 882 c 256
  186 889 190 899 190 911 c 258
  190 985 l 257
-208 988 m 258
- 208 990 206 991 205 991 c 257
- 187 991 l 257
+ 202 985 l 257
+ 202 885 l 258
+ 202 870.696574717 199.413080446 858 184 858 c 256
+184 852 m 256
+ 203.237873825 852 208 867.056421614 208 885 c 258
+ 208 988 l 258
+ 208 990 206 991 205 991 c 258
+ 187 991 l 258
  186 991 184 990 184 988 c 258
  184 911 l 258
  184 901 181 892 175 886 c 256
  171 883 167 876 167 869 c 256
  167 867 168 866 168 864 c 256
- 169 859 172 855 177 853 c 256
- 178 852 180 852 184 852 c 256
- 195 852 203 860 206 866 c 256
- 208 872 208 879 208 885 c 258
- 208 988 l 258
+ 169.442686551 856.786567246 174.118107823 852 184 852 c 256
 89 985 m 257
  101 985 l 257
  101 901 l 258
  101 896 102 884 108 879 c 256
  112 875 117 873 121 871 c 256
- 123 870 125 868 128 867 c 257
- 135 862 142 857 147 851 c 256
- 150 847 152 840 152 834 c 258
+ 123 870 125 868 128 867 c 256
+ 139.092206295 859.076995504 152 852.126735354 152 834 c 258
  152 830 l 257
- 150 824 146 819 141 819 c 258
- 141 819 139 819 138 820 c 256
- 134 822 122 840 115 852 c 256
+ 150 824 146 819 141 819 c 256
+ 133.988322788 819 122.42268637 839.275394794 115 852 c 256
  112 858 102 867 101 868 c 256
  94 875 89 882 89 897 c 258
  89 985 l 257
-112 883 m 257
+141 813 m 256
+ 151.755913315 813 158 824.381843603 158 835 c 256
+ 158 855.527837662 142.860513386 863.528204724 131 872 c 257
+ 112 883 l 257
  109 886 107 894 107 901 c 258
  107 988 l 258
  107 990 106 991 104 991 c 258
  86 991 l 258
  84 991 83 990 83 988 c 258
  83 897 l 258
- 83 878 90 871 98 863 c 256
- 102 859 106 855 110 849 c 257
- 110 848 128 818 135 815 c 256
- 136 814 138 813 141 813 c 256
- 149 813 156 821 157 828 c 256
- 158 830 158 833 158 835 c 256
- 158 842 156 850 152 855 c 256
- 146 862 138 867 131 872 c 258
- 112 883 l 257
-51 985 m 257
+ 83 868.719033559 99.1045512721 865.343173092 110 849 c 256
+ 110 845.903790825 130.393909079 813 141 813 c 256
+77 824 m 256
+ 64.7749615236 839.281298096 51 863.437977693 51 884 c 258
+ 51 985 l 257
  64 985 l 257
  64 888 l 258
  64 881 67 873 70 870 c 256
- 72 868 86 855 97 841 c 256
- 100 837 102 832 102 826 c 256
- 102 824 102 821 101 819 c 256
- 100 814 96 809 91 809 c 258
- 91 809 88 809 88 810 c 257
- 84 812 81 817 78 821 c 257
- 78 822 77 823 77 824 c 257
- 73 829 l 257
- 71 832 l 258
- 61 848 51 866 51 884 c 258
- 51 985 l 257
-70 988 m 258
+ 71.5701269138 868.429873086 102 843.863762057 102 826 c 256
+ 102 818.058192967 98.4044066337 809 91 809 c 257
+ 91 809 88 809 88 810 c 256
+ 84 812 81 817 78 821 c 256
+ 78 822 77 823 77 824 c 256
+91 803 m 256
+ 100.957113705 803 108 813.613328008 108 825 c 256
+ 108 832 106 840 102 844 c 256
+ 90 859 76 873 74 875 c 256
+ 73 875 70 881 70 888 c 258
+ 70 988 l 258
  70 990 69 991 67 991 c 258
- 48 991 l 257
+ 48 991 l 258
  47 991 45 990 45 988 c 258
  45 884 l 258
  45 863 58 844 68 826 c 256
- 69 824 71 820 73 818 c 256
- 76 813 79 807 85 804 c 257
+ 71.6603902412 818.679219518 77.1189028775 807.940548561 85 804 c 256
  86 804 88 803 91 803 c 256
- 99 803 105 810 107 818 c 256
- 108 820 108 823 108 825 c 256
- 108 832 106 840 102 844 c 256
- 90 859 76 873 74 875 c 257
- 73 875 70 881 70 888 c 258
- 70 988 l 258
-51 701 m 258
- 51 699 51 697 50 695 c 256
- 49 690 48 684 48 676 c 256
- 48 672 48 668 49 663 c 256
- 52 646 53 637 53 634 c 256
+48 676 m 256
+ 48 664.469514531 53 634.704701225 53 634 c 256
  53 632 53 630 52 629 c 257
  52 629 50 630 49 634 c 257
  39 651 25 700 25 729 c 256
  25 732 26 735 26 738 c 256
  29 759 36 771 46 771 c 257
  58 769 64 760 64 750 c 256
- 64 748 64 745 63 743 c 256
- 61 736 59 727 56 719 c 258
- 51 701 l 258
-69 742 m 258
+ 64 739.537588584 59.6877417763 728.83397807 56 719 c 258
+ 51 701 l 257
+ 51 692.706749586 48 687.084112197 48 676 c 256
+59 638 m 257
+ 59 638 54 664.004234034 54 676 c 256
+ 54 684 55 689 56 694 c 256
+ 56 696 57 698 57 700 c 256
+ 57 703 60 710 62 717 c 258
+ 69 742 l 258
  69 744 70 747 70 749 c 256
  70 762 63 773 51 777 c 257
  46 777 l 258
@@ -5819,79 +6038,54 @@ SplineSet
  20 736 19 733 19 729 c 256
  19 699 33 649 43 631 c 256
  46 626 49 623 52 623 c 256
- 54 623 56 624 57 625 c 256
- 58 627 59 631 59 634 c 258
+ 57.6877548907 623 59 628.401818466 59 634 c 258
  59 638 l 257
- 59 638 58 647 55 664 c 256
- 54 668 54 673 54 676 c 256
- 54 684 55 689 56 694 c 256
- 56 696 57 698 57 700 c 256
- 57 703 60 710 62 717 c 258
- 69 742 l 258
-20 841 m 257
- 21 842 23 842 25 842 c 256
- 33 842 41 835 46 826 c 256
- 48 822 48 818 48 814 c 256
- 48 806 45 799 39 796 c 256
- 38 795 36 795 34 795 c 256
- 26 795 17 801 13 811 c 256
- 11 815 11 819 11 823 c 256
- 11 831 14 838 20 841 c 257
- 20 841 l 257
-34 789 m 257
- 37 789 39 789 42 790 c 256
- 50 794 54 803 54 813 c 256
- 54 818 53 823 51 828 c 256
- 46 840 35 848 25 848 c 256
- 22 848 20 847 17 846 c 256
- 9 843 5 834 5 824 c 256
- 5 819 6 814 8 809 c 256
- 13 797 23 789 34 789 c 257
- 34 789 l 257
-25 308 m 257
- 8 308 l 257
- 8 357 l 258
- 8 405 31 460 82 475 c 256
- 91 477 102 479 113 479 c 256
- 122 479 130 478 136 475 c 257
- 144 473 157 466 163 456 c 256
- 164 453 165 450 165 447 c 256
- 165 444 164 440 163 438 c 256
- 162 435 159 432 154 431 c 257
+11 823 m 256
+ 11 832.201824103 15.0215378373 842 25 842 c 256
+ 35.9882703694 842 48 829.247072806 48 814 c 256
+ 48 804.798175897 43.9784621627 795 34 795 c 256
+ 22.2285996631 795 11 807.081286622 11 823 c 256
+34 789 m 256
+ 48.2601686564 789 54 800.430173767 54 813 c 256
+ 54 831.924651047 39.395866472 848 25 848 c 256
+ 11.8986406773 848 5 836.767857494 5 824 c 256
+ 5 805.075348953 18.8367852695 789 34 789 c 256
+165 447 m 256
+ 165 438.683618489 161.982235636 432.596447127 154 431 c 256
  153 431 152 430 151 430 c 256
- 144 430 137 434 130 438 c 258
- 126 440 l 258
+ 142.707587479 430 133.748439662 436.125780169 126 440 c 256
  118 444 110 446 102 446 c 256
  79 446 55 430 40 405 c 256
  27 382 25 359 25 337 c 258
  25 308 l 257
-127 432 m 257
- 134 429 142 424 151 424 c 256
- 152 424 154 425 155 425 c 256
- 161 426 166 430 169 435 c 256
- 170 438 171 442 171 446 c 256
- 171 450 170 454 168 458 c 256
- 162 471 147 478 139 481 c 256
- 132 484 123 485 113 485 c 256
- 102 485 90 483 80 481 c 257
- 26 465 2 407 2 357 c 258
- 2 305 l 257
+ 8 308 l 257
+ 8 357 l 258
+ 8 414.683851896 39.9288477774 479 113 479 c 256
+ 122 479 130 478 136 475 c 257
+ 145.162106249 472.709473438 165 463.07693247 165 447 c 256
+113 485 m 256
+ 35.4753704702 485 2 417.381708139 2 357 c 258
+ 2 305 l 258
  2 304 3 302 5 302 c 258
  28 302 l 258
- 30 302 31 304 31 305 c 257
+ 30 302 31 304 31 305 c 258
  31 337 l 258
  31 357 32 379 45 402 c 256
  59 425 81 440 102 440 c 256
- 109 440 116 438 123 435 c 257
- 127 432 l 257
+ 110.671142132 440 120.735562245 436.698328316 127 432 c 257
+ 134 429 142 424 151 424 c 256
+ 152 424 154 425 155 425 c 256
+ 164.557686235 426.592947706 171 434.126430018 171 446 c 256
+ 171 465.99919128 149.279868526 477.145049303 139 481 c 256
+ 132 484 123 485 113 485 c 256
 205 355 m 257
- 163 355 l 257
+ 163 355 l 258
  162 355 160 354 160 352 c 256
  154 328 132 310 107 310 c 256
  78 310 53 334 53 364 c 256
  53 394 78 418 107 418 c 256
- 132 418 153 402 160 378 c 257
- 160 377 161 376 162 376 c 257
+ 132 418 153 402 160 378 c 256
+ 160 377 161 376 162 376 c 258
  205 376 l 257
  205 355 l 257
 208 349 m 258
@@ -5906,8 +6100,7 @@ SplineSet
  208 349 l 258
 46 212 m 257
  48 219 49 227 53 235 c 256
- 59 249 70 261 85 270 c 256
- 99 278 116 284 131 285 c 258
+ 64.022506516 260.719181871 97.1595672657 282.743971151 131 285 c 257
  140 285 l 258
  164 285 181 278 181 268 c 256
  181 252 172 245 150 245 c 256
@@ -5921,9 +6114,9 @@ SplineSet
  187 284 163 291 140 291 c 258
  131 291 l 257
  100 288 63 271 47 238 c 256
- 43 228 41 218 40 209 c 257
+ 43 228 41 218 40 209 c 256
  40 208 41 206 43 206 c 258
- 64 206 l 257
+ 64 206 l 258
  65 206 66 206 67 207 c 256
  77 226 108 240 130 240 c 258
  136 240 l 258
@@ -5933,16 +6126,14 @@ SplineSet
  100 153 l 257
  98 152 96 152 94 152 c 256
  92 152 91 152 89 153 c 257
- 90 157 l 258
- 91 166 92 175 95 181 c 256
+ 91.3046500122 162.218600049 91.5186158044 174.037231609 95 181 c 256
  105 205 133 221 169 225 c 257
  177 225 l 258
  194 225 211 220 211 208 c 256
  211 192 203 186 184 186 c 258
  175 186 l 257
 168 231 m 257
- 151 229 135 225 122 218 c 256
- 107 209 96 198 89 184 c 256
+ 130.587674416 226.598549931 102.485419173 210.970838346 89 184 c 256
  86 177 85 168 84 159 c 256
  84 156 83 152 83 150 c 256
  83 149 85 147 86 147 c 256
@@ -5956,24 +6147,24 @@ SplineSet
  192 180 217 180 217 208 c 256
  217 222 201 231 177 231 c 258
  168 231 l 257
-421 13 m 257
- 421 48 l 258
- 421 57 401 77 380 83 c 256
- 376 84 372 85 368 85 c 257
- 353 88 335 92 330 102 c 257
- 328 104 328 107 328 110 c 256
- 328 113 328 116 330 120 c 256
- 334 131 339 136 340 138 c 257
+368 85 m 257
+ 350.653452184 88.4693095632 328 92.1454323576 328 110 c 256
+ 328 120.579119431 339.358646072 136.717292144 340 138 c 257
  384 116 l 257
  386 103 405 87 417 80 c 256
  429 73 432 71 432 65 c 256
  433 58 434 23 434 13 c 257
  421 13 l 257
-378 77 m 258
+ 421 48 l 258
+ 421 58.3774930545 393.246409912 85 368 85 c 257
+322 109 m 256
+ 322 88.299229485 345.722027299 84.4271198814 364 81 c 256
+ 365 81 366 80 367 80 c 258
+ 378 77 l 258
  399 72 415 52 415 48 c 258
  415 10 l 258
  415 8 417 7 418 7 c 256
- 437 7 437 7 437 7 c 257
+ 437 7 437 7 437 7 c 258
  439 7 440 8 440 10 c 256
  440 15 439 57 438 65 c 256
  438 73 429 85 420 85 c 257
@@ -5982,59 +6173,42 @@ SplineSet
  341 144 340 144 339 144 c 256
  338 143 331 140 324 122 c 256
  322 117 322 113 322 109 c 256
- 322 105 322 102 324 99 c 256
- 331 88 348 84 364 81 c 257
- 365 81 366 80 367 80 c 257
- 378 77 l 258
-428 509 m 257
- 416 509 404 498 395 492 c 257
+439 497 m 256
+ 439 505.319967038 436.594708086 507.281058383 428 509 c 257
+ 416 509 404 498 395 492 c 256
  395 491 394 490 393 490 c 256
  391 488 388 487 385 487 c 256
  384 487 382 490 382 491 c 256
- 386 499 395 507 409 515 c 256
- 417 519 424 521 432 521 c 256
- 436 521 439 521 443 520 c 256
- 458 517 468 512 474 504 c 256
- 478 499 482 491 482 484 c 256
- 482 482 482 479 481 477 c 256
- 478 469 468 465 463 464 c 256
+ 387.422294667 501.844589333 410.455393315 521 432 521 c 256
+ 458.491840205 521 482 507.449187608 482 484 c 256
+ 482 471.179277275 470.305745967 465.461149193 463 464 c 256
  461 464 459 463 457 463 c 256
  453 463 450 464 448 465 c 256
  440 468 438 487 438 488 c 256
  439 491 439 494 439 497 c 256
- 439 500 439 503 437 505 c 256
- 436 507 433 508 428 509 c 257
- 428 509 l 257
-433 488 m 257
- 432 487 432 486 432 482 c 256
- 432 472 436 464 445 460 c 256
- 448 458 452 457 457 457 c 256
- 459 457 462 458 464 458 c 256
- 471 460 483 464 487 474 c 256
- 488 477 488 480 488 483 c 256
- 488 492 484 501 479 508 c 256
- 469 519 455 523 444 526 c 256
- 440 527 436 527 432 527 c 256
- 423 527 415 525 406 520 c 256
- 391 512 381 503 377 493 c 256
- 376 491 375 489 375 488 c 256
- 375 486 376 485 377 484 c 256
- 378 482 381 481 385 481 c 256
+375 488 m 256
+ 375 483.322064592 379.418930701 481 385 481 c 256
  387 481 399 483 399 487 c 257
  407 493 419 503 428 503 c 256
  429 503 432 503 432 501 c 257
  433 500 433 497 433 495 c 258
  433 488 l 257
-389 138 m 257
- 352 156 l 257
- 354 159 l 258
- 359 169 364 179 378 179 c 256
+ 432 487 432 486 432 482 c 256
+ 432 468.134939301 441.243447898 457 457 457 c 256
+ 459 457 462 458 464 458 c 256
+ 473.936615327 460.839032951 488 465.991357514 488 483 c 256
+ 488 512.104589207 457.763056562 527 432 527 c 256
+ 408.277186466 527 382.593102922 506.982757305 377 493 c 256
+ 376 491 375 489 375 488 c 256
+352 156 m 257
+ 358.773902425 166.160853638 361.902017495 179 378 179 c 256
  386 179 395 175 407 169 c 257
  389 138 l 257
+ 352 156 l 257
 414 169 m 257
- 414 171 413 172 413 173 c 257
+ 414 171 413 172 413 173 c 256
  399 181 387 185 378 185 c 256
- 359 185 352 170 345 156 c 257
+ 359 185 352 170 345 156 c 256
  345 155 347 152 347 152 c 257
  361 145 375 136 390 131 c 257
  414 169 l 257
@@ -6045,96 +6219,80 @@ SplineSet
  479 64 476 90 470 98 c 256
  459 112 422 126 410 130 c 257
  427 159 l 257
- 434 156 440 153 446 149 c 258
- 451 145 l 258
- 460 139 470 133 477 125 c 256
- 483 118 489 110 490 99 c 257
+ 436.138208276 155.083625024 443.785506289 150.771594969 451 145 c 256
+ 466.797738041 134.46817464 487.869948018 122.430571799 490 99 c 257
  490 81 l 258
-403 130 m 257
- 403 129 404 126 405 125 c 257
+403 130 m 258
+ 403 129 404 126 405 125 c 258
  405 125 454 109 466 94 c 256
  470 88 473 60 473 9 c 256
  473 8 474 6 476 6 c 258
  492 6 l 258
- 494 6 495 8 495 9 c 257
+ 494 6 495 8 495 9 c 258
  495 70 l 258
  495 74 496 77 496 81 c 258
  496 99 l 257
- 495 112 488 121 481 129 c 256
- 474 137 464 144 455 150 c 256
- 453 151 451 152 449 154 c 256
- 444 157 434 166 426 166 c 256
- 425 166 424 165 423 165 c 257
- 403 130 l 257
-559 187 m 257
+ 494.07291558 124.052097463 471.710872843 138.859418105 455 150 c 256
+ 447.596164585 153.701917708 437.036243636 166 426 166 c 256
+ 425 166 424 165 423 165 c 258
+ 403 130 l 258
+432 209 m 256
+ 432 216.790642446 437.514903739 228 451 228 c 256
+ 458 228 520 212 560 202 c 256
+ 563 201 566 195 566 193 c 256
+ 566 190 564 187 559 187 c 256
  548 187 518 187 500 184 c 256
  497 184 495 183 492 183 c 256
  487 182 476 181 473 181 c 256
  465 181 457 183 449 187 c 256
  435 195 432 203 432 209 c 256
- 432 211 432 214 433 215 c 256
- 434 218 440 228 451 228 c 256
- 458 228 520 212 560 202 c 256
- 563 201 566 195 566 193 c 256
- 566 190 564 187 559 187 c 257
- 559 187 l 257
-561 207 m 257
- 551 210 461 234 451 234 c 256
- 437 234 430 222 428 218 c 256
- 427 216 426 213 426 209 c 256
+451 234 m 256
+ 433.944657723 234 426 219.53198123 426 209 c 256
  426 201 430 191 446 182 c 256
  454 178 462 175 473 175 c 256
  480 175 487 176 493 177 c 256
  496 177 498 178 501 178 c 256
  519 181 548 181 559 181 c 256
  566 181 571 186 572 194 c 256
- 572 199 570 204 561 207 c 257
- 561 207 l 257
-566 251 m 257
- 556 251 532 251 518 249 c 257
- 516 248 514 248 512 248 c 256
- 508 247 499 246 497 246 c 256
- 490 246 484 248 477 251 c 256
- 470 254 466 259 465 263 c 256
- 465 265 464 266 464 267 c 256
- 464 269 465 271 466 272 c 256
- 469 278 473 281 478 281 c 256
+ 572 199 570 204 561 207 c 256
+ 551 210 461 234 451 234 c 256
+464 267 m 256
+ 464 274.624386816 472.963380251 281 478 281 c 256
  484 281 534 269 566 260 c 256
  569 259 571 257 571 255 c 256
- 571 253 569 251 566 251 c 257
- 566 251 l 257
-567 266 m 257
- 559 268 487 287 478 287 c 256
- 471 287 465 283 460 275 c 257
- 460 274 458 270 458 266 c 256
- 458 265 458 263 459 262 c 257
- 460 257 464 251 474 246 c 256
- 481 243 488 240 497 240 c 256
+ 571 253 569 251 566 251 c 256
+ 556 251 532 251 518 249 c 256
+ 516 248 514 248 512 248 c 256
+ 508 247 499 246 497 246 c 256
+ 484.704693608 246 467.330865895 253.676536422 465 263 c 256
+ 465 265 464 266 464 267 c 256
+458 266 m 256
+ 458 252.178320108 479.246803345 240 497 240 c 256
  502 240 507 241 513 242 c 256
  515 242 517 243 519 243 c 256
  533 245 557 245 566 245 c 256
  571 245 576 249 577 254 c 256
- 577 258 575 264 567 266 c 257
- 567 266 l 257
-523 319 m 257
- 509 319 498 330 498 344 c 256
+ 577 258 575 264 567 266 c 256
+ 559 268 487 287 478 287 c 256
+ 471 287 465 283 460 275 c 256
+ 460 274 458 270 458 266 c 256
+498 344 m 256
  498 358 509 370 523 370 c 256
  537 370 549 358 549 344 c 256
- 549 330 537 319 523 319 c 257
- 523 319 l 257
-523 376 m 257
- 506 376 492 362 492 344 c 256
+ 549 330 537 319 523 319 c 256
+ 509 319 498 330 498 344 c 256
+492 344 m 256
  492 327 506 313 523 313 c 256
  540 313 555 327 555 344 c 256
- 555 362 540 376 523 376 c 257
- 523 376 l 257
+ 555 362 540 376 523 376 c 256
+ 506 376 492 362 492 344 c 256
 601 332 m 257
- 564 332 l 257
+ 564 332 l 258
  563 332 562 331 561 330 c 256
  555 314 540 304 524 304 c 256
  502 304 484 322 484 344 c 256
  484 366 502 384 524 384 c 256
- 541 384 557 373 562 356 c 257
+ 541 384 557 373 562 356 c 256
  562 355 563 354 565 354 c 258
  601 354 l 257
  601 332 l 257
@@ -6145,28 +6303,27 @@ SplineSet
  542 298 559 309 566 326 c 257
  604 326 l 258
  606 326 607 327 607 329 c 258
- 607 357 l 257
+ 607 357 l 258
  607 358 606 360 604 360 c 258
  567 360 l 257
-503 437 m 257
- 503 451 514 463 528 463 c 256
+528 463 m 256
  542 463 554 451 554 437 c 256
  554 423 542 412 528 412 c 256
- 514 412 503 423 503 437 c 257
- 503 437 l 257
-560 437 m 257
- 560 455 546 469 528 469 c 256
+ 514 412 503 423 503 437 c 256
+ 503 451 514 463 528 463 c 256
+528 469 m 256
  511 469 497 455 497 437 c 256
  497 420 511 406 528 406 c 256
- 546 406 560 420 560 437 c 257
- 560 437 l 257
+ 546 406 560 420 560 437 c 256
+ 560 455 546 469 528 469 c 256
 EndSplineSet
-Validated: 133
+Validated: 9
 Comment: "bassonChart"
 EndChar
 
 StartChar: uniE1E1
 Encoding: 226 57825 225
+GlifName: uniE_1E_1
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6196,6 +6353,7 @@ EndChar
 
 StartChar: uniE1E2
 Encoding: 227 57826 226
+GlifName: uniE_1E_2
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6217,6 +6375,7 @@ EndChar
 
 StartChar: uniE1E3
 Encoding: 228 57827 227
+GlifName: uniE_1E_3
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6235,6 +6394,7 @@ EndChar
 
 StartChar: uniE1E4
 Encoding: 229 57828 228
+GlifName: uniE_1E_4
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6257,6 +6417,7 @@ EndChar
 
 StartChar: uniE1E5
 Encoding: 230 57829 229
+GlifName: uniE_1E_5
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6275,6 +6436,7 @@ EndChar
 
 StartChar: uniE1E6
 Encoding: 231 57830 230
+GlifName: uniE_1E_6
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6301,6 +6463,7 @@ EndChar
 
 StartChar: uniE1E7
 Encoding: 232 57831 231
+GlifName: uniE_1E_7
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6319,6 +6482,7 @@ EndChar
 
 StartChar: uniE1E8
 Encoding: 233 57832 232
+GlifName: uniE_1E_8
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6345,6 +6509,7 @@ EndChar
 
 StartChar: uniE1E9
 Encoding: 234 57833 233
+GlifName: uniE_1E_9
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6369,6 +6534,7 @@ EndChar
 
 StartChar: uniE1EA
 Encoding: 235 57834 234
+GlifName: uniE_1E_A_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6400,6 +6566,7 @@ EndChar
 
 StartChar: uniE1EB
 Encoding: 236 57835 235
+GlifName: uniE_1E_B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6418,6 +6585,7 @@ EndChar
 
 StartChar: uniE1EC
 Encoding: 237 57836 236
+GlifName: uniE_1E_C_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6444,6 +6612,7 @@ EndChar
 
 StartChar: uniE1ED
 Encoding: 238 57837 237
+GlifName: uniE_1E_D_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6462,6 +6631,7 @@ EndChar
 
 StartChar: uniE1EE
 Encoding: 239 57838 238
+GlifName: uniE_1E_E_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6485,6 +6655,7 @@ EndChar
 
 StartChar: uniE1EF
 Encoding: 240 57839 239
+GlifName: uniE_1E_F_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6509,6 +6680,7 @@ EndChar
 
 StartChar: uniE1F0
 Encoding: 241 57840 240
+GlifName: uniE_1F_0
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6527,6 +6699,7 @@ EndChar
 
 StartChar: uniE1F1
 Encoding: 242 57841 241
+GlifName: uniE_1F_1
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6549,6 +6722,7 @@ EndChar
 
 StartChar: uniE1F2
 Encoding: 243 57842 242
+GlifName: uniE_1F_2
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6573,6 +6747,7 @@ EndChar
 
 StartChar: uniE1F3
 Encoding: 244 57843 243
+GlifName: uniE_1F_3
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6596,6 +6771,7 @@ EndChar
 
 StartChar: uniE1F4
 Encoding: 245 57844 244
+GlifName: uniE_1F_4
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6619,6 +6795,7 @@ EndChar
 
 StartChar: uniE1F5
 Encoding: 246 57845 245
+GlifName: uniE_1F_5
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6646,6 +6823,7 @@ EndChar
 
 StartChar: uniE1F6
 Encoding: 247 57846 246
+GlifName: uniE_1F_6
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6669,6 +6847,7 @@ EndChar
 
 StartChar: uniE1F7
 Encoding: 248 57847 247
+GlifName: uniE_1F_7
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6687,6 +6866,7 @@ EndChar
 
 StartChar: uniE1F8
 Encoding: 249 57848 248
+GlifName: uniE_1F_8
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6713,6 +6893,7 @@ EndChar
 
 StartChar: uniE1F9
 Encoding: 250 57849 249
+GlifName: uniE_1F_9
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6739,6 +6920,7 @@ EndChar
 
 StartChar: uniE1FA
 Encoding: 251 57850 250
+GlifName: uniE_1F_A_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6761,6 +6943,7 @@ EndChar
 
 StartChar: uniE1FB
 Encoding: 252 57851 251
+GlifName: uniE_1F_B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6788,6 +6971,7 @@ EndChar
 
 StartChar: uniE1FC
 Encoding: 253 57852 252
+GlifName: uniE_1F_C_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6816,6 +7000,7 @@ EndChar
 
 StartChar: uniE1FD
 Encoding: 254 57853 253
+GlifName: uniE_1F_D_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6836,6 +7021,7 @@ EndChar
 
 StartChar: uniE1FE
 Encoding: 255 57854 254
+GlifName: uniE_1F_E_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6858,6 +7044,7 @@ EndChar
 
 StartChar: uniE1FF
 Encoding: 256 57855 255
+GlifName: uniE_1F_F_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6880,6 +7067,7 @@ EndChar
 
 StartChar: uniE200
 Encoding: 257 57856 256
+GlifName: uniE_200
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6896,6 +7084,7 @@ EndChar
 
 StartChar: uniE201
 Encoding: 258 57857 257
+GlifName: uniE_201
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6912,6 +7101,7 @@ EndChar
 
 StartChar: uniE202
 Encoding: 259 57858 258
+GlifName: uniE_202
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6928,6 +7118,7 @@ EndChar
 
 StartChar: uniE203
 Encoding: 260 57859 259
+GlifName: uniE_203
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6944,6 +7135,7 @@ EndChar
 
 StartChar: uniE204
 Encoding: 261 57860 260
+GlifName: uniE_204
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6960,6 +7152,7 @@ EndChar
 
 StartChar: uniE205
 Encoding: 262 57861 261
+GlifName: uniE_205
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6976,6 +7169,7 @@ EndChar
 
 StartChar: uniE206
 Encoding: 263 57862 262
+GlifName: uniE_206
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -6992,6 +7186,7 @@ EndChar
 
 StartChar: uniE207
 Encoding: 264 57863 263
+GlifName: uniE_207
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7008,6 +7203,7 @@ EndChar
 
 StartChar: uniE208
 Encoding: 265 57864 264
+GlifName: uniE_208
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7024,6 +7220,7 @@ EndChar
 
 StartChar: uniE209
 Encoding: 266 57865 265
+GlifName: uniE_209
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7040,6 +7237,7 @@ EndChar
 
 StartChar: uniE20A
 Encoding: 267 57866 266
+GlifName: uniE_20A_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7058,6 +7256,7 @@ EndChar
 
 StartChar: uniE20B
 Encoding: 268 57867 267
+GlifName: uniE_20B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7076,6 +7275,7 @@ EndChar
 
 StartChar: uniE20C
 Encoding: 269 57868 268
+GlifName: uniE_20C_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7094,6 +7294,7 @@ EndChar
 
 StartChar: uniE20D
 Encoding: 270 57869 269
+GlifName: uniE_20D_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7112,6 +7313,7 @@ EndChar
 
 StartChar: uniE20E
 Encoding: 271 57870 270
+GlifName: uniE_20E_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7130,6 +7332,7 @@ EndChar
 
 StartChar: uniE20F
 Encoding: 272 57871 271
+GlifName: uniE_20F_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7154,6 +7357,7 @@ EndChar
 
 StartChar: uniE210
 Encoding: 273 57872 272
+GlifName: uniE_210
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7178,6 +7382,7 @@ EndChar
 
 StartChar: uniE211
 Encoding: 274 57873 273
+GlifName: uniE_211
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7202,6 +7407,7 @@ EndChar
 
 StartChar: uniE212
 Encoding: 275 57874 274
+GlifName: uniE_212
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7226,6 +7432,7 @@ EndChar
 
 StartChar: uniE213
 Encoding: 276 57875 275
+GlifName: uniE_213
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7250,6 +7457,7 @@ EndChar
 
 StartChar: uniE214
 Encoding: 277 57876 276
+GlifName: uniE_214
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7274,6 +7482,7 @@ EndChar
 
 StartChar: uniE215
 Encoding: 278 57877 277
+GlifName: uniE_215
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7298,6 +7507,7 @@ EndChar
 
 StartChar: uniE216
 Encoding: 279 57878 278
+GlifName: uniE_216
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7322,6 +7532,7 @@ EndChar
 
 StartChar: uniE217
 Encoding: 280 57879 279
+GlifName: uniE_217
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7346,6 +7557,7 @@ EndChar
 
 StartChar: uniE218
 Encoding: 281 57880 280
+GlifName: uniE_218
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7370,6 +7582,7 @@ EndChar
 
 StartChar: uniE219
 Encoding: 282 57881 281
+GlifName: uniE_219
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7394,6 +7607,7 @@ EndChar
 
 StartChar: uniE21A
 Encoding: 283 57882 282
+GlifName: uniE_21A_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7418,6 +7632,7 @@ EndChar
 
 StartChar: uniE21B
 Encoding: 284 57883 283
+GlifName: uniE_21B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7442,6 +7657,7 @@ EndChar
 
 StartChar: uniE21C
 Encoding: 285 57884 284
+GlifName: uniE_21C_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7466,6 +7682,7 @@ EndChar
 
 StartChar: uniE21D
 Encoding: 286 57885 285
+GlifName: uniE_21D_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7490,6 +7707,7 @@ EndChar
 
 StartChar: uniE21E
 Encoding: 287 57886 286
+GlifName: uniE_21E_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7514,6 +7732,7 @@ EndChar
 
 StartChar: uniE21F
 Encoding: 288 57887 287
+GlifName: uniE_21F_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7538,6 +7757,7 @@ EndChar
 
 StartChar: uniE220
 Encoding: 289 57888 288
+GlifName: uniE_220
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7562,6 +7782,7 @@ EndChar
 
 StartChar: uniE221
 Encoding: 290 57889 289
+GlifName: uniE_221
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7586,6 +7807,7 @@ EndChar
 
 StartChar: uniE222
 Encoding: 291 57890 290
+GlifName: uniE_222
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7610,6 +7832,7 @@ EndChar
 
 StartChar: uniE223
 Encoding: 292 57891 291
+GlifName: uniE_223
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7634,6 +7857,7 @@ EndChar
 
 StartChar: uniE224
 Encoding: 293 57892 292
+GlifName: uniE_224
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7658,6 +7882,7 @@ EndChar
 
 StartChar: uniE225
 Encoding: 294 57893 293
+GlifName: uniE_225
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7682,6 +7907,7 @@ EndChar
 
 StartChar: uniE226
 Encoding: 295 57894 294
+GlifName: uniE_226
 Width: 833
 VWidth: 0
 Flags: W
@@ -7707,6 +7933,7 @@ EndChar
 
 StartChar: uniE227
 Encoding: 296 57895 295
+GlifName: uniE_227
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7731,6 +7958,7 @@ EndChar
 
 StartChar: uniE228
 Encoding: 297 57896 296
+GlifName: uniE_228
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7755,6 +7983,7 @@ EndChar
 
 StartChar: uniE229
 Encoding: 298 57897 297
+GlifName: uniE_229
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7779,6 +8008,7 @@ EndChar
 
 StartChar: uniE22A
 Encoding: 299 57898 298
+GlifName: uniE_22A_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -7803,6 +8033,7 @@ EndChar
 
 StartChar: uniE280
 Encoding: 300 57984 299
+GlifName: uniE_280
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8118,6 +8349,7 @@ EndChar
 
 StartChar: uniE281
 Encoding: 301 57985 300
+GlifName: uniE_281
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8150,6 +8382,7 @@ EndChar
 
 StartChar: uniE282
 Encoding: 302 57986 301
+GlifName: uniE_282
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8168,6 +8401,7 @@ EndChar
 
 StartChar: uniE283
 Encoding: 303 57987 302
+GlifName: uniE_283
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8186,6 +8420,7 @@ EndChar
 
 StartChar: uniE284
 Encoding: 304 57988 303
+GlifName: uniE_284
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8204,6 +8439,7 @@ EndChar
 
 StartChar: uniE285
 Encoding: 305 57989 304
+GlifName: uniE_285
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8222,6 +8458,7 @@ EndChar
 
 StartChar: uniE286
 Encoding: 306 57990 305
+GlifName: uniE_286
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8240,6 +8477,7 @@ EndChar
 
 StartChar: uniE287
 Encoding: 307 57991 306
+GlifName: uniE_287
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8258,6 +8496,7 @@ EndChar
 
 StartChar: uniE288
 Encoding: 308 57992 307
+GlifName: uniE_288
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8277,6 +8516,7 @@ EndChar
 
 StartChar: uniE289
 Encoding: 309 57993 308
+GlifName: uniE_289
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8296,6 +8536,7 @@ EndChar
 
 StartChar: uniE28A
 Encoding: 310 57994 309
+GlifName: uniE_28A_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8315,6 +8556,7 @@ EndChar
 
 StartChar: uniE28B
 Encoding: 311 57995 310
+GlifName: uniE_28B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8332,6 +8574,7 @@ EndChar
 
 StartChar: uniE28C
 Encoding: 312 57996 311
+GlifName: uniE_28C_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8349,6 +8592,7 @@ EndChar
 
 StartChar: uniE28D
 Encoding: 313 57997 312
+GlifName: uniE_28D_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8366,6 +8610,7 @@ EndChar
 
 StartChar: uniE28E
 Encoding: 314 57998 313
+GlifName: uniE_28E_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8383,6 +8628,7 @@ EndChar
 
 StartChar: uniE28F
 Encoding: 315 57999 314
+GlifName: uniE_28F_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8402,6 +8648,7 @@ EndChar
 
 StartChar: uniE290
 Encoding: 316 58000 315
+GlifName: uniE_290
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8421,6 +8668,7 @@ EndChar
 
 StartChar: uniE291
 Encoding: 317 58001 316
+GlifName: uniE_291
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8440,6 +8688,7 @@ EndChar
 
 StartChar: uniE292
 Encoding: 318 58002 317
+GlifName: uniE_292
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8459,6 +8708,7 @@ EndChar
 
 StartChar: uniE293
 Encoding: 319 58003 318
+GlifName: uniE_293
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8477,6 +8727,7 @@ EndChar
 
 StartChar: uniE294
 Encoding: 320 58004 319
+GlifName: uniE_294
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8495,6 +8746,7 @@ EndChar
 
 StartChar: uniE295
 Encoding: 321 58005 320
+GlifName: uniE_295
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8518,6 +8770,7 @@ EndChar
 
 StartChar: uniE296
 Encoding: 322 58006 321
+GlifName: uniE_296
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8536,6 +8789,7 @@ EndChar
 
 StartChar: uniE297
 Encoding: 323 58007 322
+GlifName: uniE_297
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8555,6 +8809,7 @@ EndChar
 
 StartChar: uniE298
 Encoding: 324 58008 323
+GlifName: uniE_298
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8574,6 +8829,7 @@ EndChar
 
 StartChar: uniE299
 Encoding: 325 58009 324
+GlifName: uniE_299
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8594,6 +8850,7 @@ EndChar
 
 StartChar: uniE29A
 Encoding: 326 58010 325
+GlifName: uniE_29A_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8611,6 +8868,7 @@ EndChar
 
 StartChar: uniE29B
 Encoding: 327 58011 326
+GlifName: uniE_29B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8628,6 +8886,7 @@ EndChar
 
 StartChar: uniE29C
 Encoding: 328 58012 327
+GlifName: uniE_29C_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8645,6 +8904,7 @@ EndChar
 
 StartChar: uniE29D
 Encoding: 329 58013 328
+GlifName: uniE_29D_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8662,6 +8922,7 @@ EndChar
 
 StartChar: uniE29E
 Encoding: 330 58014 329
+GlifName: uniE_29E_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8679,6 +8940,7 @@ EndChar
 
 StartChar: uniE29F
 Encoding: 331 58015 330
+GlifName: uniE_29F_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8696,6 +8958,7 @@ EndChar
 
 StartChar: uniE2A0
 Encoding: 332 58016 331
+GlifName: uniE_2A_0
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8718,6 +8981,7 @@ EndChar
 
 StartChar: uniE2A1
 Encoding: 333 58017 332
+GlifName: uniE_2A_1
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8745,6 +9009,7 @@ EndChar
 
 StartChar: uniE2A2
 Encoding: 334 58018 333
+GlifName: uniE_2A_2
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8777,6 +9042,7 @@ EndChar
 
 StartChar: uniE2A3
 Encoding: 335 58019 334
+GlifName: uniE_2A_3
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8799,6 +9065,7 @@ EndChar
 
 StartChar: uniE2A4
 Encoding: 336 58020 335
+GlifName: uniE_2A_4
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8831,6 +9098,7 @@ EndChar
 
 StartChar: uniE2A5
 Encoding: 337 58021 336
+GlifName: uniE_2A_5
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8863,6 +9131,7 @@ EndChar
 
 StartChar: uniE2A6
 Encoding: 338 58022 337
+GlifName: uniE_2A_6
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8880,6 +9149,7 @@ EndChar
 
 StartChar: uniE2A7
 Encoding: 339 58023 338
+GlifName: uniE_2A_7
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8897,6 +9167,7 @@ EndChar
 
 StartChar: uniE2A8
 Encoding: 340 58024 339
+GlifName: uniE_2A_8
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8914,6 +9185,7 @@ EndChar
 
 StartChar: uniE2A9
 Encoding: 341 58025 340
+GlifName: uniE_2A_9
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8941,6 +9213,7 @@ EndChar
 
 StartChar: uniE2AA
 Encoding: 342 58026 341
+GlifName: uniE_2A_A_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8958,6 +9231,7 @@ EndChar
 
 StartChar: uniE2AB
 Encoding: 343 58027 342
+GlifName: uniE_2A_B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -8975,6 +9249,7 @@ EndChar
 
 StartChar: uniE2AC
 Encoding: 344 58028 343
+GlifName: uniE_2A_C_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -9002,6 +9277,7 @@ EndChar
 
 StartChar: uniE2AD
 Encoding: 345 58029 344
+GlifName: uniE_2A_D_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -9019,6 +9295,7 @@ EndChar
 
 StartChar: uniE2AE
 Encoding: 346 58030 345
+GlifName: uniE_2A_E_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -9036,6 +9313,7 @@ EndChar
 
 StartChar: uniE2AF
 Encoding: 347 58031 346
+GlifName: uniE_2A_F_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -9053,6 +9331,7 @@ EndChar
 
 StartChar: uniE2B0
 Encoding: 348 58032 347
+GlifName: uniE_2B_0
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -9070,6 +9349,7 @@ EndChar
 
 StartChar: uniE2B1
 Encoding: 349 58033 348
+GlifName: uniE_2B_1
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -9102,6 +9382,7 @@ EndChar
 
 StartChar: uniE2B2
 Encoding: 350 58034 349
+GlifName: uniE_2B_2
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -9134,6 +9415,7 @@ EndChar
 
 StartChar: uniE2B3
 Encoding: 351 58035 350
+GlifName: uniE_2B_3
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -9151,6 +9433,7 @@ EndChar
 
 StartChar: uniE2B4
 Encoding: 352 58036 351
+GlifName: uniE_2B_4
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -9183,6 +9466,7 @@ EndChar
 
 StartChar: uniE2B5
 Encoding: 353 58037 352
+GlifName: uniE_2B_5
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -9205,6 +9489,7 @@ EndChar
 
 StartChar: uniE2B6
 Encoding: 354 58038 353
+GlifName: uniE_2B_6
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -9227,6 +9512,7 @@ EndChar
 
 StartChar: uniE2B7
 Encoding: 355 58039 354
+GlifName: uniE_2B_7
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -9254,1189 +9540,1283 @@ EndChar
 
 StartChar: uniE320
 Encoding: 356 58144 355
+GlifName: uniE_320
 Width: 0
-VWidth: 0
+Flags: HWO
 LayerCount: 2
 Fore
 SplineSet
-250 865 m 257
- 213 865 183 895 183 932 c 256
- 183 969 213 998 250 998 c 256
- 287 998 317 969 317 932 c 256
- 317 895 287 865 250 865 c 257
- 250 865 l 257
-250 988 m 257
- 219 988 193 963 193 932 c 256
- 193 901 219 875 250 875 c 256
- 281 875 307 901 307 932 c 256
- 307 963 281 988 250 988 c 257
- 250 988 l 257
-67 865 m 257
- 30 865 0 895 0 932 c 256
- 0 969 30 998 67 998 c 256
- 103 998 133 969 133 932 c 256
- 133 895 103 865 67 865 c 257
- 67 865 l 257
-67 988 m 257
- 35 988 10 963 10 932 c 256
- 10 901 35 875 67 875 c 256
- 98 875 123 901 123 932 c 256
- 123 963 98 988 67 988 c 257
- 67 988 l 257
-250 690 m 257
- 213 690 183 719 183 756 c 256
- 183 793 213 823 250 823 c 256
- 287 823 317 793 317 756 c 256
- 317 719 287 690 250 690 c 257
- 250 690 l 257
-250 813 m 257
- 219 813 193 787 193 756 c 256
- 193 725 219 700 250 700 c 256
- 281 700 307 725 307 756 c 256
- 307 787 281 813 250 813 c 257
- 250 813 l 257
-250 514 m 257
- 213 514 183 544 183 581 c 256
- 183 617 213 647 250 647 c 256
- 287 647 317 617 317 581 c 256
- 317 544 287 514 250 514 c 257
- 250 514 l 257
-250 637 m 257
- 219 637 193 612 193 581 c 256
- 193 549 219 524 250 524 c 256
- 281 524 307 549 307 581 c 256
- 307 612 281 637 250 637 c 257
- 250 637 l 257
-250 284 m 257
- 213 284 183 314 183 351 c 256
- 183 387 213 417 250 417 c 256
- 287 417 317 387 317 351 c 256
- 317 314 287 284 250 284 c 257
- 250 284 l 257
-250 407 m 257
- 219 407 193 382 193 351 c 256
- 193 319 219 294 250 294 c 256
- 281 294 307 319 307 351 c 256
- 307 382 281 407 250 407 c 257
- 250 407 l 257
-193 144 m 257
- 167 144 145 165 145 192 c 256
- 145 218 167 239 193 239 c 256
- 219 239 241 218 241 192 c 256
- 241 165 219 144 193 144 c 257
- 193 144 l 257
-193 229 m 257
- 172 229 155 212 155 192 c 256
- 155 171 172 154 193 154 c 256
- 214 154 231 171 231 192 c 256
- 231 212 214 229 193 229 c 257
- 193 229 l 257
-308 144 m 257
- 282 144 261 165 261 192 c 256
- 261 218 282 239 308 239 c 256
- 334 239 356 218 356 192 c 256
- 356 165 334 144 308 144 c 257
- 308 144 l 257
-308 229 m 257
- 288 229 271 212 271 192 c 256
- 271 171 288 154 308 154 c 256
- 329 154 346 171 346 192 c 256
- 346 212 329 229 308 229 c 257
- 308 229 l 257
-193 0 m 257
- 167 0 145 21 145 48 c 256
- 145 74 167 95 193 95 c 256
- 219 95 241 74 241 48 c 256
- 241 21 219 0 193 0 c 257
- 193 0 l 257
-193 85 m 257
- 172 85 155 68 155 48 c 256
- 155 27 172 10 193 10 c 256
- 214 10 231 27 231 48 c 256
- 231 68 214 85 193 85 c 257
- 193 85 l 257
-308 0 m 257
- 282 0 261 21 261 48 c 256
- 261 74 282 95 308 95 c 256
- 334 95 356 74 356 48 c 256
- 356 21 334 0 308 0 c 257
- 308 0 l 257
-308 85 m 257
- 288 85 271 68 271 48 c 256
- 271 27 288 10 308 10 c 256
- 329 10 346 27 346 48 c 256
- 346 68 329 85 308 85 c 257
- 308 85 l 257
-384 460 m 257
- 112 460 l 257
- 109 460 107 462 107 465 c 256
- 107 468 109 470 112 470 c 257
- 384 470 l 257
- 387 470 389 468 389 465 c 256
- 389 462 387 460 384 460 c 257
- 384 460 l 257
+250 423 m 0
+ 213 423 183 453 183 490 c 0
+ 183 526 213 556 250 556 c 0
+ 287 556 317 526 317 490 c 0
+ 317 453 287 423 250 423 c 0
+250 546 m 0
+ 219 546 193 521 193 490 c 0
+ 193 458 219 433 250 433 c 0
+ 281 433 307 458 307 490 c 0
+ 307 521 281 546 250 546 c 0
+250 952 m 0
+ 213 952 183 982 183 1019 c 0
+ 183 1056 213 1085 250 1085 c 0
+ 287 1085 317 1056 317 1019 c 0
+ 317 982 287 952 250 952 c 0
+250 1075 m 0
+ 219 1075 193 1050 193 1019 c 0
+ 193 988 219 962 250 962 c 0
+ 281 962 307 988 307 1019 c 0
+ 307 1050 281 1075 250 1075 c 0
+67 952 m 0
+ 30 952 0 982 0 1019 c 0
+ 0 1056 30 1085 67 1085 c 0
+ 103 1085 133 1056 133 1019 c 0
+ 133 982 103 952 67 952 c 0
+67 1075 m 0
+ 35 1075 10 1050 10 1019 c 0
+ 10 988 35 962 67 962 c 0
+ 98 962 123 988 123 1019 c 0
+ 123 1050 98 1075 67 1075 c 0
+250 789 m 0
+ 213 789 183 818 183 855 c 0
+ 183 892 213 922 250 922 c 0
+ 287 922 317 892 317 855 c 0
+ 317 818 287 789 250 789 c 0
+250 912 m 0
+ 219 912 193 886 193 855 c 0
+ 193 824 219 799 250 799 c 0
+ 281 799 307 824 307 855 c 0
+ 307 886 281 912 250 912 c 0
+250 626 m 0
+ 213 626 183 656 183 693 c 0
+ 183 729 213 759 250 759 c 0
+ 287 759 317 729 317 693 c 0
+ 317 656 287 626 250 626 c 0
+250 749 m 0
+ 219 749 193 724 193 693 c 0
+ 193 661 219 636 250 636 c 0
+ 281 636 307 661 307 693 c 0
+ 307 724 281 749 250 749 c 0
+250 260 m 0
+ 213 260 183 290 183 327 c 0
+ 183 363 213 393 250 393 c 0
+ 287 393 317 363 317 327 c 0
+ 317 290 287 260 250 260 c 0
+250 383 m 0
+ 219 383 193 358 193 327 c 0
+ 193 295 219 270 250 270 c 0
+ 281 270 307 295 307 327 c 0
+ 307 358 281 383 250 383 c 0
+193 125 m 0
+ 167 125 145 146 145 173 c 0
+ 145 199 167 220 193 220 c 0
+ 219 220 241 199 241 173 c 0
+ 241 146 219 125 193 125 c 0
+193 210 m 0
+ 172 210 155 193 155 173 c 0
+ 155 152 172 135 193 135 c 0
+ 214 135 231 152 231 173 c 0
+ 231 193 214 210 193 210 c 0
+308 125 m 0
+ 282 125 261 146 261 173 c 0
+ 261 199 282 220 308 220 c 0
+ 334 220 356 199 356 173 c 0
+ 356 146 334 125 308 125 c 0
+308 210 m 0
+ 288 210 271 193 271 173 c 0
+ 271 152 288 135 308 135 c 0
+ 329 135 346 152 346 173 c 0
+ 346 193 329 210 308 210 c 0
+193 0 m 0
+ 167 0 145 21 145 48 c 0
+ 145 74 167 95 193 95 c 0
+ 219 95 241 74 241 48 c 0
+ 241 21 219 0 193 0 c 0
+193 85 m 0
+ 172 85 155 68 155 48 c 0
+ 155 27 172 10 193 10 c 0
+ 214 10 231 27 231 48 c 0
+ 231 68 214 85 193 85 c 0
+308 0 m 0
+ 282 0 261 21 261 48 c 0
+ 261 74 282 95 308 95 c 0
+ 334 95 356 74 356 48 c 0
+ 356 21 334 0 308 0 c 0
+308 85 m 0
+ 288 85 271 68 271 48 c 0
+ 271 27 288 10 308 10 c 0
+ 329 10 346 27 346 48 c 0
+ 346 68 329 85 308 85 c 0
+384 586 m 2
+ 112 586 l 2
+ 109 586 107 588 107 591 c 0
+ 107 594 109 596 112 596 c 2
+ 384 596 l 2
+ 387 596 389 594 389 591 c 0
+ 389 588 387 586 384 586 c 2
 EndSplineSet
-Validated: 5
 Comment: "recorderChart"
 EndChar
 
 StartChar: uniE321
 Encoding: 357 58145 356
+GlifName: uniE_321
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 957 123<20.2003 113.23>
+VStem: 5 123<972.2 1065.23>
 LayerCount: 2
 Fore
 SplineSet
-128 932 m 257
- 128 898 101 870 67 870 c 256
- 33 870 5 898 5 932 c 256
- 5 966 33 993 67 993 c 256
- 101 993 128 966 128 932 c 257
- 128 932 l 257
+128 1019 m 4
+ 128 985 101 957 67 957 c 4
+ 33 957 5 985 5 1019 c 4
+ 5 1053 33 1080 67 1080 c 4
+ 101 1080 128 1053 128 1019 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderLHThumbClosed"
 EndChar
 
 StartChar: uniE322
 Encoding: 358 58146 357
+GlifName: uniE_322
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 957 123<203.2 296.8>
+VStem: 188 124<972.2 1065.23>
 LayerCount: 2
 Fore
 SplineSet
-312 932 m 257
- 312 898 284 870 250 870 c 256
- 216 870 188 898 188 932 c 256
- 188 966 216 993 250 993 c 256
- 284 993 312 966 312 932 c 257
- 312 932 l 257
+312 1019 m 4
+ 312 985 284 957 250 957 c 4
+ 216 957 188 985 188 1019 c 4
+ 188 1053 216 1080 250 1080 c 4
+ 284 1080 312 1053 312 1019 c 4
+  Spiro
+    312 1019 o
+    303.498 987.842 o
+    281.158 965.502 o
+    250 957 o
+    218.842 965.502 o
+    196.502 987.842 o
+    188 1019 o
+    196.502 1049.9 o
+    218.842 1071.76 o
+    250 1080 o
+    281.158 1071.76 o
+    303.498 1049.9 o
+    0 0 z
+  EndSpiro
 EndSplineSet
-Validated: 5
 Comment: "recorderLH1stFingerClosed"
 EndChar
 
 StartChar: uniE323
 Encoding: 359 58147 358
+GlifName: uniE_323
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 794 123<203.2 296.8>
+VStem: 188 124<808.77 901.8>
 LayerCount: 2
 Fore
 SplineSet
-312 756 m 257
- 312 722 284 695 250 695 c 256
- 216 695 188 722 188 756 c 256
- 188 790 216 818 250 818 c 256
- 284 818 312 790 312 756 c 257
- 312 756 l 257
+312 855 m 4
+ 312 821 284 794 250 794 c 4
+ 216 794 188 821 188 855 c 4
+ 188 889 216 917 250 917 c 4
+ 284 917 312 889 312 855 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderLH2ndFingerClosed"
 EndChar
 
 StartChar: uniE324
 Encoding: 360 58148 359
+GlifName: uniE_324
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 631 123<203.2 296.8>
+VStem: 188 124<646.2 739.23>
 LayerCount: 2
 Fore
 SplineSet
-312 581 m 257
- 312 547 284 519 250 519 c 256
- 216 519 188 547 188 581 c 256
- 188 615 216 642 250 642 c 256
- 284 642 312 615 312 581 c 257
- 312 581 l 257
+312 693 m 4
+ 312 659 284 631 250 631 c 4
+ 216 631 188 659 188 693 c 4
+ 188 727 216 754 250 754 c 4
+ 284 754 312 727 312 693 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderLH3rdFingerClosed"
 EndChar
 
 StartChar: uniE325
 Encoding: 361 58149 360
+GlifName: uniE_325
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 428 123<203.2 296.8>
+VStem: 188 124<443.2 536.23>
 LayerCount: 2
 Fore
 SplineSet
-312 351 m 257
- 312 317 284 289 250 289 c 256
- 216 289 188 317 188 351 c 256
- 188 385 216 412 250 412 c 256
- 284 412 312 385 312 351 c 257
- 312 351 l 257
+312 490 m 4
+ 312 456 284 428 250 428 c 4
+ 216 428 188 456 188 490 c 4
+ 188 524 216 551 250 551 c 4
+ 284 551 312 524 312 490 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderRH1stFingerClosed"
 EndChar
 
 StartChar: uniE327
 Encoding: 362 58151 361
+GlifName: uniE_327
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 129 85<155.642 230.141>
+VStem: 150 86<134.642 208.393>
 LayerCount: 2
 Fore
 SplineSet
-236 192 m 257
- 236 168 216 149 193 149 c 256
- 169 149 150 168 150 192 c 256
- 150 215 169 234 193 234 c 256
- 216 234 236 215 236 192 c 257
- 236 192 l 257
+236 172 m 4
+ 236 148 216 129 193 129 c 4
+ 169 129 150 148 150 172 c 4
+ 150 195 169 214 193 214 c 4
+ 216 214 236 195 236 172 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderRH1stDoubleHoleLeftClosed"
 EndChar
 
 StartChar: uniE328
 Encoding: 363 58152 362
+GlifName: uniE_328
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 129 85<271.607 345.358>
+VStem: 266 85<134.642 208.393>
 LayerCount: 2
 Fore
 SplineSet
-351 192 m 257
- 351 168 332 149 308 149 c 256
- 285 149 266 168 266 192 c 256
- 266 215 285 234 308 234 c 256
- 332 234 351 215 351 192 c 257
- 351 192 l 257
+351 172 m 4
+ 351 148 332 129 308 129 c 4
+ 285 129 266 148 266 172 c 4
+ 266 195 285 214 308 214 c 4
+ 332 214 351 195 351 172 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderRH1stDoubleHoleRightClosed"
 EndChar
 
 StartChar: uniE329
 Encoding: 364 58153 363
+GlifName: uniE_329
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 5 85<181 204.5>
+VStem: 150 86<36 59.5>
 LayerCount: 2
 Fore
 SplineSet
-236 48 m 257
- 236 24 216 5 193 5 c 256
- 169 5 150 24 150 48 c 256
- 150 71 169 90 193 90 c 256
- 216 90 236 71 236 48 c 257
- 236 48 l 257
+236 48 m 0
+ 236 24 216 5 193 5 c 0
+ 169 5 150 24 150 48 c 0
+ 150 71 169 90 193 90 c 0
+ 216 90 236 71 236 48 c 0
 EndSplineSet
-Validated: 5
 Comment: "recorderRH2ndDoubleHoleLeftClosed"
 EndChar
 
 StartChar: uniE32A
 Encoding: 365 58154 364
+GlifName: uniE_32A_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 5 85<296.5 320>
+VStem: 266 85<36 59.5>
 LayerCount: 2
 Fore
 SplineSet
-351 48 m 257
- 351 24 332 5 308 5 c 256
- 285 5 266 24 266 48 c 256
- 266 71 285 90 308 90 c 256
- 332 90 351 71 351 48 c 257
- 351 48 l 257
+351 48 m 0
+ 351 24 332 5 308 5 c 0
+ 285 5 266 24 266 48 c 0
+ 266 71 285 90 308 90 c 0
+ 332 90 351 71 351 48 c 0
 EndSplineSet
-Validated: 5
 Comment: "recorderRH2ndDoubleHoleRightClosed"
 EndChar
 
 StartChar: uniE32C
 Encoding: 366 58156 365
+GlifName: uniE_32C_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 957 123<20.2003 67>
+VStem: 5 62<990.881 1046.91>
 LayerCount: 2
 Fore
 SplineSet
-67 870 m 257
- 33 870 5 898 5 932 c 256
- 5 966 33 993 67 993 c 257
- 67 870 l 257
+67 1080 m 5
+ 67 957 l 5
+ 33 957 5 985 5 1019 c 4
+ 5 1053 33 1080 67 1080 c 5
 EndSplineSet
-Validated: 1
 Comment: "recorderLHThumbHalfClosedLeft"
 EndChar
 
 StartChar: uniE32D
 Encoding: 367 58157 366
+GlifName: uniE_32D_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 957 123<203.2 250>
+VStem: 188 62<990.881 1046.91>
 LayerCount: 2
 Fore
 SplineSet
-250 870 m 257
- 216 870 188 898 188 932 c 256
- 188 966 216 993 250 993 c 257
- 250 870 l 257
+250 1080 m 5
+ 250 957 l 5
+ 216 957 188 985 188 1019 c 4
+ 188 1053 216 1080 250 1080 c 5
 EndSplineSet
-Validated: 1
 Comment: "recorderLH1stFingerHalfClosedLeft"
 EndChar
 
 StartChar: uniE32E
 Encoding: 368 58158 367
+GlifName: uniE_32E_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 793 123<203.2 250>
+VStem: 188 62<826.881 882.907>
 LayerCount: 2
 Fore
 SplineSet
-250 694 m 257
- 216 694 188 722 188 756 c 256
- 188 790 216 817 250 817 c 257
- 250 694 l 257
+250 916 m 5
+ 250 793 l 5
+ 216 793 188 821 188 855 c 4
+ 188 889 216 916 250 916 c 5
 EndSplineSet
-Validated: 1
 Comment: "recorderLH2ndFingerHalfClosedLeft"
 EndChar
 
 StartChar: uniE32F
 Encoding: 369 58159 368
+GlifName: uniE_32F_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 631 123<203.2 250>
+VStem: 188 62<664.881 720.907>
 LayerCount: 2
 Fore
 SplineSet
-250 518 m 257
- 216 518 188 546 188 580 c 256
- 188 614 216 641 250 641 c 257
- 250 518 l 257
+250 754 m 5
+ 250 631 l 5
+ 216 631 188 659 188 693 c 4
+ 188 727 216 754 250 754 c 5
 EndSplineSet
-Validated: 1
 Comment: "recorderLH3rdFingerHalfClosedLeft"
 EndChar
 
 StartChar: uniE330
 Encoding: 370 58160 369
+GlifName: uniE_330
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 428 123<203.2 250>
+VStem: 188 62<461.881 517.907>
 LayerCount: 2
 Fore
 SplineSet
-250 288 m 257
- 216 288 188 316 188 350 c 256
- 188 384 216 411 250 411 c 257
- 250 288 l 257
+250 551 m 5
+ 250 428 l 5
+ 216 428 188 456 188 490 c 4
+ 188 524 216 551 250 551 c 5
 EndSplineSet
-Validated: 1
 Comment: "recorderRH1stFingerHalfClosedLeft"
 EndChar
 
 StartChar: uniE332
 Encoding: 371 58162 370
+GlifName: uniE_332
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 130 85<155.642 193>
+VStem: 150 43<149.712 195.551>
 LayerCount: 2
 Fore
 SplineSet
-193 149 m 257
- 169 149 150 168 150 192 c 256
- 150 215 169 234 193 234 c 257
- 193 149 l 257
+193 215 m 5
+ 193 130 l 5
+ 169 130 150 149 150 173 c 4
+ 150 196 169 215 193 215 c 5
 EndSplineSet
-Validated: 1
 Comment: "recorderRH1stDoubleHoleLeftHalfClosedLeft"
 EndChar
 
 StartChar: uniE333
 Encoding: 372 58163 371
+GlifName: uniE_333
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 130 85<271.642 309>
+VStem: 266 43<149.712 195.551>
 LayerCount: 2
 Fore
 SplineSet
-309 149 m 257
- 285 149 266 168 266 192 c 256
- 266 215 285 234 309 234 c 257
- 309 149 l 257
+309 215 m 5
+ 309 130 l 5
+ 285 130 266 149 266 173 c 4
+ 266 196 285 215 309 215 c 5
 EndSplineSet
-Validated: 1
 Comment: "recorderRH1stDoubleHoleRightHalfClosedLeft"
 EndChar
 
 StartChar: uniE334
 Encoding: 373 58164 372
+GlifName: uniE_334
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 5 86<155.642 193>
+VStem: 150 43<25.1545 71.288>
 LayerCount: 2
 Fore
 SplineSet
-193 4 m 257
- 169 4 150 24 150 47 c 256
- 150 71 169 90 193 90 c 257
- 193 4 l 257
+193 91 m 5
+ 193 5 l 5
+ 169 5 150 25 150 48 c 4
+ 150 72 169 91 193 91 c 5
 EndSplineSet
-Validated: 1
 Comment: "recorderRH2ndDoubleHoleLeftHalfClosedLeft"
 EndChar
 
 StartChar: uniE335
 Encoding: 374 58165 373
+GlifName: uniE_335
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 5 85<297 309>
+VStem: 266 43<36 59.5>
 LayerCount: 2
 Fore
 SplineSet
-309 5 m 257
- 285 5 266 24 266 48 c 256
- 266 71 285 90 309 90 c 257
- 309 5 l 257
+309 90 m 5
+ 309 5 l 5
+ 285 5 266 24 266 48 c 4
+ 266 71 285 90 309 90 c 5
 EndSplineSet
-Validated: 1
 Comment: "recorderRH2ndDoubleHoleRightHalfClosedLeft"
 EndChar
 
 StartChar: uniE336
 Encoding: 375 58166 374
+GlifName: uniE_336
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 957 123<67 113.23>
+VStem: 67 61<990.881 1046.91>
 LayerCount: 2
 Fore
 SplineSet
-128 932 m 257
- 128 898 101 870 67 870 c 257
- 67 993 l 257
- 101 993 128 966 128 932 c 257
- 128 932 l 257
+128 1019 m 4
+ 128 985 101 957 67 957 c 5
+ 67 1080 l 5
+ 101 1080 128 1053 128 1019 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderLHThumbHalfClosedRight"
 EndChar
 
 StartChar: uniE337
 Encoding: 376 58167 375
+GlifName: uniE_337
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 957 123<250 296.23>
+VStem: 250 61<990.881 1046.91>
 LayerCount: 2
 Fore
 SplineSet
-311 932 m 257
- 311 898 284 870 250 870 c 257
- 250 993 l 257
- 284 993 311 966 311 932 c 257
- 311 932 l 257
+311 1019 m 4
+ 311 985 284 957 250 957 c 5
+ 250 1080 l 5
+ 284 1080 311 1053 311 1019 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderLH1stFingerHalfClosedRight"
 EndChar
 
 StartChar: uniE338
 Encoding: 377 58168 376
+GlifName: uniE_338
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 793 123<250 296.23>
+VStem: 250 61<826.881 882.907>
 LayerCount: 2
 Fore
 SplineSet
-311 755 m 257
- 311 721 284 693 250 693 c 257
- 250 816 l 257
- 284 816 311 789 311 755 c 257
- 311 755 l 257
+311 855 m 4
+ 311 821 284 793 250 793 c 5
+ 250 916 l 5
+ 284 916 311 889 311 855 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderLH2ndFingerHalfClosedRight"
 EndChar
 
 StartChar: uniE339
 Encoding: 378 58169 377
+GlifName: uniE_339
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 631 123<250 296.23>
+VStem: 250 61<664.881 720.907>
 LayerCount: 2
 Fore
 SplineSet
-311 581 m 257
- 311 547 284 519 250 519 c 257
- 250 642 l 257
- 284 642 311 615 311 581 c 257
- 311 581 l 257
+311 693 m 4
+ 311 659 284 631 250 631 c 5
+ 250 754 l 5
+ 284 754 311 727 311 693 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderLH3rdFingerHalfClosedRight"
 EndChar
 
 StartChar: uniE33A
 Encoding: 379 58170 378
+GlifName: uniE_33A_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 428 123<250 296.23>
+VStem: 250 61<461.881 517.907>
 LayerCount: 2
 Fore
 SplineSet
-311 350 m 257
- 311 316 284 288 250 288 c 257
- 250 411 l 257
- 284 411 311 384 311 350 c 257
- 311 350 l 257
+311 490 m 0
+ 311 456 284 428 250 428 c 1
+ 250 551 l 1
+ 284 551 311 524 311 490 c 0
 EndSplineSet
-Validated: 5
 Comment: "recorderRH1stFingerHalfClosedRight"
 EndChar
 
 StartChar: uniE33C
 Encoding: 380 58172 379
+GlifName: uniE_33C_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 130 85<193 230.141>
+VStem: 193 43<149.712 195.551>
 LayerCount: 2
 Fore
 SplineSet
-236 192 m 257
- 236 168 216 149 193 149 c 257
- 193 234 l 257
- 216 234 236 215 236 192 c 257
- 236 192 l 257
+236 173 m 4
+ 236 149 216 130 193 130 c 5
+ 193 215 l 5
+ 216 215 236 196 236 173 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderRH1stDoubleHoleLeftHalfClosedRight"
 EndChar
 
 StartChar: uniE33D
 Encoding: 381 58173 380
+GlifName: uniE_33D_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 130 85<308 345.141>
+VStem: 308 43<149.712 195.551>
 LayerCount: 2
 Fore
 SplineSet
-351 192 m 257
- 351 168 331 149 308 149 c 257
- 308 234 l 257
- 331 234 351 215 351 192 c 257
- 351 192 l 257
+351 173 m 4
+ 351 149 331 130 308 130 c 5
+ 308 215 l 5
+ 331 215 351 196 351 173 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderRH1stDoubleHoleRightHalfClosedRight"
 EndChar
 
 StartChar: uniE33E
 Encoding: 382 58174 381
+GlifName: uniE_33E_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 5 85<193 204.5>
+VStem: 193 43<36 59.5 36 90 36 90>
 LayerCount: 2
 Fore
 SplineSet
-236 48 m 257
- 236 24 216 5 193 5 c 257
- 193 90 l 257
- 216 90 236 71 236 48 c 257
- 236 48 l 257
+236 48 m 0
+ 236 24 216 5 193 5 c 1
+ 193 90 l 1
+ 216 90 236 71 236 48 c 0
 EndSplineSet
-Validated: 5
 Comment: "recorderRH2ndDoubleHoleLeftHalfClosedRight"
 EndChar
 
 StartChar: uniE33F
 Encoding: 383 58175 382
+GlifName: uniE_33F_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 5 85<308 319.5>
+VStem: 308 43<36 59.5 36 90 36 90>
 LayerCount: 2
 Fore
 SplineSet
-351 48 m 257
- 351 24 331 5 308 5 c 257
- 308 90 l 257
- 331 90 351 71 351 48 c 257
- 351 48 l 257
+351 48 m 0
+ 351 24 331 5 308 5 c 1
+ 308 90 l 1
+ 331 90 351 71 351 48 c 0
 EndSplineSet
-Validated: 5
 Comment: "recorderRH2ndDoubleHoleRightHalfClosedRight"
 EndChar
 
 StartChar: uniE340
 Encoding: 384 58176 383
+GlifName: uniE_340
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 965 107
+VStem: 4 31<990.14 1047.43>
 LayerCount: 2
 Fore
 SplineSet
-35 985 m 257
- 16 974 4 955 4 932 c 256
- 4 909 16 889 35 878 c 257
- 35 985 l 257
+35 1072 m 5
+ 35 965 l 5
+ 16 976 4 996 4 1019 c 4
+ 4 1042 16 1061 35 1072 c 5
 EndSplineSet
-Validated: 9
 Comment: "recorderLHThumbQuarterClosedLeft"
 EndChar
 
 StartChar: uniE341
 Encoding: 385 58177 384
+GlifName: uniE_341
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 965 107
+VStem: 188 31<991.038 1046.56>
 LayerCount: 2
 Fore
 SplineSet
-219 985 m 257
- 201 974 188 955 188 932 c 256
- 188 909 201 889 219 878 c 257
- 219 985 l 257
+219 1072 m 5
+ 219 965 l 5
+ 201 976 188 996 188 1019 c 4
+ 188 1042 201 1061 219 1072 c 5
 EndSplineSet
-Validated: 9
 Comment: "recorderLH1stFingerQuarterClosedLeft"
 EndChar
 
 StartChar: uniE342
 Encoding: 386 58178 385
+GlifName: uniE_342
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 801 107
+VStem: 188 31<827.038 882.556>
 LayerCount: 2
 Fore
 SplineSet
-219 809 m 257
- 201 798 188 779 188 756 c 256
- 188 733 201 713 219 702 c 257
- 219 809 l 257
+219 908 m 5
+ 219 801 l 5
+ 201 812 188 832 188 855 c 4
+ 188 878 201 897 219 908 c 5
 EndSplineSet
-Validated: 9
 Comment: "recorderLH2ndFingerQuarterClosedLeft"
 EndChar
 
 StartChar: uniE343
 Encoding: 387 58179 386
+GlifName: uniE_343
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 801 107
+VStem: 188 31<827.038 882.556>
 LayerCount: 2
 Fore
 SplineSet
-219 633 m 257
- 201 622 188 603 188 580 c 256
- 188 557 201 537 219 526 c 257
- 219 633 l 257
+219 908 m 5
+ 219 801 l 5
+ 201 812 188 832 188 855 c 4
+ 188 878 201 897 219 908 c 5
 EndSplineSet
-Validated: 9
 Comment: "recorderLH3rdFingerQuarterClosedLeft"
 EndChar
 
 StartChar: uniE344
 Encoding: 388 58180 387
+GlifName: uniE_344
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 437 107
+VStem: 188 31<462.86 517.962>
 LayerCount: 2
 Fore
 SplineSet
-219 404 m 257
- 201 393 188 373 188 350 c 256
- 188 328 201 308 219 297 c 257
- 219 404 l 257
+219 544 m 5
+ 219 437 l 5
+ 201 448 188 468 188 490 c 4
+ 188 513 201 533 219 544 c 5
 EndSplineSet
-Validated: 9
 Comment: "recorderRH1stFingerQuarterClosedLeft"
 EndChar
 
 StartChar: uniE346
 Encoding: 389 58182 388
+GlifName: uniE_346
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 136 73
+VStem: 150 22<149.943 195.16>
 LayerCount: 2
 Fore
 SplineSet
-172 228 m 257
- 159 221 150 207 150 192 c 256
- 150 176 159 162 172 155 c 257
- 172 228 l 257
+172 209 m 5
+ 172 136 l 5
+ 159 143 150 157 150 173 c 4
+ 150 188 159 202 172 209 c 5
 EndSplineSet
-Validated: 9
 Comment: "recorderRH1stDoubleHoleLeftQuarterClosedLeft"
 EndChar
 
 StartChar: uniE347
 Encoding: 390 58183 389
+GlifName: uniE_347
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 136 73
+VStem: 266 21<149.362 195.731>
 LayerCount: 2
 Fore
 SplineSet
-287 228 m 257
- 274 221 266 207 266 192 c 256
- 266 176 274 162 287 155 c 257
- 287 228 l 257
+287 209 m 5
+ 287 136 l 5
+ 274 143 266 157 266 173 c 4
+ 266 188 274 202 287 209 c 5
 EndSplineSet
-Validated: 9
 Comment: "recorderRH1stDoubleHoleRightQuarterClosedLeft"
 EndChar
 
 StartChar: uniE348
 Encoding: 391 58184 390
+GlifName: uniE_348
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 10 74<172 172>
+VStem: 150 22<39 55>
 LayerCount: 2
 Fore
 SplineSet
-172 84 m 257
- 159 77 150 63 150 47 c 256
- 150 31 159 18 172 10 c 257
- 172 84 l 257
+172 84 m 1
+ 172 10 l 1
+ 159 18 150 31 150 47 c 0
+ 150 63 159 77 172 84 c 1
 EndSplineSet
-Validated: 9
 Comment: "recorderRH2ndDoubleHoleLeftQuarterClosedLeft"
 EndChar
 
 StartChar: uniE349
 Encoding: 392 58185 391
+GlifName: uniE_349
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 11 74<287 287>
+VStem: 266 21<40 56>
 LayerCount: 2
 Fore
 SplineSet
-287 85 m 257
- 274 78 266 64 266 48 c 256
- 266 32 274 19 287 11 c 257
- 287 85 l 257
+287 85 m 1
+ 287 11 l 1
+ 274 19 266 32 266 48 c 0
+ 266 64 274 78 287 85 c 1
 EndSplineSet
-Validated: 9
 Comment: "recorderRH2ndDoubleHoleRightQuarterClosedLeft"
 EndChar
 
 StartChar: uniE34A
 Encoding: 393 58186 392
+GlifName: uniE_34A_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 965 107
+VStem: 97 31<990.14 1047.43>
 LayerCount: 2
 Fore
 SplineSet
-97 985 m 257
- 116 974 128 955 128 932 c 256
- 128 909 116 889 97 878 c 257
- 97 985 l 257
+97 965 m 5
+ 97 1072 l 5
+ 116 1061 128 1042 128 1019 c 4
+ 128 996 116 976 97 965 c 5
 EndSplineSet
-Validated: 1
 Comment: "recorderLHThumbQuarterClosedRight"
 EndChar
 
 StartChar: uniE34B
 Encoding: 394 58187 393
+GlifName: uniE_34B_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 965 107
+VStem: 281 30<990.14 1047.43>
 LayerCount: 2
 Fore
 SplineSet
-281 985 m 257
- 299 974 311 955 311 932 c 256
- 311 909 299 889 281 878 c 257
- 281 985 l 257
+281 965 m 5
+ 281 1072 l 5
+ 299 1061 311 1042 311 1019 c 4
+ 311 996 299 976 281 965 c 5
 EndSplineSet
-Validated: 1
 Comment: "recorderLH1stFingerQuarterClosedRight"
 EndChar
 
 StartChar: uniE34C
 Encoding: 395 58188 394
+GlifName: uniE_34C_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 802 107
+VStem: 281 30<826.977 883.86>
 LayerCount: 2
 Fore
 SplineSet
-281 810 m 257
- 299 799 311 779 311 756 c 256
- 311 734 299 714 281 703 c 257
- 281 810 l 257
+281 802 m 5
+ 281 909 l 5
+ 299 898 311 878 311 855 c 4
+ 311 833 299 813 281 802 c 5
 EndSplineSet
-Validated: 1
 Comment: "recorderLH2ndFingerQuarterClosedRight"
 EndChar
 
 StartChar: uniE34D
 Encoding: 396 58189 395
+GlifName: uniE_34D_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 639 107
+VStem: 281 30<664.14 721.43>
 LayerCount: 2
 Fore
 SplineSet
-281 633 m 257
- 299 622 311 603 311 580 c 256
- 311 557 299 537 281 526 c 257
- 281 633 l 257
+281 639 m 5
+ 281 746 l 5
+ 299 735 311 716 311 693 c 4
+ 311 670 299 650 281 639 c 5
 EndSplineSet
-Validated: 1
 Comment: "recorderLH3rdFingerQuarterClosedRight"
 EndChar
 
 StartChar: uniE34E
 Encoding: 397 58190 396
+GlifName: uniE_34E_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 436 107
+VStem: 281 30<461.14 518.43>
 LayerCount: 2
 Fore
 SplineSet
-281 403 m 257
- 299 392 311 373 311 350 c 256
- 311 327 299 307 281 296 c 257
- 281 403 l 257
+281 436 m 5
+ 281 543 l 5
+ 299 532 311 513 311 490 c 4
+ 311 467 299 447 281 436 c 5
 EndSplineSet
-Validated: 1
 Comment: "recorderRH1stFingerQuarterClosedRight"
 EndChar
 
 StartChar: uniE350
 Encoding: 398 58192 397
+GlifName: uniE_350
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 136 74
+VStem: 214 22<149.943 195.66>
 LayerCount: 2
 Fore
 SplineSet
-214 229 m 257
- 227 221 236 208 236 192 c 256
- 236 176 227 162 214 155 c 257
- 214 229 l 257
+214 136 m 5
+ 214 210 l 5
+ 227 202 236 189 236 173 c 4
+ 236 157 227 143 214 136 c 5
 EndSplineSet
-Validated: 1
 Comment: "recorderRH1stDoubleHoleLeftQuarterClosedRight"
 EndChar
 
 StartChar: uniE351
 Encoding: 399 58193 398
+GlifName: uniE_351
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 136 74
+VStem: 330 21<149.943 195.66>
 LayerCount: 2
 Fore
 SplineSet
-330 229 m 257
- 342 221 351 208 351 192 c 256
- 351 176 342 162 330 155 c 257
- 330 229 l 257
+330 136 m 5
+ 330 210 l 5
+ 342 202 351 189 351 173 c 4
+ 351 157 342 143 330 136 c 5
 EndSplineSet
-Validated: 1
 Comment: "recorderRH1stDoubleHoleRightQuarterClosedRight"
 EndChar
 
 StartChar: uniE352
 Encoding: 400 58194 399
+GlifName: uniE_352
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 11 73<214 214>
+VStem: 214 22<40 55.5 40 84>
 LayerCount: 2
 Fore
 SplineSet
-214 84 m 257
- 227 77 236 63 236 48 c 256
- 236 32 227 18 214 11 c 257
- 214 84 l 257
+214 11 m 1
+ 214 84 l 1
+ 227 77 236 63 236 48 c 0
+ 236 32 227 18 214 11 c 1
 EndSplineSet
-Validated: 1
 Comment: "recorderRH2ndDoubleHoleLeftQuarterClosedRight"
 EndChar
 
 StartChar: uniE353
 Encoding: 401 58195 400
+GlifName: uniE_353
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 11 73<330 330>
+VStem: 330 21<40 55.5 40 84>
 LayerCount: 2
 Fore
 SplineSet
-330 84 m 257
- 342 77 351 63 351 48 c 256
- 351 32 342 18 330 11 c 257
- 330 84 l 257
+330 11 m 1
+ 330 84 l 1
+ 342 77 351 63 351 48 c 0
+ 351 32 342 18 330 11 c 1
 EndSplineSet
-Validated: 1
 Comment: "recorderRH2ndDoubleHoleRightQuarterClosedRight"
 EndChar
 
 StartChar: uniE354
 Encoding: 402 58196 401
+GlifName: uniE_354
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 950 137
+VStem: -1 137
 LayerCount: 2
 Fore
 SplineSet
-4 863 m 257
- 3 863 2 864 1 865 c 256
- 0 866 -1 867 -1 868 c 256
- -1 869 0 871 1 872 c 257
- 128 999 l 257
- 129 1000 130 1000 131 1000 c 256
- 132 1000 134 1000 135 999 c 256
- 136 998 136 996 136 995 c 256
- 136 994 136 993 135 992 c 257
- 8 865 l 257
- 7 864 5 863 4 863 c 257
- 4 863 l 257
+4 950 m 4
+ 3 950 2 951 1 952 c 4
+ 0 953 -1 954 -1 955 c 4
+ -1 956 0 958 1 959 c 6
+ 128 1086 l 6
+ 129 1087 130 1087 131 1087 c 4
+ 132 1087 134 1087 135 1086 c 4
+ 136 1085 136 1083 136 1082 c 4
+ 136 1081 136 1080 135 1079 c 6
+ 8 952 l 6
+ 7 951 5 950 4 950 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderLHThumbTrill"
 EndChar
 
 StartChar: uniE355
 Encoding: 403 58197 402
+GlifName: uniE_355
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 950 137
+VStem: 181 138
 LayerCount: 2
 Fore
 SplineSet
-187 863 m 257
- 185 863 184 864 183 865 c 256
- 182 866 181 867 181 868 c 256
- 181 869 182 871 183 872 c 257
- 311 999 l 257
- 311 1000 313 1000 314 1000 c 256
- 315 1000 317 1000 318 999 c 256
- 319 998 319 996 319 995 c 256
- 319 994 319 993 318 992 c 257
- 190 865 l 257
- 189 864 188 863 187 863 c 257
- 187 863 l 257
+187 950 m 4
+ 185 950 184 951 183 952 c 4
+ 182 953 181 954 181 955 c 4
+ 181 956 182 958 183 959 c 6
+ 311 1086 l 6
+ 311 1087 313 1087 314 1087 c 4
+ 315 1087 317 1087 318 1086 c 4
+ 319 1085 319 1083 319 1082 c 4
+ 319 1081 319 1080 318 1079 c 6
+ 190 952 l 6
+ 189 951 188 950 187 950 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderLH1stFingerTrill"
 EndChar
 
 StartChar: uniE356
 Encoding: 404 58198 403
+GlifName: uniE_356
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 787 137
+VStem: 181 138
 LayerCount: 2
 Fore
 SplineSet
-187 686 m 257
- 185 686 184 687 183 688 c 256
- 182 689 181 690 181 691 c 256
- 181 692 182 694 183 695 c 257
- 311 822 l 257
- 311 823 313 823 314 823 c 256
- 315 823 317 823 318 822 c 256
- 319 821 319 819 319 818 c 256
- 319 817 319 816 318 815 c 257
- 190 688 l 257
- 189 687 188 686 187 686 c 257
- 187 686 l 257
+187 787 m 4
+ 185 787 184 788 183 789 c 4
+ 182 790 181 791 181 792 c 4
+ 181 793 182 795 183 796 c 6
+ 311 923 l 6
+ 311 924 313 924 314 924 c 4
+ 315 924 317 924 318 923 c 4
+ 319 922 319 920 319 919 c 4
+ 319 918 319 917 318 916 c 6
+ 190 789 l 6
+ 189 788 188 787 187 787 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderLH2ndFingerTrill"
 EndChar
 
 StartChar: uniE357
 Encoding: 405 58199 404
+GlifName: uniE_357
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 625 137
+VStem: 181 138
 LayerCount: 2
 Fore
 SplineSet
-187 508 m 257
- 185 508 184 508 183 509 c 256
- 182 510 181 512 181 513 c 256
- 181 514 182 515 183 516 c 257
- 311 644 l 257
- 311 645 313 645 314 645 c 256
- 315 645 317 645 318 644 c 256
- 319 643 319 641 319 640 c 256
- 319 639 319 638 318 637 c 257
- 190 509 l 257
- 189 508 188 508 187 508 c 257
- 187 508 l 257
+187 625 m 4
+ 185 625 184 625 183 626 c 4
+ 182 627 181 629 181 630 c 4
+ 181 631 182 632 183 633 c 6
+ 311 761 l 6
+ 311 762 313 762 314 762 c 4
+ 315 762 317 762 318 761 c 4
+ 319 760 319 758 319 757 c 4
+ 319 756 319 755 318 754 c 6
+ 190 626 l 6
+ 189 625 188 625 187 625 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderLH3rdFingerTrill"
 EndChar
 
 StartChar: uniE358
 Encoding: 406 58200 405
+GlifName: uniE_358
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 422 137
+VStem: 181 138
 LayerCount: 2
 Fore
 SplineSet
-187 283 m 257
- 185 283 184 283 183 284 c 256
- 182 285 181 287 181 288 c 256
- 181 289 182 290 183 291 c 257
- 311 419 l 257
- 311 420 313 420 314 420 c 256
- 315 420 317 420 318 419 c 256
- 319 418 319 416 319 415 c 256
- 319 414 319 413 318 412 c 257
- 190 284 l 257
- 189 283 188 283 187 283 c 257
- 187 283 l 257
+187 422 m 4
+ 185 422 184 422 183 423 c 4
+ 182 424 181 426 181 427 c 4
+ 181 428 182 429 183 430 c 6
+ 311 558 l 6
+ 311 559 313 559 314 559 c 4
+ 315 559 317 559 318 558 c 4
+ 319 557 319 555 319 554 c 4
+ 319 553 319 552 318 551 c 6
+ 190 423 l 6
+ 189 422 188 422 187 422 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderRH1stFingerTrill"
 EndChar
 
 StartChar: uniE35A
 Encoding: 407 58202 406
+GlifName: uniE_35A_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 119 106
+VStem: 138 106
 LayerCount: 2
 Fore
 SplineSet
-144 137 m 257
- 142 137 141 138 140 139 c 256
- 139 140 138 141 138 142 c 256
- 138 143 139 145 140 146 c 257
- 236 242 l 257
- 237 243 238 243 239 243 c 256
- 240 243 242 243 243 242 c 256
- 244 241 244 239 244 238 c 256
- 244 237 244 236 243 235 c 257
- 147 139 l 257
- 146 138 145 137 144 137 c 257
- 144 137 l 257
+144 119 m 4
+ 142 119 141 120 140 121 c 4
+ 139 122 138 123 138 124 c 4
+ 138 125 139 127 140 128 c 6
+ 236 224 l 6
+ 237 225 238 225 239 225 c 4
+ 240 225 242 225 243 224 c 4
+ 244 223 244 221 244 220 c 4
+ 244 219 244 218 243 217 c 6
+ 147 121 l 6
+ 146 120 145 119 144 119 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderRH1stDoubleHoleLeftTrill"
 EndChar
 
 StartChar: uniE35B
 Encoding: 408 58203 407
+GlifName: uniE_35B_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: 119 106
+VStem: 255 106
 LayerCount: 2
 Fore
 SplineSet
-261 137 m 257
- 259 137 258 138 257 139 c 256
- 256 140 255 141 255 142 c 256
- 255 143 256 145 257 146 c 257
- 353 242 l 257
- 354 243 355 243 356 243 c 256
- 357 243 359 243 360 242 c 256
- 361 241 361 239 361 238 c 256
- 361 237 361 236 360 235 c 257
- 264 139 l 257
- 263 138 262 137 261 137 c 257
- 261 137 l 257
+261 119 m 4
+ 259 119 258 120 257 121 c 4
+ 256 122 255 123 255 124 c 4
+ 255 125 256 127 257 128 c 6
+ 353 224 l 6
+ 354 225 355 225 356 225 c 4
+ 357 225 359 225 360 224 c 4
+ 361 223 361 221 361 220 c 4
+ 361 219 361 218 360 217 c 6
+ 264 121 l 6
+ 263 120 262 119 261 119 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderRH1stDoubleHoleRightTrill"
 EndChar
 
 StartChar: uniE35C
 Encoding: 409 58204 408
+GlifName: uniE_35C_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: -1 21G<147 147>
+VStem: 138 106<2.5 99.5>
 LayerCount: 2
 Fore
 SplineSet
-144 -2 m 257
- 142 -2 141 -2 140 -1 c 256
- 139 0 138 2 138 3 c 256
- 138 4 139 5 140 6 c 257
- 236 102 l 257
- 237 103 238 103 239 103 c 256
- 240 103 242 103 243 102 c 256
- 244 101 244 100 244 99 c 256
- 244 98 244 96 243 95 c 257
- 147 -1 l 257
- 146 -2 145 -2 144 -2 c 257
- 144 -2 l 257
+144 -2 m 4
+ 142 -2 141 -2 140 -1 c 4
+ 139 0 138 2 138 3 c 4
+ 138 4 139 5 140 6 c 6
+ 236 102 l 6
+ 237 103 238 103 239 103 c 4
+ 240 103 242 103 243 102 c 4
+ 244 101 244 100 244 99 c 4
+ 244 98 244 96 243 95 c 6
+ 147 -1 l 6
+ 146 -2 145 -2 144 -2 c 4
 EndSplineSet
-Validated: 5
 Comment: "recorderRH2ndDoubleHoleLeftTrill"
 EndChar
 
 StartChar: uniE35D
 Encoding: 410 58205 409
+GlifName: uniE_35D_
 Width: 0
-VWidth: 0
+Flags: W
+HStem: -1 21G<264 264>
+VStem: 255 106<2.5 99.5>
 LayerCount: 2
 Fore
 SplineSet
-261 -2 m 257
- 259 -2 258 -2 257 -1 c 256
- 256 0 255 2 255 3 c 256
- 255 4 256 5 257 6 c 257
- 353 102 l 257
- 354 103 355 103 356 103 c 256
- 357 103 359 103 360 102 c 256
- 361 101 361 100 361 99 c 256
- 361 98 361 96 360 95 c 257
- 264 -1 l 257
- 263 -2 262 -2 261 -2 c 257
- 261 -2 l 257
+261 -2 m 0
+ 259 -2 258 -2 257 -1 c 0
+ 256 0 255 2 255 3 c 0
+ 255 4 256 5 257 6 c 2
+ 353 102 l 2
+ 354 103 355 103 356 103 c 0
+ 357 103 359 103 360 102 c 0
+ 361 101 361 100 361 99 c 0
+ 361 98 361 96 360 95 c 2
+ 264 -1 l 2
+ 263 -2 262 -2 261 -2 c 0
 EndSplineSet
-Validated: 5
 Comment: "recorderRH2ndDoubleHoleRightTrill"
 EndChar
 
 StartChar: uniE003
 Encoding: 411 57347 410
+GlifName: uniE_003
 Width: 0
 VWidth: 0
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-120 518 m 0x00004004
- 94 518 83 542 83 551 c 0
- 83 558 84 596 84 598 c 0
- 84 600 86 601 87 601 c 2x00000808
- 98 600 l 2x00010008
- 99 600 101 599 101 597 c 0x00010004
- 101 574 106 569 113 562 c 0
- 115 562 124 555 126 554 c 0
- 134 554 144 543 144 536 c 0x00010008
- 144 531 143 527 141 525 c 0x00004008
- 137 520 130 518 120 518 c 0x00004004
-95 594 m 1
- 90 595 l 1
- 90 585 89 557 89 551 c 0
- 89 546 97 524 120 524 c 0
- 128 524 133 526 136 529 c 0
- 138 531 138 533 138 534 c 0
- 138 543 128 547 123 549 c 0
- 119 551 114 553 111 556 c 0x00040422
- 99 568 95 578 95 594 c 1
+170 515 m 0x00004004
+ 144 515 133 539 133 548 c 0
+ 133 555 134 593 134 595 c 0
+ 134 597 136 598 137 598 c 2x00000808
+ 148 597 l 2x00010008
+ 149 597 151 596 151 594 c 0x00010004
+ 151 571 156 566 163 559 c 0
+ 165 559 174 552 176 551 c 0
+ 184 551 194 540 194 533 c 0x00010008
+ 194 528 193 524 191 522 c 0x00004008
+ 187 517 180 515 170 515 c 0x00004004
+145 591 m 1
+ 140 592 l 1
+ 140 582 139 554 139 548 c 0
+ 139 543 147 521 170 521 c 0
+ 178 521 183 523 186 526 c 0
+ 188 528 188 530 188 531 c 0
+ 188 540 178 544 173 546 c 0
+ 169 548 164 550 161 553 c 0x00040422
+ 149 565 145 575 145 591 c 1
 EndSplineSet
+Validated: 1
 Comment: "fluteRHCSharpTrill"
 EndChar
 
 StartChar: uniE004
 Encoding: 412 57348 411
+GlifName: uniE_004
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-131 802 m 4
- 117 802 106 813 106 827 c 4
- 106 841 117 852 131 852 c 4
- 145 852 156 841 156 827 c 4
- 156 813 145 802 131 802 c 4
-131 848 m 4
- 121 848 110 837 110 827 c 4
- 110 817 121 806 131 806 c 4
- 141 806 152 817 152 827 c 4
- 152 837 141 848 131 848 c 4
-131 679 m 4
- 117 679 106 690 106 704 c 4
- 106 718 117 729 131 729 c 4
- 145 729 156 718 156 704 c 4
- 156 690 145 679 131 679 c 4
-131 725 m 4
- 121 725 110 714 110 704 c 4
- 110 694 121 683 131 683 c 4
- 141 683 152 694 152 704 c 4
- 152 714 141 725 131 725 c 4
-131 422 m 4
- 117 422 106 433 106 447 c 4
- 106 461 117 472 131 472 c 4
- 145 472 156 461 156 447 c 4
- 156 433 145 422 131 422 c 4
-131 468 m 4
- 121 468 110 457 110 447 c 4
- 110 437 121 426 131 426 c 4
- 141 426 152 437 152 447 c 4
- 152 457 141 468 131 468 c 4
-131 301 m 4
- 117 301 106 312 106 326 c 4
- 106 340 117 351 131 351 c 4
- 145 351 156 340 156 326 c 4
- 156 312 145 301 131 301 c 4
-131 347 m 4
- 121 347 110 336 110 326 c 4
- 110 316 121 305 131 305 c 4
- 141 305 152 316 152 326 c 4
- 152 336 141 347 131 347 c 4
-131 179 m 4
- 117 179 106 190 106 204 c 4
- 106 218 117 229 131 229 c 4
- 145 229 156 218 156 204 c 4
- 156 190 145 179 131 179 c 4
-131 225 m 4
- 121 225 110 214 110 204 c 4
- 110 194 121 183 131 183 c 4
- 141 183 152 194 152 204 c 4
- 152 214 141 225 131 225 c 4
+191 802 m 4
+ 177 802 166 813 166 827 c 4
+ 166 841 177 852 191 852 c 4
+ 205 852 216 841 216 827 c 4
+ 216 813 205 802 191 802 c 4
+191 848 m 4
+ 181 848 170 837 170 827 c 4
+ 170 817 181 806 191 806 c 4
+ 201 806 212 817 212 827 c 4
+ 212 837 201 848 191 848 c 4
+191 679 m 4
+ 177 679 166 690 166 704 c 4
+ 166 718 177 729 191 729 c 4
+ 205 729 216 718 216 704 c 4
+ 216 690 205 679 191 679 c 4
+191 725 m 4
+ 181 725 170 714 170 704 c 4
+ 170 694 181 683 191 683 c 4
+ 201 683 212 694 212 704 c 4
+ 212 714 201 725 191 725 c 4
+191 422 m 4
+ 177 422 166 433 166 447 c 4
+ 166 461 177 472 191 472 c 4
+ 205 472 216 461 216 447 c 4
+ 216 433 205 422 191 422 c 4
+191 468 m 4
+ 181 468 170 457 170 447 c 4
+ 170 437 181 426 191 426 c 4
+ 201 426 212 437 212 447 c 4
+ 212 457 201 468 191 468 c 4
+191 301 m 4
+ 177 301 166 312 166 326 c 4
+ 166 340 177 351 191 351 c 4
+ 205 351 216 340 216 326 c 4
+ 216 312 205 301 191 301 c 4
+191 347 m 4
+ 181 347 170 336 170 326 c 4
+ 170 316 181 305 191 305 c 4
+ 201 305 212 316 212 326 c 4
+ 212 336 201 347 191 347 c 4
+191 179 m 4
+ 177 179 166 190 166 204 c 4
+ 166 218 177 229 191 229 c 4
+ 205 229 216 218 216 204 c 4
+ 216 190 205 179 191 179 c 4
+191 225 m 4
+ 181 225 170 214 170 204 c 4
+ 170 194 181 183 191 183 c 4
+ 201 183 212 194 212 204 c 4
+ 212 214 201 225 191 225 c 4
 EndSplineSet
+Validated: 1
 Comment: "fluteOpenHoleSystem"
 EndChar
 
 StartChar: uniE005
 Encoding: 413 57349 412
+GlifName: uniE_005
 Width: 350
 VWidth: 0
 Flags: HW
@@ -10468,25 +10848,29 @@ SplineSet
  138 910 122 919 109 919 c 257
  109 919 l 257
 EndSplineSet
+Validated: 5
 Comment: "fluteKingmaSystem"
 EndChar
 
 StartChar: uniE00C
 Encoding: 414 57356 413
+GlifName: uniE_00C_
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-87 598 m 5xa0
- 98 597 l 5
- 98 573 103 568 110 561 c 6
- 113 558 l 6
- 121 551 141 550 141 534 c 4
- 141 530 139 521 120 521 c 4
- 95 521 86 544 86 551 c 4
- 86 558 87 598 87 598 c 5xa0
+137 595 m 5xa0
+ 148 594 l 5
+ 148 570 153 565 160 558 c 6
+ 163 555 l 6
+ 171 548 191 547 191 531 c 4
+ 191 527 189 518 170 518 c 4
+ 145 518 136 541 136 548 c 4
+ 136 555 137 595 137 595 c 5xa0
 EndSplineSet
+Validated: 1
 Comment: "fluteRHCSharpTrillClosed"
 EndChar
 
@@ -10495,6 +10879,8 @@ Encoding: 415 57368 414
 Width: 0
 VWidth: 0
 LayerCount: 2
+Fore
+Validated: 1
 Comment: "fluteKingmaCUpLeverClosed"
 EndChar
 
@@ -10503,6 +10889,8 @@ Encoding: 416 57369 415
 Width: 0
 VWidth: 0
 LayerCount: 2
+Fore
+Validated: 1
 Comment: "fluteKingmaAuxCSharpTrillClosed"
 EndChar
 
@@ -10511,6 +10899,8 @@ Encoding: 417 57370 416
 Width: 0
 VWidth: 0
 LayerCount: 2
+Fore
+Validated: 1
 Comment: "fluteKingmaBbUpLeverClosed"
 EndChar
 
@@ -10519,6 +10909,8 @@ Encoding: 418 57371 417
 Width: 0
 VWidth: 0
 LayerCount: 2
+Fore
+Validated: 1
 Comment: "fluteKingmaBUpLeverClosed"
 EndChar
 
@@ -10527,6 +10919,8 @@ Encoding: 419 57372 418
 Width: 0
 VWidth: 0
 LayerCount: 2
+Fore
+Validated: 1
 Comment: "fluteKingmaGUpLeverClosed"
 EndChar
 
@@ -10535,6 +10929,8 @@ Encoding: 420 57373 419
 Width: 0
 VWidth: 0
 LayerCount: 2
+Fore
+Validated: 1
 Comment: "fluteKingmaFSharpBarClosed"
 EndChar
 
@@ -10543,131 +10939,151 @@ Encoding: 421 57374 420
 Width: 0
 VWidth: 0
 LayerCount: 2
+Fore
+Validated: 1
 Comment: "fluteKingmaDUpLeverClosed"
 EndChar
 
 StartChar: uniE01F
 Encoding: 422 57375 421
+GlifName: uniE_01F_
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-131 780 m 4
- 105 780 84 800 84 826 c 4
- 84 852 105 873 131 873 c 4
- 157 873 178 852 178 826 c 4
- 178 800 157 780 131 780 c 4
-131 849 m 4
- 117 849 108 840 108 826 c 4
- 108 812 117 804 131 804 c 4
- 145 804 154 812 154 826 c 4
- 154 840 145 849 131 849 c 4
+191 780 m 4
+ 165 780 144 800 144 826 c 4
+ 144 852 165 873 191 873 c 4
+ 217 873 238 852 238 826 c 4
+ 238 800 217 780 191 780 c 4
+191 849 m 4
+ 177 849 168 840 168 826 c 4
+ 168 812 177 804 191 804 c 4
+ 205 804 214 812 214 826 c 4
+ 214 840 205 849 191 849 c 4
 EndSplineSet
+Validated: 1
 Comment: "fluteLH2ndFingerRingOnly"
 EndChar
 
 StartChar: uniE020
 Encoding: 423 57376 422
+GlifName: uniE_020
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-131 657 m 4
- 105 657 84 677 84 703 c 4
- 84 729 105 750 131 750 c 4
- 157 750 178 729 178 703 c 4
- 178 677 157 657 131 657 c 4
-131 726 m 4
- 117 726 108 717 108 703 c 4
- 108 689 117 681 131 681 c 4
- 145 681 154 689 154 703 c 4
- 154 717 145 726 131 726 c 4
+191 657 m 4
+ 165 657 144 677 144 703 c 4
+ 144 729 165 750 191 750 c 4
+ 217 750 238 729 238 703 c 4
+ 238 677 217 657 191 657 c 4
+191 726 m 4
+ 177 726 168 717 168 703 c 4
+ 168 689 177 681 191 681 c 4
+ 205 681 214 689 214 703 c 4
+ 214 717 205 726 191 726 c 4
 EndSplineSet
+Validated: 1
 Comment: "fluteLH3rdFingerRingOnly"
 EndChar
 
 StartChar: uniE021
 Encoding: 424 57377 423
+GlifName: uniE_021
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-131 401 m 4
- 105 401 84 421 84 447 c 4
- 84 473 105 494 131 494 c 4
- 157 494 178 473 178 447 c 4
- 178 421 157 401 131 401 c 4
-131 470 m 4
- 117 470 108 461 108 447 c 4
- 108 433 117 425 131 425 c 4
- 145 425 154 433 154 447 c 4
- 154 461 145 470 131 470 c 4
+191 401 m 4
+ 165 401 144 421 144 447 c 4
+ 144 473 165 494 191 494 c 4
+ 217 494 238 473 238 447 c 4
+ 238 421 217 401 191 401 c 4
+191 470 m 4
+ 177 470 168 461 168 447 c 4
+ 168 433 177 425 191 425 c 4
+ 205 425 214 433 214 447 c 4
+ 214 461 205 470 191 470 c 4
 EndSplineSet
+Validated: 1
 Comment: "fluteRH1stFingerRingOnly"
 EndChar
 
 StartChar: uniE022
 Encoding: 425 57378 424
+GlifName: uniE_022
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-131 279 m 4
- 105 279 84 299 84 325 c 4
- 84 351 105 372 131 372 c 4
- 157 372 178 351 178 325 c 4
- 178 299 157 279 131 279 c 4
-131 348 m 4
- 117 348 108 339 108 325 c 4
- 108 311 117 303 131 303 c 4
- 145 303 154 311 154 325 c 4
- 154 339 145 348 131 348 c 4
+191 279 m 4
+ 165 279 144 299 144 325 c 4
+ 144 351 165 372 191 372 c 4
+ 217 372 238 351 238 325 c 4
+ 238 299 217 279 191 279 c 4
+191 348 m 4
+ 177 348 168 339 168 325 c 4
+ 168 311 177 303 191 303 c 4
+ 205 303 214 311 214 325 c 4
+ 214 339 205 348 191 348 c 4
 EndSplineSet
+Validated: 1
 Comment: "fluteRH2ndFingerRingOnly"
 EndChar
 
 StartChar: uniE023
 Encoding: 426 57379 425
+GlifName: uniE_023
 Width: 0
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-131 158 m 4
- 105 158 84 178 84 204 c 4
- 84 230 105 251 131 251 c 4
- 157 251 178 230 178 204 c 4
- 178 178 157 158 131 158 c 4
-131 227 m 4
- 117 227 108 218 108 204 c 4
- 108 190 117 182 131 182 c 4
- 145 182 154 190 154 204 c 4
- 154 218 145 227 131 227 c 4
+191 158 m 4
+ 165 158 144 178 144 204 c 4
+ 144 230 165 251 191 251 c 4
+ 217 251 238 230 238 204 c 4
+ 238 178 217 158 191 158 c 4
+191 227 m 4
+ 177 227 168 218 168 204 c 4
+ 168 190 177 182 191 182 c 4
+ 205 182 214 190 214 204 c 4
+ 214 218 205 227 191 227 c 4
 EndSplineSet
+Validated: 1
 Comment: "fluteRH3rdFingerRingOnly"
 EndChar
 
 StartChar: uniE042
 Encoding: 427 57410 426
+GlifName: uniE_042
 Width: 0
 VWidth: 0
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-57 512 m 257
- 56 512 55 512 55 513 c 256
- 54 514 54 516 55 517 c 257
- 107 570 l 257
- 109 571 111 571 112 570 c 256
- 113 569 113 567 112 566 c 257
- 59 513 l 257
- 58 512 58 512 57 512 c 257
- 57 512 l 257
+137 512 m 257
+ 136 512 135 512 135 513 c 256
+ 134 514 134 516 135 517 c 257
+ 187 570 l 257
+ 189 571 191 571 192 570 c 256
+ 193 569 193 567 192 566 c 257
+ 139 513 l 257
+ 138 512 138 512 137 512 c 257
+ 137 512 l 257
 EndSplineSet
+Validated: 5
 Comment: "fluteRHCSharpTrillTrill"
 EndChar
 
@@ -10676,14 +11092,18 @@ Encoding: 428 57422 427
 Width: 0
 VWidth: 0
 LayerCount: 2
+Fore
+Validated: 1
 Comment: "fluteKingmaCUpLeverTrill"
 EndChar
 
 StartChar: uniE04F
-Encoding: 429 57422 428
+Encoding: 429 57423 428
 Width: 0
 VWidth: 0
 LayerCount: 2
+Fore
+Validated: 1
 Comment: "fluteKingmaAuxCSharpTrillClosed"
 EndChar
 
@@ -10692,6 +11112,8 @@ Encoding: 430 57424 429
 Width: 0
 VWidth: 0
 LayerCount: 2
+Fore
+Validated: 1
 Comment: "fluteKingmaBbUpLeverTrill"
 EndChar
 
@@ -10700,6 +11122,8 @@ Encoding: 431 57425 430
 Width: 0
 VWidth: 0
 LayerCount: 2
+Fore
+Validated: 1
 Comment: "fluteKingmaBUpLeverTrill"
 EndChar
 
@@ -10708,6 +11132,8 @@ Encoding: 432 57426 431
 Width: 0
 VWidth: 0
 LayerCount: 2
+Fore
+Validated: 1
 Comment: "fluteKingmaGUpLeverTrill"
 EndChar
 
@@ -10716,6 +11142,8 @@ Encoding: 433 57427 432
 Width: 0
 VWidth: 0
 LayerCount: 2
+Fore
+Validated: 1
 Comment: "fluteKingmaFSharpBarTrill"
 EndChar
 
@@ -10724,11 +11152,14 @@ Encoding: 434 57428 433
 Width: 0
 VWidth: 0
 LayerCount: 2
+Fore
+Validated: 1
 Comment: "fluteKingmaDUpLeverTrill"
 EndChar
 
 StartChar: uniE326
 Encoding: 435 58150 434
+GlifName: uniE_326
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -10740,10 +11171,12 @@ SplineSet
  188 361 216 388 250 388 c 4
  284 388 312 361 312 327 c 4
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uniE32B
 Encoding: 436 58155 435
+GlifName: uniE_32B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -10755,11 +11188,13 @@ SplineSet
  178 -44 216 -22 250 -22 c 0
  284 -22 322 -44 322 -74 c 0
 EndSplineSet
+Validated: 1
 Comment: "recorderBellKeyClosed"
 EndChar
 
 StartChar: uniE331
 Encoding: 437 58161 436
+GlifName: uniE_331
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -10770,11 +11205,13 @@ SplineSet
  216 265 188 293 188 327 c 4
  188 361 216 388 250 388 c 5
 EndSplineSet
+Validated: 1
 Comment: "recorderRH2ndFingerHalfClosedLeft"
 EndChar
 
 StartChar: uniE33B
 Encoding: 438 58171 437
+GlifName: uniE_33B_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -10785,11 +11222,13 @@ SplineSet
  250 388 l 5
  284 388 311 361 311 327 c 4
 EndSplineSet
+Validated: 1
 Comment: "recorderRH2ndFingerHalfClosedRight"
 EndChar
 
 StartChar: uniE345
 Encoding: 439 58181 438
+GlifName: uniE_345
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -10800,11 +11239,13 @@ SplineSet
  201 285 188 305 188 327 c 4
  188 350 201 370 219 381 c 5
 EndSplineSet
+Validated: 1
 Comment: "recorderRH2ndFingerQuarterClosedLeft"
 EndChar
 
 StartChar: uniE34F
 Encoding: 440 58191 439
+GlifName: uniE_34F_
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -10815,11 +11256,13 @@ SplineSet
  299 369 311 350 311 327 c 4
  311 304 299 284 281 273 c 5
 EndSplineSet
+Validated: 1
 Comment: "recorderRH2ndFingerQuarterClosedRight"
 EndChar
 
 StartChar: uniE359
 Encoding: 441 58201 440
+GlifName: uniE_359
 Width: 0
 VWidth: 0
 LayerCount: 2
@@ -10837,6 +11280,7 @@ SplineSet
  190 260 l 6
  189 259 188 259 187 259 c 4
 EndSplineSet
+Validated: 1
 Comment: "recorderRH2ndFingerTrill"
 EndChar
 EndChars
