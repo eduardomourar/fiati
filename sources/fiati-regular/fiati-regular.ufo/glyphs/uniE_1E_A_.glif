@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE1EA" format="2">
+  <advance width="0"/>
+  <unicode hex="E1EA"/>
+  <key>note</key>
+  <string>bassoonRHCSharpTrillClosed</string>
+  <outline>
+    <contour>
+      <point x="447" y="461" type="curve"/>
+      <point x="450" y="460"/>
+      <point x="454" y="459"/>
+      <point x="457" y="459" type="curve" smooth="yes"/>
+      <point x="459" y="459"/>
+      <point x="462" y="460"/>
+      <point x="464" y="460" type="curve" smooth="yes"/>
+      <point x="472" y="462"/>
+      <point x="481" y="466"/>
+      <point x="484" y="474" type="curve" smooth="yes"/>
+      <point x="485" y="476"/>
+      <point x="485" y="479"/>
+      <point x="485" y="482" type="curve" smooth="yes"/>
+      <point x="485" y="490"/>
+      <point x="481" y="499"/>
+      <point x="477" y="504" type="curve" smooth="yes"/>
+      <point x="469" y="514"/>
+      <point x="456" y="519"/>
+      <point x="444" y="521" type="curve" smooth="yes"/>
+      <point x="440" y="522"/>
+      <point x="436" y="522"/>
+      <point x="432" y="522" type="curve" smooth="yes"/>
+      <point x="424" y="522"/>
+      <point x="416" y="520"/>
+      <point x="408" y="516" type="curve" smooth="yes"/>
+      <point x="398" y="510"/>
+      <point x="385" y="501"/>
+      <point x="380" y="490" type="curve" smooth="yes"/>
+      <point x="379" y="489"/>
+      <point x="379" y="488"/>
+      <point x="379" y="487" type="curve" smooth="yes"/>
+      <point x="379" y="484"/>
+      <point x="381" y="483"/>
+      <point x="385" y="483" type="curve" smooth="yes"/>
+      <point x="388" y="483"/>
+      <point x="393" y="484"/>
+      <point x="396" y="486" type="curve" smooth="yes"/>
+      <point x="404" y="493"/>
+      <point x="417" y="504"/>
+      <point x="428" y="504" type="curve"/>
+      <point x="436" y="503"/>
+      <point x="437" y="500"/>
+      <point x="437" y="495" type="curve" smooth="yes"/>
+      <point x="437" y="491"/>
+      <point x="436" y="486"/>
+      <point x="436" y="483" type="curve"/>
+      <point x="436" y="478" type="line"/>
+      <point x="436" y="470"/>
+      <point x="440" y="464"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>504</integer>
+            <key>width</key>
+            <integer>18</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>436</integer>
+            <key>width</key>
+            <integer>49</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

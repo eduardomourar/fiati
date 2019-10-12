@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE171" format="2">
+  <advance width="0"/>
+  <unicode hex="E171"/>
+  <key>note</key>
+  <string>oboeLH3rdFingerQuarterClosedRight</string>
+  <outline>
+    <contour>
+      <point x="113" y="661" type="line"/>
+      <point x="125" y="654"/>
+      <point x="132" y="641"/>
+      <point x="132" y="627" type="curve" smooth="yes"/>
+      <point x="132" y="612"/>
+      <point x="125" y="600"/>
+      <point x="113" y="593" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE017" format="2">
+  <advance width="0"/>
+  <unicode hex="E017"/>
+  <key>note</key>
+  <string>fluteRHGizmoClosed</string>
+  <outline>
+    <contour>
+      <point x="222" y="3" type="line"/>
+      <point x="222" y="3"/>
+      <point x="208" y="3"/>
+      <point x="203" y="3" type="curve" smooth="yes"/>
+      <point x="197" y="3"/>
+      <point x="191" y="4"/>
+      <point x="188" y="9" type="curve" smooth="yes"/>
+      <point x="187" y="12"/>
+      <point x="186" y="14"/>
+      <point x="186" y="17" type="curve" smooth="yes"/>
+      <point x="186" y="22"/>
+      <point x="189" y="27"/>
+      <point x="194" y="30" type="curve" smooth="yes"/>
+      <point x="195" y="31"/>
+      <point x="197" y="31"/>
+      <point x="199" y="31" type="curve" smooth="yes"/>
+      <point x="207" y="31"/>
+      <point x="215" y="22"/>
+      <point x="215" y="15" type="curve"/>
+      <point x="222" y="15" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>3</integer>
+            <key>width</key>
+            <integer>28</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>3</integer>
+            <key>width</key>
+            <integer>12</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>186</integer>
+            <key>width</key>
+            <integer>29</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

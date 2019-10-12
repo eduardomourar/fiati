@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE2A8" format="2">
+  <advance width="0"/>
+  <unicode hex="E2A8"/>
+  <key>note</key>
+  <string>saxophoneLHFPalmTrill</string>
+  <outline>
+    <contour>
+      <point x="166" y="835" type="line"/>
+      <point x="162" y="835" type="line"/>
+      <point x="162" y="884" type="line"/>
+      <point x="166" y="884" type="line"/>
+    </contour>
+  </outline>
+</glyph>

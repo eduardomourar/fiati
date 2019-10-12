@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE2A3" format="2">
+  <advance width="0"/>
+  <unicode hex="E2A3"/>
+  <key>note</key>
+  <string>saxophoneLHBFlatTrill</string>
+  <outline>
+    <contour>
+      <point x="138" y="709" type="line"/>
+      <point x="134" y="709" type="line"/>
+      <point x="134" y="750" type="line"/>
+      <point x="138" y="750" type="line"/>
+    </contour>
+    <contour>
+      <point x="152" y="709" type="line"/>
+      <point x="148" y="709" type="line"/>
+      <point x="148" y="750" type="line"/>
+      <point x="152" y="750" type="line"/>
+    </contour>
+  </outline>
+</glyph>

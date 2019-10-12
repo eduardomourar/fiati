@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE2A5" format="2">
+  <advance width="0"/>
+  <unicode hex="E2A5"/>
+  <key>note</key>
+  <string>saxophoneLH3rdFingerTrill</string>
+  <outline>
+    <contour>
+      <point x="84" y="523" type="line"/>
+      <point x="80" y="523" type="line"/>
+      <point x="80" y="582" type="line"/>
+      <point x="84" y="582" type="line"/>
+    </contour>
+    <contour>
+      <point x="99" y="516" type="line"/>
+      <point x="95" y="516" type="line"/>
+      <point x="95" y="589" type="line"/>
+      <point x="99" y="589" type="line"/>
+    </contour>
+    <contour>
+      <point x="114" y="517" type="line"/>
+      <point x="110" y="517" type="line"/>
+      <point x="110" y="589" type="line"/>
+      <point x="114" y="589" type="line"/>
+    </contour>
+    <contour>
+      <point x="129" y="524" type="line"/>
+      <point x="125" y="524" type="line"/>
+      <point x="125" y="582" type="line"/>
+      <point x="129" y="582" type="line"/>
+    </contour>
+  </outline>
+</glyph>

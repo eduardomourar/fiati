@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE1E2" format="2">
+  <advance width="0"/>
+  <unicode hex="E1E2"/>
+  <key>note</key>
+  <string>bassoonLHHighEClosed</string>
+  <outline>
+    <contour>
+      <point x="454" y="984" type="curve"/>
+      <point x="377" y="984" type="line" smooth="yes"/>
+      <point x="368" y="984"/>
+      <point x="363" y="978"/>
+      <point x="363" y="972" type="curve" smooth="yes"/>
+      <point x="363" y="966"/>
+      <point x="368" y="961"/>
+      <point x="377" y="961" type="curve" smooth="yes"/>
+      <point x="386" y="961"/>
+      <point x="400" y="961"/>
+      <point x="400" y="961" type="curve" smooth="yes"/>
+      <point x="410" y="961"/>
+      <point x="420" y="949"/>
+      <point x="438" y="949" type="curve" smooth="yes"/>
+      <point x="449" y="949"/>
+      <point x="468" y="956"/>
+      <point x="468" y="970" type="curve" smooth="yes"/>
+      <point x="468" y="984"/>
+      <point x="457" y="984"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>949</integer>
+            <key>width</key>
+            <integer>35</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>961</integer>
+            <key>width</key>
+            <integer>23</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>363</integer>
+            <key>width</key>
+            <integer>105</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

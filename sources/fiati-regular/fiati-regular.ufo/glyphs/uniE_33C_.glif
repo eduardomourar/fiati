@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE33C" format="2">
+  <advance width="0"/>
+  <unicode hex="E33C"/>
+  <key>note</key>
+  <string>recorderRH1stDoubleHoleLeftHalfClosedRight</string>
+  <outline>
+    <contour>
+      <point x="236" y="173" type="curve" smooth="yes"/>
+      <point x="236" y="149"/>
+      <point x="216" y="130"/>
+      <point x="193" y="130" type="curve"/>
+      <point x="193" y="215" type="line"/>
+      <point x="216" y="215"/>
+      <point x="236" y="196"/>
+    </contour>
+  </outline>
+</glyph>
