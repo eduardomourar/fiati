@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE290" format="2">
+  <advance width="0"/>
+  <unicode hex="E290"/>
+  <key>note</key>
+  <string>saxophoneRHCSideClosed</string>
+  <outline>
+    <contour>
+      <point x="27" y="270" type="line"/>
+      <point x="27" y="264"/>
+      <point x="22" y="259"/>
+      <point x="15" y="259" type="curve"/>
+      <point x="9" y="259"/>
+      <point x="4" y="264"/>
+      <point x="4" y="270" type="curve"/>
+      <point x="4" y="295" type="line"/>
+      <point x="4" y="301"/>
+      <point x="9" y="307"/>
+      <point x="15" y="307" type="curve"/>
+      <point x="22" y="307"/>
+      <point x="27" y="301"/>
+      <point x="27" y="295" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

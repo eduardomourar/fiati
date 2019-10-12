@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE047" format="2">
+  <advance width="0"/>
+  <unicode hex="E047"/>
+  <key>note</key>
+  <string>fluteRHDSharpTrillTrill</string>
+  <outline>
+    <contour>
+      <point x="149" y="243" type="curve"/>
+      <point x="148" y="243"/>
+      <point x="147" y="243"/>
+      <point x="146" y="244" type="curve"/>
+      <point x="103" y="287" type="line"/>
+      <point x="102" y="288"/>
+      <point x="102" y="290"/>
+      <point x="103" y="291" type="curve" smooth="yes"/>
+      <point x="104" y="292"/>
+      <point x="106" y="292"/>
+      <point x="107" y="291" type="curve"/>
+      <point x="151" y="248" type="line"/>
+      <point x="152" y="247"/>
+      <point x="152" y="245"/>
+      <point x="151" y="244" type="curve" smooth="yes"/>
+      <point x="150" y="243"/>
+      <point x="149" y="243"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>243</integer>
+            <key>width</key>
+            <integer>48</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>103</integer>
+            <key>width</key>
+            <integer>46</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

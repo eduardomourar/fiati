@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE343" format="2">
+  <advance width="0"/>
+  <unicode hex="E343"/>
+  <key>note</key>
+  <string>recorderLH3rdFingerQuarterClosedLeft</string>
+  <outline>
+    <contour>
+      <point x="219" y="746" type="curve"/>
+      <point x="219" y="639" type="line"/>
+      <point x="201" y="650"/>
+      <point x="188" y="670"/>
+      <point x="188" y="693" type="curve" smooth="yes"/>
+      <point x="188" y="716"/>
+      <point x="201" y="735"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>639</integer>
+            <key>width</key>
+            <integer>107</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>188</integer>
+            <key>width</key>
+            <integer>31</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

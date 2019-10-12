@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE2AA" format="2">
+  <advance width="0"/>
+  <unicode hex="E2AA"/>
+  <key>note</key>
+  <string>saxophoneLHLowCSharpTrill</string>
+  <outline>
+    <contour>
+      <point x="175" y="419" type="line"/>
+      <point x="171" y="419" type="line"/>
+      <point x="171" y="456" type="line"/>
+      <point x="175" y="456" type="line"/>
+    </contour>
+  </outline>
+</glyph>

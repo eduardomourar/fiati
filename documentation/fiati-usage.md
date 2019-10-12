@@ -1,6 +1,6 @@
 # An introduction to using Fiati
 
-*Version 0.1, 2 October 2019*
+*Version 0.2, 12 October 2019*
 
 Fiati is a font containing musical symbols intended for use in text-based applications such as word processors, text editors, desktop publishers and musical scoring software.
 

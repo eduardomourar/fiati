@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE0BD" format="2">
+  <advance width="0"/>
+  <unicode hex="E0BD"/>
+  <key>note</key>
+  <string>clarinetLH3rdFingerRingOnly</string>
+  <outline>
+    <contour>
+      <point x="87" y="612" type="line"/>
+      <point x="99" y="612"/>
+      <point x="109" y="602"/>
+      <point x="109" y="589" type="curve"/>
+      <point x="109" y="577"/>
+      <point x="99" y="567"/>
+      <point x="87" y="567" type="curve"/>
+      <point x="74" y="567"/>
+      <point x="64" y="577"/>
+      <point x="64" y="589" type="curve"/>
+      <point x="64" y="602"/>
+      <point x="74" y="612"/>
+      <point x="87" y="612" type="curve"/>
+    </contour>
+    <contour>
+      <point x="87" y="622" type="line"/>
+      <point x="69" y="622"/>
+      <point x="54" y="607"/>
+      <point x="54" y="589" type="curve"/>
+      <point x="54" y="572"/>
+      <point x="69" y="557"/>
+      <point x="87" y="557" type="curve"/>
+      <point x="104" y="557"/>
+      <point x="119" y="572"/>
+      <point x="119" y="589" type="curve"/>
+      <point x="119" y="607"/>
+      <point x="104" y="622"/>
+      <point x="87" y="622" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

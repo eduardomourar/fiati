@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE284" format="2">
+  <advance width="0"/>
+  <unicode hex="E284"/>
+  <key>note</key>
+  <string>saxophoneLH1stFingerClosed</string>
+  <outline>
+    <contour>
+      <point x="141" y="804" type="line"/>
+      <point x="141" y="783"/>
+      <point x="125" y="767"/>
+      <point x="104" y="767" type="curve" smooth="yes"/>
+      <point x="84" y="767"/>
+      <point x="67" y="783"/>
+      <point x="67" y="804" type="curve" smooth="yes"/>
+      <point x="67" y="824"/>
+      <point x="84" y="841"/>
+      <point x="104" y="841" type="curve" smooth="yes"/>
+      <point x="125" y="841"/>
+      <point x="141" y="824"/>
+      <point x="141" y="804" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

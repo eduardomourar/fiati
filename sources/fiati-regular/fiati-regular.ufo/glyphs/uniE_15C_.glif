@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE15C" format="2">
+  <advance width="0"/>
+  <unicode hex="E15C"/>
+  <key>note</key>
+  <string>oboeLH3rdFingerRingOnly</string>
+  <outline>
+    <contour>
+      <point x="93" y="654" type="line"/>
+      <point x="108" y="654"/>
+      <point x="120" y="642"/>
+      <point x="120" y="627" type="curve"/>
+      <point x="120" y="612"/>
+      <point x="108" y="600"/>
+      <point x="93" y="600" type="curve"/>
+      <point x="78" y="600"/>
+      <point x="66" y="612"/>
+      <point x="66" y="627" type="curve"/>
+      <point x="66" y="642"/>
+      <point x="78" y="654"/>
+      <point x="93" y="654" type="curve"/>
+    </contour>
+    <contour>
+      <point x="93" y="666" type="line"/>
+      <point x="72" y="666"/>
+      <point x="54" y="648"/>
+      <point x="54" y="627" type="curve"/>
+      <point x="54" y="605"/>
+      <point x="72" y="588"/>
+      <point x="93" y="588" type="curve"/>
+      <point x="115" y="588"/>
+      <point x="132" y="605"/>
+      <point x="132" y="627" type="curve"/>
+      <point x="132" y="648"/>
+      <point x="115" y="666"/>
+      <point x="93" y="666" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

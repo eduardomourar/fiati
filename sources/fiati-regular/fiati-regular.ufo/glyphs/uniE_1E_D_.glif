@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE1ED" format="2">
+  <advance width="0"/>
+  <unicode hex="E1ED"/>
+  <key>note</key>
+  <string>bassoonRH2ndFingerClosed</string>
+  <outline>
+    <contour>
+      <point x="553" y="342" type="line"/>
+      <point x="553" y="325"/>
+      <point x="540" y="312"/>
+      <point x="523" y="312" type="curve" smooth="yes"/>
+      <point x="507" y="312"/>
+      <point x="494" y="325"/>
+      <point x="494" y="342" type="curve" smooth="yes"/>
+      <point x="494" y="358"/>
+      <point x="507" y="372"/>
+      <point x="523" y="372" type="curve" smooth="yes"/>
+      <point x="540" y="372"/>
+      <point x="553" y="358"/>
+      <point x="553" y="342" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

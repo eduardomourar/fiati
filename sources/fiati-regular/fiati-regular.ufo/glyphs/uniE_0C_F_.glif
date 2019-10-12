@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE0CF" format="2">
+  <advance width="0"/>
+  <unicode hex="E0CF"/>
+  <key>note</key>
+  <string>clarinetLH3rdFingerQuarterClosedLeft</string>
+  <outline>
+    <contour>
+      <point x="70" y="617" type="line"/>
+      <point x="61" y="612"/>
+      <point x="54" y="601"/>
+      <point x="54" y="589" type="curve" smooth="yes"/>
+      <point x="54" y="577"/>
+      <point x="61" y="567"/>
+      <point x="70" y="561" type="curve"/>
+    </contour>
+  </outline>
+</glyph>
