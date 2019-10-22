@@ -1,4 +1,5 @@
-FONTLOG for the Fiati font
+FONTLOG
+Fiati music font
 ============================
 
 This file provides detailed information on the Fiati Font Software. This information should be distributed along with the Fiati fonts and any derivative works.
@@ -22,14 +23,14 @@ If you are intending to use Fiati as part of your own software application, plea
 https://w3c.github.io/smufl/gitbook/specification/smufl-metadata.html
 
 
-Changelog
+ChangeLog
 ---------
 
-2 Oct 2019 (Eduardo Rodrigues) Fiati version 0.1
-- Initial pre-release using fingering glyphs (flute, clarinet, oboe, basson, saxophone, recorder) from Bravura font project (U+EC40–U+EDF6)
-
-12 Oct 2019 (Eduardo Rodrigues) Fiati version 0.2
+12 Oct 2019 (Eduardo Rodrigues) Fiati version 0.200
 - Reorganize the glyph groups so that 160 code points are available for each instrument and move starting glyph to U+E000.
 - Add glyphs for C# trill key, open holes, ring pressed in the flute fingering
 - Correct position for bassoon fingering
 - Add in the recorder fingering a hole on top for the right hand and the bell symbol at the bottom used in high notes
+
+2 Oct 2019 (Eduardo Rodrigues & Daniel Spreadbury) Fiati version 0.100
+- Initial pre-release using fingering glyphs (flute, clarinet, oboe, bassoon, saxophone, recorder) from Bravura font project (U+EC40–U+EDF6)

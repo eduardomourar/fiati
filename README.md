@@ -8,7 +8,7 @@ Fiati is based in the fingering section from [Bravura font v0.93](https://github
 
 ## Installation
 
-To install the font, it is usually just a case of double-clicking the downloaded [font file](./fonts) and agreeing to the install process. Please, refer to the [usage documentation](./documentation/fiati-usage.md) for more details.
+To install the font, it is usually just a case of double-clicking the downloaded [font file](https://github.com/eduardomourar/fiati/releases) and agreeing to the install process. Please, refer to the [usage documentation](./documentation/fiati-usage.md) for more details.
 
 ## Specimen
 
