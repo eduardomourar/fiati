@@ -4,7 +4,7 @@ name: Fiati Release
 on:
   push:
     tags:
-      - 'v*.*.*'
+      - 'v*.*'
 
 jobs:
   release:
@@ -12,6 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Install smith toolchain
+        id: install-smith
         run: |
           sudo add-apt-repository -sy ppa:silnrsi/smith-py3
           sudo add-apt-repository -sy ppa:fontforge/fontforge
@@ -26,6 +27,7 @@ jobs:
           sudo apt-get install libjson-perl libtext-csv-perl libharfbuzz-bin -y
           sudo apt-get install smith-font -y --no-install-recommends
       - name: Configure / build / test / release
+        id: build-font
         run: |
           ./preflight
           smith version
@@ -39,7 +41,26 @@ jobs:
           cp ./*.txt results/
           cd ./results
           zip -R ./releases/fiati.zip "*.txt" "*.otf" "*.ttf" "*.woff"
-      - uses: actions/upload-artifact@master
+      - name: Get the version
+        id: get_version
+        run: echo ::set-output name=VERSION::${GITHUB_REF#refs/tags/}
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          name: artifacts
-          path: results/releases
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ steps.get_version.outputs.VERSION }}
+          draft: false
+          prerelease: true
+      - name: Upload Release Asset
+        id: upload-release-asset 
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./results/releases/fiati.zip
+          asset_name: fiat-${{ steps.get_version.outputs.VERSION }}.zip
+          asset_content_type: application/zip

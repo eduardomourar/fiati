@@ -1,3 +1,4 @@
+---
 name: Fiati Test
 
 on:
@@ -9,6 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Install smith toolchain
+        id: install-smith
         run: |
           sudo add-apt-repository -sy ppa:silnrsi/smith-py3
           sudo add-apt-repository -sy ppa:fontforge/fontforge
@@ -23,6 +25,7 @@ jobs:
           sudo apt-get install libjson-perl libtext-csv-perl libharfbuzz-bin -y
           sudo apt-get install smith-font -y --no-install-recommends
       - name: Configure / build / test
+        id: build-font
         run: |
           ./preflight
           smith version
@@ -31,3 +34,9 @@ jobs:
           smith test
           smith ttfcheck
           smith fontlint
+      # - name: Upload artifacts
+      #   id: upload-artifacts
+      #   uses: actions/upload-artifact@master
+      #   with:
+      #     name: artifacts
+      #     path: results/releases

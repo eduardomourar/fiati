@@ -26,6 +26,10 @@ https://w3c.github.io/smufl/gitbook/specification/smufl-metadata.html
 ChangeLog
 ---------
 
+5 Jan 2020 (Eduardo Rodrigues) Fiati version 0.300
+- Remove white outline in flute, clarinet, oboe, bassoon and saxophone
+- Reduce size of recorder glyphs to match other instruments
+
 12 Oct 2019 (Eduardo Rodrigues) Fiati version 0.200
 - Reorganize the glyph groups so that 160 code points are available for each instrument and move starting glyph to U+E000.
 - Add glyphs for C# trill key, open holes, ring pressed in the flute fingering
