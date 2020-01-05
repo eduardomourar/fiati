@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE32B" format="2">
+  <unicode hex="E32B"/>
+  <outline>
+    <contour>
+      <point x="266" y="49" type="curve" smooth="yes"/>
+      <point x="266" y="24"/>
+      <point x="234" y="6"/>
+      <point x="206" y="6" type="curve" smooth="yes"/>
+      <point x="178" y="6"/>
+      <point x="147" y="24"/>
+      <point x="147" y="49" type="curve" smooth="yes"/>
+      <point x="147" y="74"/>
+      <point x="178" y="92"/>
+      <point x="206" y="92" type="curve" smooth="yes"/>
+      <point x="234" y="92"/>
+      <point x="266" y="74"/>
+    </contour>
+  </outline>
+</glyph>

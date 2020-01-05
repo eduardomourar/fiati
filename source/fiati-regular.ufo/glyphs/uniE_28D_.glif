@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE28D" format="2">
+  <unicode hex="E28D"/>
+  <outline>
+    <contour>
+      <point x="119" y="415" type="line"/>
+      <point x="152" y="415" type="line"/>
+      <point x="152" y="459" type="line"/>
+      <point x="119" y="459" type="line"/>
+    </contour>
+  </outline>
+</glyph>

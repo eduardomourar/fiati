@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE02A" format="2">
+  <unicode hex="E02A"/>
+  <outline>
+    <contour>
+      <point x="238" y="947" type="curve"/>
+      <point x="238" y="921"/>
+      <point x="217" y="900"/>
+      <point x="191" y="900" type="curve"/>
+      <point x="191" y="993" type="line"/>
+      <point x="217" y="993"/>
+      <point x="238" y="973"/>
+    </contour>
+  </outline>
+</glyph>

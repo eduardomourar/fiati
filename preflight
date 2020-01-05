@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# This normalization will also run check and fix routines
+psfnormalize -p checkfix=fix source/fiati-regular.ufo -l results/logs/normR.log
+
+psfsetpsnames -i source/glyph_data.csv source/fiati-regular.ufo -l results/logs/psnames.log
+psfsetglyphorder --header sort_final -x -i source/glyph_data.csv source/fiati-regular.ufo -l results/logs/sortorder.log
+
+# Following sync will copy psnames and glyphorder updates to all fonts
+psfsyncmasters source/fiati.designspace -l results/logs/sync.log

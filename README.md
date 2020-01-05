@@ -1,6 +1,6 @@
 # Fiati music font
 
-Fiati is an OpenType music font with fingering diagram/chart for multiple musical instruments. Because mainly wind instruments need those diagrams for teaching and learning, we have decided to call this font _fiati_ ("winds" in Italian, the abbreviation for that instrument category).
+Fiati is an OpenType music font with fingering diagram/chart for multiple musical instruments. Because mainly wind instruments need those diagrams for teaching and learning, we have decided to call this font _fiati_ (plural of "breath" in Italian, a simplified way of calling that instrument category).
 
 ## Introduction
 
@@ -8,16 +8,20 @@ Fiati is based in the fingering section from [Bravura font v0.93](https://github
 
 ## Installation
 
-To install the font, it is usually just a case of double-clicking the downloaded [font file](https://github.com/eduardomourar/fiati/releases) and agreeing to the install process. Please, refer to the [usage documentation](./documentation/fiati-usage.md) for more details.
+Download the font files from the [releases page](https://github.com/eduardomourar/fiati/releases) within this repository. To install the font, it is usually just a case of double-clicking the downloaded file and agreeing to the install process. Please, refer to the [usage documentation](./README.txt) for more details.
 
 ## Specimen
 
 ![specimen](./documentation/images/specimen.png)
 
-## License
+## Copyright and License
 
-This Font Software is licensed under the SIL Open Font License, Version 1.1. [This license](./LICENSE.txt) is copied within project, and is also available with a FAQ at http://scripts.sil.org/OFL
+For copyright and licensing - including any Reserved Font Names - see [OFL.txt](OFL.txt).
+
+For practical information about using, modifying and redistributing this font see [OFL-FAQ.txt](OFL-FAQ.txt).
+
+For more details about this project, including changelog and acknowledgements see [FONTLOG.txt](FONTLOG.txt).
 
 ## Repository Layout
 
-This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository).
+This font repository structure is inspired by [SIL Font Development](https://silnrsi.github.io/silfontdev/en-US/Repository_Structures.html).

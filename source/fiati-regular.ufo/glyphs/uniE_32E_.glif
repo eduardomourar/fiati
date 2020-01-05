@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE32E" format="2">
+  <unicode hex="E32E"/>
+  <outline>
+    <contour>
+      <point x="206" y="859" type="curve"/>
+      <point x="206" y="757" type="line"/>
+      <point x="178" y="757"/>
+      <point x="155" y="780"/>
+      <point x="155" y="808" type="curve" smooth="yes"/>
+      <point x="155" y="836"/>
+      <point x="178" y="859"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE345" format="2">
+  <unicode hex="E345"/>
+  <outline>
+    <contour>
+      <point x="181" y="417" type="curve"/>
+      <point x="181" y="329" type="line"/>
+      <point x="166" y="338"/>
+      <point x="155" y="355"/>
+      <point x="155" y="373" type="curve" smooth="yes"/>
+      <point x="155" y="392"/>
+      <point x="166" y="408"/>
+    </contour>
+  </outline>
+</glyph>

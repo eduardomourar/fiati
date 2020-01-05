@@ -22,8 +22,9 @@ jobs:
           sudo pip3 install --upgrade git+https://github.com/googlefonts/fontbakery.git@master#egg=fontbakery
           sudo apt-get install libjson-perl libtext-csv-perl libharfbuzz-bin -y
           sudo apt-get install smith-font -y --no-install-recommends
-      - name: configure / build / test / release
+      - name: Configure / build / test
         run: |
+          ./preflight
           smith version
           smith configure
           smith build

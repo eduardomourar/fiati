@@ -1,0 +1,45 @@
+---
+name: Fiati Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  release:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@master
+      - name: Install smith toolchain
+        run: |
+          sudo add-apt-repository -sy ppa:silnrsi/smith-py3
+          sudo add-apt-repository -sy ppa:fontforge/fontforge
+          sudo add-apt-repository -y ppa:jonathonf/texlive-2019
+          sudo add-apt-repository -y ppa:git-core/ppa
+          sudo apt-get update -qy
+          sudo apt-get remove *php* *mono* *dotnet* -y
+          sudo apt-get autoremove -y
+          sudo apt-get upgrade -qy
+          sudo apt-get install python3-pip python3-setuptools git zip -y
+          sudo pip3 install --upgrade git+https://github.com/googlefonts/fontbakery.git@master#egg=fontbakery
+          sudo apt-get install libjson-perl libtext-csv-perl libharfbuzz-bin -y
+          sudo apt-get install smith-font -y --no-install-recommends
+      - name: Configure / build / test / release
+        run: |
+          ./preflight
+          smith version
+          smith configure
+          smith build
+          smith test
+          smith ttfcheck
+          smith fontlint
+          # smith zip
+          # smith release
+          cp ./*.txt results/
+          cd ./results
+          zip -R ./releases/fiati.zip "*.txt" "*.otf" "*.ttf" "*.woff"
+      - uses: actions/upload-artifact@master
+        with:
+          name: artifacts
+          path: results/releases

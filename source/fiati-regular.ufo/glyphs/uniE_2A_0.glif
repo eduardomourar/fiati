@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE2A0" format="2">
+  <unicode hex="E2A0"/>
+  <outline>
+    <contour>
+      <point x="30" y="909" type="line"/>
+      <point x="26" y="909" type="line"/>
+      <point x="26" y="983" type="line"/>
+      <point x="30" y="983" type="line"/>
+    </contour>
+    <contour>
+      <point x="44" y="909" type="line"/>
+      <point x="40" y="909" type="line"/>
+      <point x="40" y="983" type="line"/>
+      <point x="44" y="983" type="line"/>
+    </contour>
+  </outline>
+</glyph>

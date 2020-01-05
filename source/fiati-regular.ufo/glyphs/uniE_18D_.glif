@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE18D" format="2">
+  <unicode hex="E18D"/>
+  <outline>
+    <contour>
+      <point x="11" y="-1" type="line"/>
+      <point x="10" y="-1"/>
+      <point x="9" y="-1"/>
+      <point x="9" y="0" type="curve" smooth="yes"/>
+      <point x="8" y="1"/>
+      <point x="8" y="3"/>
+      <point x="9" y="4" type="curve"/>
+      <point x="50" y="45" type="line"/>
+      <point x="51" y="46"/>
+      <point x="53" y="46"/>
+      <point x="54" y="45" type="curve" smooth="yes"/>
+      <point x="55" y="44"/>
+      <point x="55" y="42"/>
+      <point x="54" y="41" type="curve"/>
+      <point x="13" y="0" type="line"/>
+      <point x="12" y="-1"/>
+      <point x="12" y="-1"/>
+      <point x="11" y="-1" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

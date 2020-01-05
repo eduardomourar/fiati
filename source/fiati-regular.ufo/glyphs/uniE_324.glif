@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE324" format="2">
+  <unicode hex="E324"/>
+  <outline>
+    <contour>
+      <point x="257" y="675" type="curve" smooth="yes"/>
+      <point x="257" y="647"/>
+      <point x="234" y="624"/>
+      <point x="206" y="624" type="curve" smooth="yes"/>
+      <point x="178" y="624"/>
+      <point x="155" y="647"/>
+      <point x="155" y="675" type="curve" smooth="yes"/>
+      <point x="155" y="703"/>
+      <point x="178" y="725"/>
+      <point x="206" y="725" type="curve" smooth="yes"/>
+      <point x="234" y="725"/>
+      <point x="257" y="703"/>
+    </contour>
+  </outline>
+</glyph>

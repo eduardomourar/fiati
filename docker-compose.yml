@@ -1,0 +1,25 @@
+version: '3.3'
+services:
+  smith-font:
+    build:
+      context: .
+    image: eduardomourar/smith-font
+    container_name: smith-font
+    command:
+    - /bin/bash
+    - -c
+    - |
+      ./preflight
+      smith configure -vvv
+      smith build -vvv
+    #   smith test
+    #   smith ttfcheck
+    #   smith fontlint
+    #   cp ./*.txt results/
+    #   cd ./results
+    #   zip -R fiati.zip "*.txt" "*.otf" "*.ttf" "*.woff"
+    volumes:
+      # - './source:/usr/local/src/source'
+      # - './results/fiati-regular.ufo:/usr/local/src/source/fiati-regular.ufo'
+      # - './wscript:/usr/local/src/wscript'
+      - './results:/usr/local/src/results'
