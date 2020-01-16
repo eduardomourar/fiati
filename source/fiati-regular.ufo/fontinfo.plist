@@ -24,7 +24,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2020/01/05 18:30:00</string>
+  <string>2020/01/16 22:26:41</string>
   <key>openTypeHheaAscender</key>
   <integer>2012</integer>
   <key>openTypeHheaDescender</key>
@@ -160,7 +160,7 @@
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>200</integer>
+  <integer>300</integer>
   <key>xHeight</key>
   <integer>275</integer>
 </dict>

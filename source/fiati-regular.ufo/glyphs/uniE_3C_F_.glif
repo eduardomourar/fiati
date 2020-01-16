@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE3CF" format="2">
+  <unicode hex="E3CF"/>
+  <outline>
+    <contour>
+      <point x="196" y="772" type="curve" smooth="yes"/>
+      <point x="167" y="772"/>
+      <point x="144" y="795"/>
+      <point x="144" y="824" type="curve" smooth="yes"/>
+      <point x="144" y="853"/>
+      <point x="167" y="876"/>
+      <point x="196" y="876" type="curve" smooth="yes"/>
+      <point x="225" y="876"/>
+      <point x="248" y="853"/>
+      <point x="248" y="824" type="curve" smooth="yes"/>
+      <point x="248" y="795"/>
+      <point x="225" y="772"/>
+    </contour>
+  </outline>
+</glyph>

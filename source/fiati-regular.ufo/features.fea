@@ -47,7 +47,17 @@
 	\uniE340 \uniE341 \uniE342 \uniE343 \uniE344 \uniE345 \uniE346 \uniE347 \uniE348 
 	\uniE349 \uniE34A \uniE34B \uniE34C \uniE34D \uniE34E \uniE34F \uniE350 \uniE351 
 	\uniE352 \uniE353 \uniE354 \uniE355 \uniE356 \uniE357 \uniE358 \uniE359 \uniE35A 
-	\uniE35B \uniE35C \uniE35D ];
+	\uniE35B \uniE35C \uniE35D \uniE3C0 \uniE3C1 \uniE3C2 \uniE3C3 \uniE3C4 \uniE3C5 
+	\uniE3C6 \uniE3C7 \uniE3CD \uniE3CE \uniE3CF \uniE3D0 \uniE3D1 \uniE3D2 \uniE3D3 
+	\uniE3D4 \uniE3D5 \uniE3D6 \uniE3D7 \uniE3DD \uniE3DE \uniE3DF \uniE3E0 \uniE3E1 
+	\uniE3E2 \uniE3E3 \uniE3E4 \uniE3E5 \uniE3E6 \uniE3E7 \uniE3ED \uniE3EE \uniE3EF 
+	\uniE3F0 \uniE3F1 \uniE3F2 \uniE3F3 \uniE3F4 \uniE3F5 \uniE3F6 \uniE3F7 \uniE3FD 
+	\uniE3FE \uniE3FF \uniE400 \uniE401 \uniE402 \uniE403 \uniE404 \uniE405 \uniE406 
+	\uniE407 \uniE40D \uniE40E \uniE40F \uniE410 \uniE411 \uniE412 \uniE413 \uniE414 
+	\uniE415 \uniE416 \uniE417 \uniE41D \uniE41E \uniE41F \uniE420 \uniE421 \uniE422 
+	\uniE423 \uniE424 \uniE425 \uniE426 \uniE427 \uniE42C \uniE42D \uniE42E \uniE42F 
+	\uniE430 \uniE431 \uniE432 \uniE433 \uniE434 \uniE435 \uniE436 \uniE43D \uniE43E 
+	\uniE43F ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;
