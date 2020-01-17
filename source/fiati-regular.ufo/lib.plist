@@ -54,7 +54,7 @@
   <key>openTypeNameUniqueID</key>
   <string>Steinberg Media Technologies GmbH: Fiati Regular: 2019</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.300</string>
+  <string>Version 0.301</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -1219,7 +1219,7 @@
   <key>versionMajor</key>
   <integer>0</integer>
   <key>versionMinor</key>
-  <integer>200</integer>
+  <integer>301</integer>
   <key>xHeight</key>
   <integer>275</integer>
 </dict>

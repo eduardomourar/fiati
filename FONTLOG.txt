@@ -26,12 +26,16 @@ https://w3c.github.io/smufl/gitbook/specification/smufl-metadata.html
 ChangeLog
 ---------
 
+17 Jan 2020 (Eduardo Rodrigues) Fiati version 0.301
+- Add woodwind simple system section that can be used for whistles, xaphoon, and more
+- Glyphs cleanup to remove errors during font validation
+
 5 Jan 2020 (Eduardo Rodrigues) Fiati version 0.300
 - Remove white outline in flute, clarinet, oboe, bassoon and saxophone
 - Reduce size of recorder glyphs to match other instruments
 
 12 Oct 2019 (Eduardo Rodrigues) Fiati version 0.200
-- Reorganize the glyph groups so that 160 code points are available for each instrument and move starting glyph to U+E000.
+- Reorganize the glyph groups so that 160 code points are available for each instrument and move starting glyph to U+E000
 - Add glyphs for C# trill key, open holes, ring pressed in the flute fingering
 - Correct position for bassoon fingering
 - Add in the recorder fingering a hole on top for the right hand and the bell symbol at the bottom used in high notes
